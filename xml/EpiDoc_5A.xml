@@ -154,7 +154,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
             
             <p>For the otherwise unattested feminine participial form <foreign xml:lang="grc">ἐόνθας</foreign> (Attic <foreign xml:lang="grc">οὔσης</foreign>), which Evangelidis and Lhôte interpreted as the name of the wife, see <bibl><ptr target="#MéndezDosuna2018"/>, 147</bibl>).
             </p>  
-            <p><emph>Ithaca's results</emph>: <ref target="Dodone_Online_5.html">Dodone_Online_5.html</ref>, <ref target="Dodone_Online_5.md">Dodone_Online_5.md</ref></p>
+            <p><emph>Ithaca's results</emph>: <ref target="https://dodonaonline.com/wp-content/uploads/2026/06/IDodone_Online_5_Ithaca.html">Results</ref>, <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodone_Online_5.md">Metadata</ref></p>
          </div>
         </body>
     </text>
