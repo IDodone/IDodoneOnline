@@ -1,7 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?oxygen RNGSchema="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IDodone_Online_4" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -51,10 +47,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                             <origPlace><placeName ref="#Dodona">Dodona</placeName></origPlace>
                         </origin>
                         <provenance type="found" when="1953"><placeName type="ancientFindspot" ref="#Dodona">Dodona</placeName>, Evangelidis' excavation 1953</provenance>   
-                        <provenance type="observed"><placeName ref="#IoanninaMuseum">Archaeological Museum of Ioannina</placeName> 
+                        <provenance type="observed"><orgName ref="#IoanninaMuseum">Archaeological Museum of Ioannina</orgName> 
                             <idno type="invNo">inv. M17; AMI 11496</idno></provenance> 
                     </history> 
-            </msDesc>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -100,7 +96,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
     <bibl><ptr target="#MéndezDosuna2024"/></bibl> (on dialectal classification).
     </p>
             </div>
-<div type="edition" xml:space="preserve" xml:lang="grc">
+            <div type="edition" xml:space="preserve" xml:lang="grc">
     <ab>
         <lb n="1"/>θεός· τύχα <pc type="wordDivider">:</pc> <persName><name nymRef="#Γνέφας">Γνέφας</name></persName> <pc type="wordDivider">:</pc> <persName><name nymRef="#Ἀνάγυλλα"></name></persName>Ἀνάγυλλα, 
         <lb n="2"/><persName><name nymRef="#Σίβυλλα">Σίβυλλα</name></persName> <pc type="wordDivider">:</pc> ἐπερωτο̂ντι τὸν θεὸν
@@ -109,13 +105,13 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
       </ab>
   </div>
             <div type="apparatus" xml:space="preserve">
-<app loc="1">
+<app loc="l. 1">
      <rdg resp="#IDodoneDVC">γνέφας</rdg>
      <rdg resp="#Curbera">Γνέφας<note> (apud I.Dodone DVC)</note></rdg>
      <rdg resp="#CIOD">Γνεφᾶς</rdg></app>
-                <app loc="2">
+                <app loc="l. 2">
                     <rdg resp="#CIOD">σίβυλλα</rdg></app>
-                <app loc="3-4">
+                <app loc="ll. 3-4">
                     <rdg resp="#NietoIzquierdo2019">ταῦτα|{ν} νικῆν.</rdg>
                 </app>
             </div>        
@@ -137,13 +133,4 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
         </body>
     </text>
     <facsimile><graphic url="x"><desc></desc></graphic></facsimile>
-</TEI> 
-
-                    
-                  
-                
-                        
-
-
-
-                                    
+</TEI>
