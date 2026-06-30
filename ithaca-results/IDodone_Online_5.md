@@ -6,7 +6,7 @@ Analysis Tool: Ithaca (Predicting the Past)
 
 Archived Result: IDodone_Online_5.html
 
-Input: θεος τυχα γνεφας αναγυλλα σιβυλλα επερωτοντι τον θεον αι τα δικαια μαστευοντι ταυταν νικην περι θηματιο
+Input: κλεανορι περι γενεας πατροιοχο εκ τας νυν εονθας γυναικος
 
 Analysis Type: Contextualize and Attribute
 
