@@ -103,7 +103,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 </ab>
             </div>
             <div type="apparatus" xml:space="preserve">
-                <app loc="ll. 2-3"><note>ε<supplied reason="omitted">ὐ</supplied>καρπιῶν Méndez Dosuna apud</note> <rdg resp="#IDodoneDVC"></rdg>
+                <app loc="ll. 2-3">
+                    <rdg resp="#IDodoneDVC">ε<supplied reason="omitted">ὐ</supplied>καρπιῶν <note>Méndez Dosuna apud</note></rdg>
                 </app>
             </div>
             <div type="translation" xml:space="preserve" xml:lang="en">
