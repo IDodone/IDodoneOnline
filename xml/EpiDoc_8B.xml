@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?oxygen RNGSchema="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IDodone_Online_8B" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Enquiry about professional activity</title>
+                <editor xml:id="EMG">Elena Martín González</editor>
+                <editor xml:id="SK">Stavroula Konstantopoulou</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>“Dodona Travels to Ithaca. Artificial Intelligence Applied to the Edition of Greek Inscriptions”, NextGenerationEU, Consolidación Investigadora 2023 (CNS2023-144714)</authority>
+                <idno type="filename">I.Dodone Online 8B</idno>
+                <availability>
+                    <p>Creative Commons Attribution-NonCommercial-ShareAlike International License <ref target="http://creativecommons.org/" type="external">4.0</ref>.</p>
+                    <p>All citation, reuse or distribution of this work must contain a link to the URL <ref target="https://dodonaonline.com/">https://dodonaonline.com/</ref> and the filename, as well as the date of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>n/a</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="#lead_tablet"><material ref="#lead">Lead</material> tablet</objectType>, with a hole on one end.</p>
+                                    <p>
+                                        <dimensions>
+                                            <height unit="cm">2.5</height>
+                                            <width unit="cm">6.8</width>
+                                            <depth unit="cm">0.16</depth>
+                                        </dimensions>
+                                    </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Inscribed on <rs type="sides" key="opisthographic">both sides</rs>. It preserves another inscription on the same side (7B), while two inscriptions (<ref target="i-dodone-online-5a">5A</ref> and 6A) and traces of earlier texts are preserved on the opposite side.</p>
+                                        <p n="Alphabet"><rs type="alphabet" ref="#archaic">Archaic</rs>, 
+                                        <rs type="alphabet" ref="#red">red</rs> (R for P)</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote>
+                                <p>Letter height: 0.2-0.3 cm. The letters decrease in size towards the end, and the engraving becomes shallower.</p>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origDate notBefore="-0475" notAfter="-0425">middle of the 5th century BC</origDate></p>
+                            <origPlace><placeName ref="#Dodona">Dodona</placeName></origPlace>
+                        </origin>
+                        <provenance type="found" when="1935"><placeName type="ancientFindspot" ref="#Dodona">Dodona</placeName>, Evangelidis' excavation 1935</provenance>
+                        <provenance type="observed"><orgName ref="#IoanninaMuseum">Archaeological Museum of Ioannina</orgName>
+                            <idno type="invNo">inv. M20; ΑΜΙ 12209</idno></provenance>
+                        <provenance type="observed" subtype="autopsied" resp="#CCL" when="2024"/>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded according to the EpiDoc Guidelines, version 9.</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="es">Spanish</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term type="textType" ref="#question">Question</term>
+                    <term type="theme" ref="#offspring">Job</term>
+                </keywords>
+            </textClass>
+            <creation> Facsimile, photograph, and autopsy conducted by Carlos Candel Lozano (2024)</creation>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2026-06-29" who="#SK">Initial encoding by Stavroula Konstantopoulou.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="bibliography" xml:space="preserve" xml:lang="en">
+                <p>
+                <bibl><ptr target="#IDodoneDVC"/> <citedRange>8B</citedRange>.</bibl>
+                    </p>
+                      <p>Cf. 
+                      <bibl><ptr target="#AnagnostopoulouGalaniMenti2022"/>, <citedRange>243 n. 15</citedRange></bibl> (on oracular questions about professional activity).
+                    </p>
+                          </div>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                    <ab>
+                        <lb n="1"/>προβατεύ  μ; 
+                        </ab>
+            </div>
+            <div type="translation" xml:space="preserve" xml:lang="en">
+                <p>Shall I work as a shepherd or not?</p>
+            </div>
+                <div type="translation" xml:space="preserve" xml:lang="es">
+              <p>¿Me dedico al pastoreo o no? </p>
+                    </div>
+                <div type="commentary" xml:space="preserve" xml:lang="en"> 
+                    <p>For questions concerning animal husbandry (a frequent topic of enquiry in the Dodona oracular corpus), see the commentaries of the first editors and <bibl><ptr target="#AnagnostopoulouGalaniMenti2022"/>, <citedRange>243</citedRange>. </bibl></p>
+                    
+   <p n="Ithaca Results">Ithaca identifies Epirus as the most probable geographical origin of the inscription (40.77%), followed by the Saronic Gulf, Corinthia, and the Argolid (33.12%). Chronologically, the highest probability is assigned to the interval 550–540 BC (9.49%), although the interval 450–440 BC receives a nearly identical probability (8.80%).
+   See <ref target="https://dodonaonline.com/wp-content/uploads/2026/06/IDodone_Online_8B_29_06_2026.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodone_Online_8B.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/06/IDodone_Online_8_Screenshot-2026-06.jpg">geographical attribution</ref>.</p>
+            </div>
+        </body>
+    </text>
+    <facsimile><graphic url="x" corresp="$$$" decls="#photograph"><desc resp="-" source="Ephorate of Antiquities, Ioannina" n="-"><ref target="$$$">$$$</ref></desc></graphic></facsimile>
+</TEI> 
+
+ 
+

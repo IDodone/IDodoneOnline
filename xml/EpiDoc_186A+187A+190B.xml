@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?oxygen RNGSchema="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IDodone_Online_186A_187A_190B" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Private enquiry regarding settlement</title>
+                <editor xml:id="EMG">Elena Martín González</editor>
+                <editor xml:id="SK">Stavroula Konstantopoulou</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>“Dodona Travels to Ithaca. Artificial Intelligence Applied to the Edition of Greek Inscriptions”, NextGenerationEU, Consolidación Investigadora 2023 (CNS2023-144714)</authority>
+                <idno type="filename">I.Dodone Online 186A+187A+190B</idno>
+                <availability>
+                    <p>Creative Commons Attribution-NonCommercial-ShareAlike International License <ref target="http://creativecommons.org/" type="external">4.0</ref>.</p>
+                    <p>All citation, reuse or distribution of this work must contain a link to the URL <ref target="https://dodonaonline.com/">https://dodonaonline.com/</ref> and the filename, as well as the date of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>n/a</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="#lead_tablet"><material ref="#lead">Lead</material> tablet</objectType> with a longitudinal fold, according to the editors.</p>
+                                    <p>
+                                        <dimensions>
+                                            <height unit="cm">6.7</height>
+                                            <width unit="cm">1.8</width>
+                                            <depth unit="cm">0.15</depth>
+                                        </dimensions>
+                                    </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Inscribed on <rs type="texts" key="multiple" n=""/>
+                                        <rs type="sides" key="opisthographic">both sides</rs>. It preserves one inscription that begins on side B and continues onto side A, where it coexists with two other inscriptions (188A and 189A).</p>
+                                    <p n="Dialect"><rs type="dialect" ref="#doric">Boeotian (?)</rs></p>
+                                    <p n="Alphabet"><rs type="alphabet" ref="#archaic">Archaic</rs>, 
+                                        <rs type="alphabet" ref="#red">red</rs> (Ψ for Χ)</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origDate notBefore="-0500" notAfter="-0400">5th century BC
+                            </origDate></p>
+                            <origPlace><placeName ref="#Dodona">Dodona</placeName></origPlace>
+                        </origin>
+                        <provenance type="found" when="1930"><placeName type="ancientFindspot" ref="#Dodona">Dodona</placeName>, Evangelidis' excavation
+                            1930</provenance>
+                        <provenance type="observed"><orgName ref="#IoanninaMuseum">Archaeological Museum of Ioannina</orgName>
+                            <idno type="invNo">inv. M185</idno></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded according to the EpiDoc Guidelines, version 9.</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="es">Spanish</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term type="textType" ref="#question">Question</term>
+                    <term type="theme" ref="#travel/moving">Travel/Moving</term>
+                </keywords>
+            </textClass>
+            <creation>Facsimile</creation>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2026-06-26" who="#SK">Initial encoding by Stavroula Konstantopoulou.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="bibliography" xml:space="preserve" xml:lang="en">
+                    <p>
+                        <bibl><ptr target="#IDodoneDVC"/> <citedRange>186A+187A+190B</citedRange></bibl> (<bibl><ptr target="MéndezDosuna2016"/>, <citedRange>120-121</citedRange> </bibl> [<bibl><ptr target="SEG"/> <citedRange>66.461</citedRange>]; </bibl><bibl><ptr target="MéndezDosuna2018b"/> <citedRange>290</citedRange></bibl>; <bibl><ptr target="#CIOD"/> <citedRange>190B+186A+187A</citedRange> [last consulted 25/06/2026]</bibl>).
+                         </p>
+                    <p>
+                      Cf. <bibl><ptr target="#AlonsoDéniz2022"/>, <citedRange>444 note 17</citedRange> (on the alphabet)</bibl>;
+                        <bibl><ptr target="#AnagnostopoulouGalaniMenti2022"/> <citedRange>243 n. 16 and 245 n. 24</citedRange> (on oracular questions about professional activity)</bibl>.
+                    </p>
+            </div>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+            <div type="textpart" subtype="face" n="B">
+                        <ab>                   
+                    <lb n="1"/>γᾶν Ϝοικε͂ι πότερα  
+                     <lb n="2"/>ἐν Ὀπόεντι 
+                    </ab>
+  
+                </div>
+                <div type="textpart" subtype="face" n="A">
+                    <ab>
+                        <lb n="1"/> καὶ ἐν Ὀρχομενο͂ι 
+                        <lb n="2"/> καὶ hόπαι κα νο͂ς φέρι;   
+                         </ab>
+                </div>
+            </div>
+            
+            <div type="apparatus" xml:space="preserve">
+                <app loc="l. 4">
+      <rdg resp="#IDodoneDVC"><supplied reason="omitted">ἱ</supplied>κανο͂ς φέρει</rdg>
+      <rdg resp="#MéndezDosuna2018b #CIOD">κα νο͂ς φέρι</rdg></app>
+</div>
+            <div type="translation" xml:space="preserve" xml:lang="en">
+                <p>Whether he/she should settle in Opous, or in Orchomenos, or wherever his/her mind leads him/her.</p>
+                </div>
+            <div type="translation" xml:space="preserve" xml:lang="es">
+                <p>¿Debe residir en Opunte, o en Orcómeno o donde su mente lo lleve?</p>
+                </div>
+            <div type="commentary" xml:space="preserve" xml:lang="en"> 
+                <p>The three inscriptions, edited separately by <bibl><ptr target="#IDodoneDVC"/></bibl>, are written in the same hand and belong to the same enquiry. <bibl><ptr target="#Méndez Dosuna2016"/></bibl> proposed joining the two inscriptions on side A (186A and 187A), following Tsantsanoglou’s suggestion in the editio princeps. In 2022, Lhôte and Carbon (apud <bibl><ptr target="#CIOD"/></bibl>) added inscription 190B, incised on the other side, which thus constitutes the beginning of the anonymous oracular enquiry. </p>
+                
+<p>According to these scholars, the inscription is written in a Northwestern Doric dialect using the local alphabet of Dodona, whereas the first editors identified it with Boeotian or Thessalian alphabet. However, the shape of the digamma is indicative of a non-Dodonaean origin (see <bibl><ptr target="#AlonsoDéniz2022"/></bibl>), and the adverb <foreign xml:lang="grc">hόπαι</foreign> appears to point towards Boeotian (see <bibl><ptr target="#MéndezDosuna2018b"/></bibl>).</p>
+                
+                <p n="Ithaca Results">Ithaca attributes the inscription to Epirus with a high degree of confidence both when the reading of the first editors is adopted for l. 4 (88.41%) and when Méndez Dosuna’s correction is accepted (87.77%). In both cases, the model dates the inscription to the 5th century BC, with the highest probability assigned to the beginning of the century (410-400 BC; 13.53% and 12.77%, respectively), followed closely by the middle (12.41% and 12.40%) and the end (12.76% and 11.89%) of the same century.
+                See Test 1 <ref target="https://dodonaonline.com/wp-content/uploads/2026/06/IDodone_Online_186A_187A_190B_Test1_30_06_2026.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodone_Online_186A_187A_190B_Test1.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/06/IDodone_Online_186A_187A_190B_Test1_Screenshot-2026-06.jpg">geographical attribution</ref>; Test 2 <ref target="https://dodonaonline.com/wp-content/uploads/2026/06/IDodone_Online_186A_187A_190B_Test2_30_06_2026.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodone_Online_186A_187A_190B_Test2.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/06/IDodone_Online_186A_187A_190B_Test2_Screenshot-2026-06.jpg">geographical attribution</ref>.</p>
+         </div>
+        </body>
+    </text>
+    <facsimile>
+        <graphic url="x" corresp="$$$" decls="#photograph">
+            <desc resp="-" source="Ephorate of Antiquities, Ioannina" n="-"><ref target="$$$">$$$</ref></desc>
+        </graphic>
+    </facsimile>
+</TEI>
+
+ 
+
+ 
+                      
+                    

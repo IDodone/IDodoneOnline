@@ -1,3 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?oxygen RNGSchema="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IDodone_Online_4" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -50,7 +54,7 @@
                         <provenance type="observed"><orgName ref="#IoanninaMuseum">Archaeological Museum of Ioannina</orgName> 
                             <idno type="invNo">inv. M17; AMI 11496</idno></provenance> 
                     </history> 
-                </msDesc>
+            </msDesc>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -72,7 +76,7 @@
                     <term type="theme" ref="#justice">Justice</term>
                 </keywords>
             </textClass>
-            <creation>Revised edition based on facsimile and photograph</creation>
+            <creation>Facsimile and photograph</creation>
         </profileDesc>
         <revisionDesc>
             <change when="2026-06-15" who="#SK">Initial encoding by Stavroula Konstantopoulou.</change>     
@@ -85,52 +89,63 @@
              <bibl> <ptr target="#IDodoneDVC"/> <citedRange> 4</citedRange> </bibl> 
                     (<bibl><ptr target="#Chaniotis2017"/>, <citedRange>56</citedRange></bibl>; 
                     <bibl><ptr target="#NietoIzquierdo2019"/>, <citedRange>113</citedRange></bibl>; 
-                    <bibl><ptr target="#Gartziou-Tatti2020"/>, <citedRange>93 note 58</citedRange></bibl>;
+                    <bibl><ptr target="#GartziouTatti2020"/>, <citedRange>93 note 58</citedRange></bibl>;
                     <bibl><ptr target="#CIOD"/> <citedRange>4 </citedRange></bibl> [last consulted 29/06/2026]); 
                     <bibl><ptr target="#Chaniotis2023b"/>, <citedRange>65</citedRange></bibl>.
 </p>
 <p>Cf.
   <bibl><ptr target="#Chaniotis2013"/>, <citedRange>§206</citedRange></bibl> (on legal matters);     
-    <bibl><ptr target="#Katsadima2017"/>, <citedRange>132 notes 14-15 and 135, note 63 </citedRange></bibl>(enquiries by women); 
+    <bibl><ptr target="#Katsadima2017"/>, <citedRange>132 nn. 14-15 and 135 n. 63 </citedRange></bibl>(enquiries by women); 
     <bibl><ptr target="#Frank2024"/>, <citedRange>108 </citedRange></bibl> (enquiries by women); 
     <bibl><ptr target="#MéndezDosuna2024"/></bibl> (on dialectal classification).
     </p>
             </div>
-            <div type="edition" xml:space="preserve" xml:lang="grc">
+<div type="edition" xml:space="preserve" xml:lang="grc">
     <ab>
         <lb n="1"/>θεός· τύχα <pc type="wordDivider">:</pc> <persName><name nymRef="#Γνέφας">Γνέφας</name></persName> <pc type="wordDivider">:</pc> <persName><name nymRef="#Ἀνάγυλλα"></name></persName>Ἀνάγυλλα, 
-        <lb n="2"/><persName><name nymRef="#Σίβυλλα">Σίβυλλα</name></persName> <pc type="wordDivider">:</pc> ἐπερωτο̂ντι τὸν θεὸν
+        <lb n="2"/><persName><name nymRef="#Σίβυλλα">Σίβυλλα</name></persName> <pc type="wordDivider">:</pc> ἐπερωτντι τὸν θεὸν
 <lb n="3"/>αἰ τὰ δίκαια μαστεύοντι ταύ<lb 
-    n="4" break="no"/>ταν νικῆν περὶ θἠματίο̅ vac.
+    n="4" break="no"/>ταν νικῆν περὶ θἠματί vac.
       </ab>
   </div>
             <div type="apparatus" xml:space="preserve">
 <app loc="l. 1">
      <rdg resp="#IDodoneDVC">γνέφας</rdg>
-     <rdg resp="#Curbera">Γνέφας<note> (apud I.Dodone DVC)</note></rdg>
+     <rdg resp="#IDodoneDVC">Γνέφας<note> Curbera apud</note></rdg>
      <rdg resp="#CIOD">Γνεφᾶς</rdg></app>
                 <app loc="l. 2">
                     <rdg resp="#CIOD">σίβυλλα</rdg></app>
                 <app loc="ll. 3-4">
-                    <rdg resp="#NietoIzquierdo2019">ταῦτα|{ν} νικῆν.</rdg>
+                    <rdg resp="#NietoIzquierdo2019">ταῦτα|{ν} νικῆν</rdg>
                 </app>
             </div>        
             <div type="translation" xml:space="preserve" xml:lang="en">
-     <p>God. Fortune. Gnephas, Anagylla, Sibylla ask the god: in case they pursue legal claims, let this woman win about the garment.</p>
+     <p>God. Fortune. Gnephas, Anagylla, Sibylla ask the god: in case they pursue legal claims, let this one win about the garment.</p>
             </div>
             <div type="translation" xml:space="preserve" xml:lang="es">
         <p>Dios. Fortuna. Gnefas, Anagila, Sibila preguntan al dios: en caso de que tomen medidas legales, que gane esta sobre el manto.
     </p>
         </div>
             <div type="commentary" xml:space="preserve" xml:lang="en">
-                <p>This private enquiry belongs to the well attested category of consultations of the oracle concerning <rs type="theme" key="#justice">judicial matters</rs>, although neither the specific issue-apparently involving a garment-nor the opposing party is mentioned. Both the number of persons involved in the dispute and the syntactical interpretation of the text present difficulties. </p>
+                <p>This private enquiry belongs to the well attested category of consultations of the oracle concerning <rs type="theme" key="#justice">judicial matters</rs>, although neither the specific issue (apparently involving a garment) nor the opposing party is mentioned. Both the number of persons involved in the dispute and the syntactical interpretation of the text present difficulties. </p>
                     
-<p>The number of enquirers varies according to the different interpretations of <foreign xml:lang="grc">ΓΝΕΦΑΣ</foreign> and <foreign xml:lang="grc">ΣΙΒΥΛΛΑ</foreign> as common or personal names. Following Curbera’s interpretation, there are three enquirers -a man, Gnephas, and two women, Anagylla and Sibylla. According to the editors of I. Dodone DVC, however, there are only two women, Anagylla and Sibylla, with <foreign xml:lang="grc">γνέφας </foreign> understood as a wool product used in handicrafts (cf. <bibl><ptr target="#Gartziou-Tatti2020"/></bibl>).  For the editors of CIOD, by contrast, there are two enquirers -a man, Gnephas, and a woman, Anagylla-while <foreign xml:lang="grc">σίβυλλα</foreign> is interpreted as Anagylla’s religious title. Carbon (personal communication) adduces the lack of interpunctuation between <foreign xml:lang="grc">ΑΝΑΓΥΛΛΑ</foreign> and <foreign xml:lang="grc">ΣΙΒΥΛΛΑ</foreign> as further evidence in support of this hypothesis (for the use of punctuation marks in the Dodona oracular tablets, see Méndez Dosuna forthcoming). </p>
+<p>The number of enquirers varies according to the different interpretations of <foreign xml:lang="grc">ΓΝΕΦΑΣ</foreign> and <foreign xml:lang="grc">ΣΙΒΥΛΛΑ</foreign> as common or personal names. Following Curbera’s interpretation, there are three enquirers: a man, Gnephas, and two women, Anagylla and Sibylla. According to the editors of <bibl> <ptr target="#IDodoneDVC"/> </bibl>, however, there are only two women, Anagylla and Sibylla, with <foreign xml:lang="grc">γνέφας </foreign> understood as a wool product used in handicrafts (cf. <bibl><ptr target="#GartziouTatti2020"/></bibl>).  For the editors of <bibl><ptr target="#CIOD"/></bibl>, by contrast, there are two enquirers (a man, Gnephas, and a woman, Anagylla), while <foreign xml:lang="grc">σίβυλλα</foreign> is interpreted as Anagylla’s religious title. Carbon (personal communication) adduces the lack of interpunctuation between <foreign xml:lang="grc">ΑΝΑΓΥΛΛΑ</foreign> and <foreign xml:lang="grc">ΣΙΒΥΛΛΑ</foreign> as further evidence in support of this hypothesis (for the use of punctuation marks in the Dodona oracular tablets, see <bibl><ptr target="#MéndezDosunaforthcoming"/></bibl>). </p>
     
- <p>According to <bibl><ptr target="#Chaniotis2017"/></bibl>, the pronoun ταῦταν (ll. 3–4) refers to the <foreign xml:lang="grc">δέλτος</foreign>, providing clear evidence for the use of a token to be drawn (for cleromancy at Dodona, see <ptr target="#Parker2015"/>). By contrast, <bibl><ptr target="#NietoIzquierdo2019"/></bibl> emends ταῦταν to <foreign xml:lang="grc">ταῦτα</foreign>, treating the final nu as spurious. In any case, the infinitive construction remains asyndetic, and the resulting phrasing is closer to a request addressed to the god than to a question submitted to the oracle.</p>                 
-<p>Ithaca attributes the inscription to Epirus with high accuracy (88.70%) and it dates it to the beginning of the 4th century BC (380-370 BC max.). See <ref target="https://dodonaonline.com/wp-content/uploads/2026/06/IDodone_Online_4_Ithaca.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodone_Online_4.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/06/IDodone_Online_4_Screenshot-2026-06-29.jpg">geographical attribution</ref>.</p>
+ <p>According to <bibl><ptr target="#Chaniotis2017"/></bibl>, the pronoun ταῦταν (ll. 3–4) refers to the <foreign xml:lang="grc">δέλτος</foreign>, providing clear evidence for the use of a token to be drawn (for cleromancy at Dodona, see <ptr target="#Parker2015"/>). By contrast, <bibl><ptr target="#NietoIzquierdo2019"/></bibl> emends <foreign xml:lang="grc">ταῦταν</foreign> to <foreign xml:lang="grc">ταῦτα</foreign> (referring to <foreign xml:lang="grc">τὰ δίκαια</foreign>), treating the final nu as spurious. In any case, the infinitive construction remains asyndetic, and the resulting phrasing is closer to a request addressed to the god than to a question submitted to the oracle.</p>                 
+                
+<p n="Ithaca Results">Ithaca attributes the inscription to Epirus with high accuracy (88.70%) and it dates it to the beginning of the 4th century BC (380-370 BC max). 
+    See <ref target="https://dodonaonline.com/wp-content/uploads/2026/06/IDodone_Online_4_6_23_2026.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodone_Online_4.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/06/IDodone_Online_4_Screenshot-2026-06.jpg">geographical attribution</ref>.</p>
             </div>
         </body>
     </text>
     <facsimile><graphic url="x"><desc></desc></graphic></facsimile>
-</TEI>
+</TEI> 
+
+                    
+                  
+                
+                        
+
+
+
+                                    
