@@ -9,7 +9,7 @@ Archived Result:
 IDodone_Online_186A_187A_190B.html
 
 Input:
-θεος τυχα γνεφας αναγυλλα σιβυλλα επερωτοντι τον θεον αι τα δικαια μαστευοντι ταυταν νικην περι θηματιο
+γαν οικει ποτερα εν οποεντι ε και εν ορχομενοι ε και οπαι ικανος φερει
 
 Analysis Type:
 Contextualize and Attribute
