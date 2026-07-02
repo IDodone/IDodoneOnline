@@ -12,7 +12,7 @@ Input:
 θεος τυχαι αγαθαι και διι προναωι και διωναι πορινος κυμαιος ευανδρου ειρωτα τον θεον ει τον ξατραπην και υπαρχον θεραπευοντ? λωιον και αμεινον εσται πορινος ξατραπην
 
 Analysis Type:
-Contextualize and Attribute
+Contextualize, Restore and Attribute
 
 Researcher:
 Stavroula Konstantopoulou
