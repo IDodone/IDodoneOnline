@@ -131,15 +131,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 <p>According to these scholars, the inscription is written in a Northwestern Doric dialect using the local alphabet of Dodona, whereas the first editors identified it with Boeotian or Thessalian alphabet. However, the shape of the digamma is indicative of a non-Dodonaean origin (see <bibl><ptr target="#AlonsoDéniz2022"/></bibl>), and the adverb <foreign xml:lang="grc">hόπαι</foreign> appears to point towards Boeotian (see <bibl><ptr target="#MéndezDosuna2018b"/></bibl>).</p>
                 
                 <p n="Ithaca Results">Ithaca attributes the inscription to Epirus with a high degree of confidence both when the reading of the first editors is adopted for l. 4 (88.41%) and when Méndez Dosuna’s correction is accepted (87.77%). In both cases, the model dates the inscription to the 5th century BC, with the highest probability assigned to the beginning of the century (410-400 BC; 13.53% and 12.77%, respectively), followed closely by the middle (12.41% and 12.40%) and the end (12.76% and 11.89%) of the same century.
-                See Test 1 <ref target="https://dodonaonline.com/wp-content/uploads/2026/06/IDodone_Online_186A_187A_190B_Test1_30_06_2026.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodone_Online_186A_187A_190B_Test1.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/06/IDodone_Online_186A_187A_190B_Test1_Screenshot-2026-06.jpg">geographical attribution</ref>; Test 2 <ref target="https://dodonaonline.com/wp-content/uploads/2026/06/IDodone_Online_186A_187A_190B_Test2_30_06_2026.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodone_Online_186A_187A_190B_Test2.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/06/IDodone_Online_186A_187A_190B_Test2_Screenshot-2026-06.jpg">geographical attribution</ref>.</p>
+                See Test 1 <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline186A_187A_190B_Test1_2026_06_30.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline186A_187A_190B_Test1.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline186A_187A_190B_Test1_geographical-attribution_2026_06.jpg">geographical attribution</ref>; Test 2 <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline186A_187A_190B_Test2_2026_06_30.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline186A_187A_190B_Test2.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline186A_187A_190B_Test2_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
          </div>
         </body>
     </text>
-    <facsimile>
-        <graphic url="x" corresp="$$$" decls="#photograph">
-            <desc resp="-" source="Ephorate of Antiquities, Ioannina" n="-"><ref target="$$$">$$$</ref></desc>
-        </graphic>
-    </facsimile>
+    <facsimile><graphic url="x"><desc></desc></graphic></facsimile>
 </TEI>
 
  

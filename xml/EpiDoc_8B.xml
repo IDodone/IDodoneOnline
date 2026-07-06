@@ -115,11 +115,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                     <p>For questions concerning animal husbandry (a frequent topic of enquiry in the Dodona oracular corpus), see the commentaries of the first editors and <bibl><ptr target="#AnagnostopoulouGalaniMenti2022"/>, <citedRange>243</citedRange>. </bibl></p>
                     
    <p n="Ithaca Results">Ithaca identifies Epirus as the most probable geographical origin of the inscription (40.77%), followed by the Saronic Gulf, Corinthia, and the Argolid (33.12%). Chronologically, the highest probability is assigned to the interval 550–540 BC (9.49%), although the interval 450–440 BC receives a nearly identical probability (8.80%).
-   See <ref target="https://dodonaonline.com/wp-content/uploads/2026/06/IDodone_Online_8B_29_06_2026.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodone_Online_8B.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/06/IDodone_Online_8_Screenshot-2026-06.jpg">geographical attribution</ref>.</p>
+   See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline8B_2026_06_29.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline8B.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline8B_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
             </div>
         </body>
     </text>
-    <facsimile><graphic url="x" corresp="$$$" decls="#photograph"><desc resp="-" source="Ephorate of Antiquities, Ioannina" n="-"><ref target="$$$">$$$</ref></desc></graphic></facsimile>
+    <facsimile><graphic url="x"><desc></desc></graphic></facsimile>
 </TEI> 
 
  

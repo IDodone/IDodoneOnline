@@ -117,15 +117,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 <p>The feminine noun <foreign xml:lang="grc">ἐκκαρπία</foreign> is now attested in the dossier of documents concerning the sale of land from Larissa, dated to 219 BC (<bibl><ptr target="#SEG"/>, <citedRange>63.406, l.17</citedRange></bibl>). According to the first editors (<bibl><ptr target="#HellyTziafalias 2013"/>, <citedRange>151-152 n. 13</citedRange></bibl>), it is a hapax meaning <foreign xml:lang="fr">“les productions (littéralement les fruits qui viennent de)”.</foreign> </p>
                 
             <p n="Ithaca Results">Ithaca predicts Phrygia (64.95%) and Bithynia (19.99%) as the most probable geographical origins of the inscription, whereas Epirus ranks only ninth, with a mere 0.53% probability. As for its chronological attribution, the highest probability falls at the beginning of the third century AD, specifically AD 210–220. 
-            See <ref target="https://dodonaonline.com/wp-content/uploads/2026/06/IDodone_Online_168B_25_06_2026.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodone_Online_168B.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/06/IDodone_Online_168B_Screenshot-2026-06.jpg">geographical attribution</ref>.</p>
+            See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline168B_2026_06_25.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline168B.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline168B_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
             </div>
         </body>
     </text>
-    <facsimile>
-        <graphic url="x" corresp="$$$" decls="#photograph">
-            <desc resp="-" source="Ephorate of Antiquities, Ioannina" n="-"><ref target="$$$">$$$</ref></desc>
-        </graphic>
-    </facsimile>
+    <facsimile><graphic url="x"><desc></desc></graphic></facsimile>
 </TEI>
             
 

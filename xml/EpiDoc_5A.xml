@@ -159,12 +159,12 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
             
             <p>For the otherwise unattested feminine participial form <foreign xml:lang="grc">ἐόνθας</foreign> (Attic <foreign xml:lang="grc">οὔσης</foreign>), which Evangelidis and Lhôte interpreted as the name of the wife, see <bibl><ptr target="#MéndezDosuna2018a"/>, <citedRange>47</citedRange></bibl>. For the use of punctuation marks in the Dodona oracular tablets, see <bibl><ptr target="#MéndezDosunaforthcoming"/></bibl>.</p>
             <p n="Ithaca Results">Ithaca attributes the inscription to Epirus with high accuracy (93.86%) and it dates it to the end of the 5th century BC (410-410 BC max).
-            See <ref target="https://dodonaonline.com/wp-content/uploads/2026/06/IDodone_Online_5_6_23_2026.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodone_Online_5.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/06/IDodone_Online_5A_Screenshot-2026-06.jpg">geographical attribution</ref>.</p>
+            See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline5A_2026_06_23.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline5A.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline5A_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
          </div>
         </body>
     </text>
     <facsimile>
-        <graphic url="https://dodonaonline.com/wp-content/uploads/2026/06/DVC_5A_facsimil2026.jpg">
+        <graphic url="https://dodonaonline.com/wp-content/uploads/2026/07/DVC_5A_facsimile_2026.jpg">
             <desc>Facsimile by Carlos Candel Lozano, 2026.</desc>
         </graphic>
     </facsimile>
