@@ -9,7 +9,7 @@ Input:
 ερμων πυθεσθαι ω ζευ ναε και θεμι και διωνα θεμιστευσον ο τι μελλει λωιστον και αριστον
 
 Analysis Type:
-Contextualize, Restore and Attribute
+Contextualize and Attribute
 
 Researcher:
 Stavroula Konstantopoulou
