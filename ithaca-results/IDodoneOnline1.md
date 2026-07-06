@@ -5,9 +5,6 @@ Date of Test: 2026-06-29
 Analysis Tool:
 Ithaca (Predicting the Past)
 
-Archived Result:
-IDodone_Online_1.html
-
 Input:
 η αλλαν μαστευων --------
 
