@@ -5,9 +5,6 @@ Date of Test: 2026-06-25
 Analysis Tool:
 Ithaca (Predicting the Past)
 
-Archived Result:
-IDodone_Online_36B.html
-
 Input:
 θεος τυχα αγαθα φιλοτιδος τα σιδαρια δικαιος
 
