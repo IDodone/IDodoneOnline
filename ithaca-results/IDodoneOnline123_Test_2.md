@@ -1,12 +1,12 @@
 # IDodone_Online_123_Test2
 
-Date of Test: 2026-06-29
+Date of Test: 2026-06-25
 
 Analysis Tool:
 Ithaca (Predicting the Past)
 
 Input:
-#ανοστρατος ω ζευ ερωται #ωιον και αμεινον και πρα#γαθον διαλεγομενωι ιφικρα#ν νωι εχω και ποιομενωι #ον φιλον
+------ανοστρατος ω ζευ ερωται ----ωιον και αμεινον και πρα----γαθον διαλεγομενωι ιφικρα???????ν νωι εχω και ποιομενωι ???ον φιλον
 
 Analysis Type:
 Contextualize, Restore and Attribute
