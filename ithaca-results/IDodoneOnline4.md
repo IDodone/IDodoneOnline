@@ -5,9 +5,6 @@ Date of Test: 2026-06-23
 Analysis Tool:
 Ithaca (Predicting the Past)
 
-Archived Result:
-IDodone_Online_4.html
-
 Input:
 θεος τυχα γνεφας αναγυλλα σιβυλλα επερωτοντι τον θεον αι τα δικαια μαστευοντι ταυταν νικην περι θηματιο
 
