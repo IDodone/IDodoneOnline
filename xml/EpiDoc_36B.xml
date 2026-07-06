@@ -100,9 +100,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
             <div type="bibliography" xml:space="preserve" xml:lang="en">
                 <p><bibl><ptr target="#IDodoneDVC"/> <citedRange>36B</citedRange></bibl>
                   (<bibl><ptr target="#Chaniotis2013"/>, <citedRange>§ 206</citedRange></bibl>;
-                  <bibl><ptr target="#Chaniotis2017"/>, <citedRange>59</citedRange></bibl>;
+                  <bibl><ptr target="#Chaniotis2017a"/>, <citedRange>59</citedRange></bibl>;
                   <bibl><ptr target="#Bonnechere2018"/>, <citedRange>§ 33 n. 106</citedRange></bibl>;
-                  <bibl><ptr target="#Chaniotis2018"/>, <citedRange>333 and 338 n. 17</citedRange></bibl>).
+                  <bibl><ptr target="#Chaniotis2018a"/>, <citedRange>333 and 338 n. 17</citedRange></bibl>).
                 </p>
             </div>
             <div type="edition" xml:space="preserve" xml:lang="grc">
@@ -118,8 +118,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 <p>Dios. Buena Fortuna, ¿corresponden por derecho los objetos de hierro a Filótide?</p>
             </div>
             <div type="commentary" xml:space="preserve" xml:lang="en">
-                <p>This private enquiry, which does not include the name of the consultant, belongs to the well-attested category of consultations concerning <rs type="theme" ref="#property">property matters</rs>, in this case the rightful ownership of <foreign xml:lang="grc">σιδάρια</foreign> by a woman named <persName><name nymRef="#Φιλοτίδος">Philotis</name></persName>; on legal disputes in the Dodona oracular tablets, see <bibl><ptr target="#Chaniotis2018"/></bibl>. According to <bibl><ptr target="#Chaniotis2017"/>, <citedRange>59</citedRange> </bibl>, <foreign xml:lang="grc">σιδάρια</foreign> refers to iron objects and not to the Byzantine coinage <foreign xml:lang="grc">σιδάρεοι</foreign>, as proposed by the editors of <bibl><ptr target="#IDodoneDVC"/></bibl>.</p>
-                <p><bibl><ptr target="#Chaniotis2018"/>, <citedRange>338 no. 17</citedRange></bibl> interprets the text as an oracular response. On the controversial issue of the presence of answers on the Dodona tablets, see <bibl><ptr target="#MartínGonzález2021"/></bibl>.</p>
+                <p>This private enquiry, which does not include the name of the consultant, belongs to the well-attested category of consultations concerning <rs type="theme" ref="#property">property matters</rs>, in this case the rightful ownership of <foreign xml:lang="grc">σιδάρια</foreign> by a woman named <persName><name nymRef="#Φιλοτίδος">Philotis</name></persName>; on legal disputes in the Dodona oracular tablets, see <bibl><ptr target="#Chaniotis2018a"/></bibl>. According to <bibl><ptr target="#Chaniotis2017a"/>, <citedRange>59</citedRange> </bibl>, <foreign xml:lang="grc">σιδάρια</foreign> refers to iron objects and not to the Byzantine coinage <foreign xml:lang="grc">σιδάρεοι</foreign>, as proposed by the editors of <bibl><ptr target="#IDodoneDVC"/></bibl>.</p>
+                <p><bibl><ptr target="#Chaniotis2018a"/>, <citedRange>338 no. 17</citedRange></bibl> interprets the text as an oracular response. On the controversial issue of the presence of answers on the Dodona tablets, see <bibl><ptr target="#MartínGonzález2021"/></bibl>.</p>
                 <p n="Ithaca Results">Ithaca predicts Italy, including Magna Graecia, as the most probable geographical origin of this inscription (73.35%), with Epirus ranking second (7.12%). Regarding chronology, the highest probability falls at the beginning of the 4th century BC, specifically in the period 400-390 BCE (14.64%).
                 See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline36B_2026_06_25.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline36B.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline36B_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
         </div>
