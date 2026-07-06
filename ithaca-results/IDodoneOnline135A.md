@@ -9,7 +9,7 @@ Input:
 η μιληιος τις εναντιος ορο δυναται οικεσαι
 
 Analysis Type:
-Contextualize, Restore and Attribute
+Contextualize and Attribute
 
 Researcher:
 Stavroula Konstantopoulou
