@@ -41,7 +41,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                                 <layout>
                                     <p>According to the editors, the tablet is inscribed on <rs type="sides" key="opisthographic">both sides</rs>, but they publish only the text inscribed on the inner face, enclosed within the folds. Interpuncts occur in the first two lines.</p>
                                     <p n="Dialect"><rs type="dialect" ref="#Doric">Doric</rs></p>
-                                    <p n="Alphabet"> <rs type="alphabet" ref="#Archaic">Archaic</rs>; archaic and reformed letter forms coexist.</p> 
+                                    <p n="Alphabet"> <rs type="alphabet" ref="#archaic">Archaic</rs>; archaic and reformed letter forms coexist.</p> 
                                 </layout></layoutDesc>
                         </objectDesc>
                     </physDesc>
@@ -138,7 +138,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
             </div>
         </body>
     </text>
-    <facsimile><graphic url="x"><desc></desc></graphic></facsimile>
+    <facsimile><graphic url="$$$"><desc></desc></graphic></facsimile>
 </TEI> 
 
                     

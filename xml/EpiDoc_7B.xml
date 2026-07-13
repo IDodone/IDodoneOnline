@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?oxygen RNGSchema="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IDodone_Online_7B" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Enquiry regarding domestic prosperity and offspring</title>
+                <editor xml:id="EMG">Elena Martín González</editor>
+                <editor xml:id="SK">Stavroula Konstantopoulou</editor>
+                <editor xml:id="CCL" role="autopsy">Carlos Candel Lozano</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>“Dodona Travels to Ithaca. Artificial Intelligence Applied to the Edition
+                    of Greek Inscriptions”, NextGenerationEU, Consolidación Investigadora 2023
+                    (CNS2023-144714).</authority>
+                <idno type="filename">I.Dodone Online 7B</idno>
+                <availability>
+                    <p>Creative Commons Attribution-NonCommercial-ShareAlike International License
+                        <ref target="http://creativecommons.org/" type="external">4.0</ref>.</p>
+                    <p>All citation, reuse or distribution of this work must contain a link to the
+                        URL <ref target="https://dodonaonline.com/">https://dodonaonline.com/</ref>
+                        and the filename, as well as the date of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>n/a</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="#lead_tablet"><material ref="#lead">Lead</material> tablet</objectType>, with a hole at
+                                        one end.</p>
+                                    <p><dimensions>
+                                            <height unit="cm">2.5</height>
+                                            <width unit="cm">6.8</width>
+                                            <depth unit="cm">0.16</depth>
+                                    </dimensions>
+                                    </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>The tablet is inscribed on <rs type="texts" key="multiple" n=""/>
+                                        <rs type="sides" key="opisthographic">both sides</rs>. It also preserves another inscription on the same side (<ref target="i-dodone-online-8b">8B</ref>), added at a later date and inscribed upside down with respect to the present text, overlapping its last line and rendering the final letters illegible. On the opposite side, two inscriptions (<ref target="i-dodone-online-5a">5A</ref> and <ref target="i-dodone-online-6a">6A</ref>), together with traces of earlier texts, are preserved.</p>
+                                    <p n="Dialect"><rs type="dialect" ref="#Doric">Doric</rs></p>
+                                    <p n="Alphabet"><rs type="alphabet" ref="#archaic">Archaic (Corinthian epsilon, digamma).</rs></p>
+                                </layout></layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Letter height: ca. 0.3 cm; interline space: 0.2 cm. Regular lettering.</p>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origDate notBefore="-0500" notAfter="-0400">5th century BC</origDate></p>
+                            <origPlace><placeName ref="#Dodona">Dodona</placeName></origPlace>
+                        </origin>
+                        <provenance type="found" when="1935"><placeName type="ancientFindspot" ref="#Dodona">Dodona</placeName>, Evangelidis’ excavations 1935.</provenance>   
+                        <provenance type="observed"><orgName ref="#IoanninaMuseum">Archaeological Museum of Ioannina</orgName> 
+                            <idno type="invNo">inv. M20; AMI 12209.</idno></provenance>
+                        <provenance type="observed" subtype="autopsied" resp="#CCL" when="2024"/>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded according to the EpiDoc Guidelines, version 9.</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="es">Spanish</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term type="textType" ref="#question">Question</term>
+                    <term type="theme" ref="#offspring">Offspring</term>
+                    <term type="theme" ref="#tobesuccessful">To be successful.</term>
+                </keywords>
+            </textClass>
+            <creation> Facsimile, photograph, and autopsy conducted by Carlos Candel Lozano (2024)</creation>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2026-06-05" who="#SK">Initial encoding by Stavroula
+                Konstantopoulou</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="bibliography" xml:space="preserve" xml:lang="en">
+                <p>
+                      <bibl><ptr target="#IDodoneDVC"/> <citedRange>7B</citedRange></bibl>; <bibl><ptr target="#CIOD"/> <citedRange>7B</citedRange></bibl>.</p>
+                <p>
+        Cf. <bibl><ptr target="#Bonnechere2018"/>, <citedRange>§25 n. 80</citedRange> (on <foreign xml:lang="grc">ἱλάσκομαι</foreign>)</bibl>;
+        <bibl><ptr target="#Crosby2022"/>, <citedRange>84 n. 64</citedRange> (on the use of the optative)</bibl>; <bibl><ptr target="#Georgoudi"/> <citedRange>forthcoming</citedRange> (on <foreign xml:lang="grc">ἱλάσκομαι</foreign>).</bibl>
+    </p>
+</div>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+             <ab>
+<lb n="1"/>ἐ͂ Ϝοίκοι κα λϊον <lb n="2"/>πράσσοιμι καὶ τυγ
+<lb n="3" break="no"/>χάνοι παίδν ἱλασ
+<lb n="4" break="no"/><supplied reason="lost">κ</supplied>όμεν<supplied reason="lost">ος θεούς</supplied>;
+            </ab>
+</div>
+<div type="apparatus" xml:space="preserve">
+<app loc="l. 1"><lem>ἐ͂ Ϝοίκοι <supplied reason="omitted">μένων</supplied></lem><rdg resp="#IDodoneDVC"></rdg><note><foreign>dub.</foreign></note>
+</app>
+
+<app loc="l. 3"><lem>τυγχάνοι<supplied reason="omitted">μι</supplied></lem><rdg resp="#IDodoneDVC"></rdg><note>(<foreign>ad comm.</foreign>), to avoid the shift from the first to the third person.</note>
+</app>
+
+<app loc="ll. 3-4"><lem>ἱλασ|<supplied reason="lost">κ</supplied>όμεν<supplied reason="lost">ος</supplied></lem><rdg resp="#IDodoneDVC"></rdg><rdg>ἱλασ|<supplied reason="lost">κ</supplied>όμεν<supplied reason="lost">ος θεούς</supplied> <note>Carbon <foreign>apud</foreign> <ptr target="#CIOD"/>.</note></rdg>
+</app>
+</div>
+
+<div type="translation" xml:space="preserve" xml:lang="en">
+     <p>Would I fare better at home and succeed in having children by appeasing the gods? </p>
+</div>            
+<div type="translation" xml:space="preserve" xml:lang="es">
+<p>¿Me iría mejor en casa y conseguiría tener hijos propiciando a los dioses? </p>
+</div>
+            
+<div type="commentary" xml:space="preserve" xml:lang="en">
+<p>On <foreign xml:lang="grc">ἱλάσκομαι</foreign> in the oracular tablets, see <bibl><ptr target="#Bonnechere2018"/></bibl> and, especially, <bibl><ptr target="#Georgoudi"/> <citedRange>forthcoming</citedRange></bibl>. Owing to the lack of context, it is not possible to determine whether the verb means “to appease” or “to propitiate” the gods.</p>
+                
+                 <p n="Ithaca results">Ithaca attributes the inscription to Epirus with high accuracy (91.42%) and dates it to the mid-fifth century BC. Notably, the probability distribution is strongly concentrated in 450-440 BC (27.27%). As for the restoration outputs, Ithaca clearly favours the restoration <foreign xml:lang="grc">ἱλασκόμενος</foreign>, while the remaining alternatives receive substantially lower confidence scores. See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline7B_2026_06_24.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline7B.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline7B_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
+                </div>
+        </body>
+    </text>
+    <facsimile>
+        <graphic url="x" corresp="$$$" decls="#photograph">
+            <desc resp="-" source="Ephorate of Antiquities, Ioannina" n="-"><ref target="$$$"
+                    >$$$</ref></desc>
+        </graphic>
+    </facsimile>
+</TEI>
+                                        
+                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
