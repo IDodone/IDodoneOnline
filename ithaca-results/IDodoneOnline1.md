@@ -6,7 +6,7 @@ Analysis Tool:
 Ithaca (Predicting the Past)
 
 Input:
-η αλλαν μαστευων --------
+η αλλαν μαστευων -------- 
 
 Analysis Type:
 Contextualize, Restore and Attribute
