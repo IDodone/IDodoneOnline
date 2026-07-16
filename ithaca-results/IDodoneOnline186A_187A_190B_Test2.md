@@ -5,9 +5,6 @@ Date of Test: 2026-06-30
 Analysis Tool:
 Ithaca (Predicting the Past)
 
-Archived Result:
-IDodone_Online_IDodone_Online_186A_187A_190B.html
-
 Input:
 γαν οικει ποτερα εν οποεντι ε και εν ορχομενοι ε και οπαι κα νος φερει
 
