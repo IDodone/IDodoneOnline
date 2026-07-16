@@ -9,7 +9,7 @@ Input:
 θελυτος ποτερα κα κατά χοραν εχον ταν γυναικα εχον κοδοι απερ νυν ε και εον
 
 Analysis Type:
-Contextualize, Restore and Attribute
+Contextualize and Attribute
 
 Researcher:
 Stavroula Konstantopoulou
