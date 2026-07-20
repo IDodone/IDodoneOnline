@@ -11,7 +11,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 <editor xml:id="SK">Stavroula Konstantopoulou</editor>
             </titleStmt>
             <publicationStmt>
-                <authority>“Dodona Travels to Ithaca. Artificial Intelligence Applied to the Edition of Greek Inscriptions”, NextGenerationEU, Consolidación Investigadora 2023 (CNS2023-144714)</authority>
+                <authority>“Dodona Travels to Ithaca. Artificial Intelligence Applied to the Edition of Greek Inscriptions”, NextGenerationEU, Consolidación Investigadora 2023 (CNS2023-144714).</authority>
                 <idno type="filename">I.Dodone Online 36B</idno>
                 <availability>
                     <p>Creative Commons Attribution-NonCommercial-ShareAlike International License <ref target="http://creativecommons.org/" type="external">4.0</ref>.</p>
@@ -40,7 +40,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>It is inscribed on <rs type="sides" key="opisthographic">both sides</rs>. The same tablet also preserves one further inscription on the same side (37B), which is related to the one on side A (35A), the latter containing the summary and the former the question. Since 37B presupposes the existence of 36B, this must have been the tablet's first use. At present, side B is covered by insulating tape used to secure the two fragments together, which hampers legibility.</p>
+                                    <p>The tablet is nscribed on <rs type="sides" key="opisthographic">both sides</rs>. The same tablet also preserves one further inscription on the same side (<ref target="i-dodone-online-37b">37B</ref>), which is related to the one on side A (<ref target="i-dodone-online-35a">35A</ref>), the latter containing the summary and the former the question. Since <ref target="i-dodone-online-37b">37B</ref> presupposes the existence of 36B, this must have been the tablet's first use. At present, side B is covered by insulating tape used to secure the two fragments together, which hampers legibility.</p>
                                     <p n="Dialect"><rs type="dialect" ref="#doric">Doric</rs></p>
                                     <p n="Alphabet"><rs type="alphabet" ref="#archaic">Archaic</rs></p>
                                 </layout>
@@ -48,7 +48,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Letter height: 0.3 cm (l. 1); 0.35-0.4 cm (l. 2). As the editors note, the secomd line of the inscription is laid out in stoichedon style.</p>
+                                <p>Letter height: 0.3 cm (l. 1); 0.35-0.4 cm (l. 2). As the editors note, the second line of the inscription is laid out in stoichedon style.</p>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -59,10 +59,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                                     BC</origDate></p>
                             <origPlace><placeName ref="#Dodona">Dodona</placeName></origPlace>
                         </origin>
-                        <provenance type="found" notBefore="1929" notAfter="1935"><placeName type="ancientFindspot" ref="#Dodona">Dodona</placeName>, Evangelidis' excavations
-                            1929-1935</provenance>
+                        <provenance type="found" notBefore="1929" notAfter="1935"><placeName type="ancientFindspot" ref="#Dodona">Dodona</placeName>, Evangelidis’ excavations
+                            1929-1935.</provenance>
                         <provenance type="observed"><orgName ref="#IoanninaMuseum">Archaeological Museum of Ioannina</orgName>
-                            <idno type="invNo">inv. M68; ΑΜΙ 11985. On display in the exhibition.</idno>. 
+                            <idno type="invNo">inv. M68; AMI 11985.</idno> 
                             </provenance>
                         <provenance type="observed" subtype="autopsied" resp="#EMG" when="2025"/>
                     </history>
@@ -88,7 +88,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                     <term type="theme" ref="#property">Property</term>
                 </keywords>
             </textClass>
-            <creation>Facsimile, photograph. Autopsy conducted by
+            <creation>Facsimile, photograph, and conducted by
                 Elena Martín González (2025)</creation>
         </profileDesc>
         <revisionDesc>
@@ -99,16 +99,15 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
         <body>
             <div type="bibliography" xml:space="preserve" xml:lang="en">
                 <p><bibl><ptr target="#IDodoneDVC"/> <citedRange>36B</citedRange></bibl>
-                  (<bibl><ptr target="#Chaniotis2013"/>, <citedRange>§ 206</citedRange></bibl>;
+                  (<bibl><ptr target="#Chaniotis2016"/>, <citedRange>§206</citedRange></bibl>;
                   <bibl><ptr target="#Chaniotis2017a"/>, <citedRange>59</citedRange></bibl>;
-                  <bibl><ptr target="#Bonnechere2018"/>, <citedRange>§ 33 n. 106</citedRange></bibl>;
-                  <bibl><ptr target="#Chaniotis2018a"/>, <citedRange>333 and 338 n. 17</citedRange></bibl>).
+                  <bibl><ptr target="#Bonnechere2018"/>, <citedRange>§33 n. 106</citedRange></bibl>;
+                  <bibl><ptr target="#Chaniotis2018a"/>, <citedRange>333 and 338 n. 17</citedRange></bibl> <bibl><ptr target="#CIOD"/> <citedRange>36B</citedRange>[last consulted 16/07/2026]</bibl>).
                 </p>
             </div>
             <div type="edition" xml:space="preserve" xml:lang="grc">
                     <ab>
-                        <lb n="1"/><rs type="deity" ref="#theos"><w lemma="θεός">θεός</w>·</rs> <rs type="deity" ref="#tyche"><w lemma="τύχα">τύχα</w></rs> <w lemma="ἀγαθά">ἀγαθά</w>·<persName><name nymRef="#Φιλοτίδος"><unclear>Φ</unclear>ιλοτίδος</name></persName> τὰ <w lemma="σιδάρια">σιδά<lb 
-                                n="2" break="no"/>ρια</w> δικαίς;         
+                        <lb n="1"/><rs type="deity" ref="#theos"><w lemma="θεός">θεός</w>·</rs> <rs type="deity" ref="#tyche"><w lemma="τύχα">τύχα</w></rs> <w lemma="ἀγαθά">ἀγαθά</w>· <persName><name nymRef="#Φιλοτίδος"><unclear>Φ</unclear>ιλοτίδος</name></persName> τὰ <w lemma="σιδάρια">σιδά<lb n="2" break="no"/>ρια</w> δικαίς;         
                 </ab>
           </div>
             <div type="translation" xml:space="preserve" xml:lang="en">
@@ -118,12 +117,15 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 <p>Dios. Buena Fortuna, ¿corresponden por derecho los objetos de hierro a Filótide?</p>
             </div>
             <div type="commentary" xml:space="preserve" xml:lang="en">
-                <p>This private enquiry, which does not include the name of the consultant, belongs to the well-attested category of consultations concerning <rs type="theme" ref="#property">property matters</rs>, in this case the rightful ownership of <foreign xml:lang="grc">σιδάρια</foreign> by a woman named <persName><name nymRef="#Φιλοτίδος">Philotis</name></persName>; on legal disputes in the Dodona oracular tablets, see <bibl><ptr target="#Chaniotis2018a"/></bibl>. According to <bibl><ptr target="#Chaniotis2017a"/>, <citedRange>59</citedRange> </bibl>, <foreign xml:lang="grc">σιδάρια</foreign> refers to iron objects and not to the Byzantine coinage <foreign xml:lang="grc">σιδάρεοι</foreign>, as proposed by the editors of <bibl><ptr target="#IDodoneDVC"/></bibl>.</p>
-                <p><bibl><ptr target="#Chaniotis2018a"/>, <citedRange>338 no. 17</citedRange></bibl> interprets the text as an oracular response. On the controversial issue of the presence of answers on the Dodona tablets, see <bibl><ptr target="#MartínGonzález2021"/></bibl>.</p>
-                <p n="Ithaca Results">Ithaca predicts Italy, including Magna Graecia, as the most probable geographical origin of this inscription (73.35%), with Epirus ranking second (7.12%). Regarding chronology, the highest probability falls at the beginning of the 4th century BC, specifically in the period 400-390 BCE (14.64%).
-                See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline36B_2026_06_25.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline36B.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline36B_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
+                <p>This private enquiry, which does not include the name of the consultant, belongs to the well-attested category of consultations concerning <rs type="theme" ref="#property">property matters</rs>, in this case the rightful ownership of <foreign xml:lang="grc">σιδάρια</foreign> by a woman named <persName><name nymRef="#Φιλοτίδος">Philotis</name></persName>; on legal disputes in the Dodona oracular tablets, see <bibl><ptr target="#Chaniotis2018"/></bibl>. According to <bibl><ptr target="#Chaniotis2017a"/></bibl>, <foreign xml:lang="grc">σιδάρια</foreign> refers to iron objects and not to the Byzantine coinage <foreign xml:lang="grc">σιδάρεοι</foreign>, as proposed by the editors of <bibl><ptr target="#IDodoneDVC"/></bibl>.</p>
+                <p><bibl><ptr target="#Chaniotis2018a"/></bibl> interprets the text as an oracular response. On the controversial issue of the presence of answers on the Dodona tablets, see <bibl><ptr target="#MartínGonzález2021"/></bibl>.</p>
+                 <p n="Ithaca Results">Ithaca predicts Italy, including Magna Graecia, as the most probable geographical origin of this inscription (73.35%), with Epirus ranking second (7.12%). Regarding chronology, the highest probability falls at the beginning of the 4th century BC, specifically in the period 400-390 BCE (14.64%). See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline36B_2026_06_25.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline36B.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline36B_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
         </div>
         </body>
     </text>
-    <facsimile><graphic url="x"><desc></desc></graphic></facsimile>
+    <facsimile>
+        <graphic url="x" corresp="$$$" decls="#photograph">
+            <desc resp="-" source="Ephorate of Antiquities, Ioannina" n="-"><ref target="$$$">$$$</ref></desc>
+        </graphic>
+    </facsimile>
 </TEI>

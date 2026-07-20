@@ -11,7 +11,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 <editor xml:id="SK">Stavroula Konstantopoulou</editor>
             </titleStmt>
             <publicationStmt>
-                <authority>“Dodona Travels to Ithaca. Artificial Intelligence Applied to the Edition of Greek Inscriptions”, NextGenerationEU, Consolidación Investigadora 2023 (CNS2023-144714)</authority>
+                <authority>“Dodona Travels to Ithaca. Artificial Intelligence Applied to the Edition of Greek Inscriptions”, NextGenerationEU, Consolidación Investigadora 2023 (CNS2023-144714).</authority>
                 <idno type="filename">I.Dodone Online 168B</idno>
                 <availability>
                     <p>Creative Commons Attribution-NonCommercial-ShareAlike International License <ref target="http://creativecommons.org/" type="external">4.0</ref>.</p>
@@ -39,8 +39,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Inscribed on <rs type="texts" key="multiple" n=""/>
-                                        <rs type="sides" key="opisthographic">both sides.</rs> It preserves multiple inscriptions on each side, but only one remains legible on side A (167A) and two on side B (168B and 169B).  The last two letters of the inscription (l. 3) were inscribed in the left margin, directly below the end of line 2. </p>
+                                    <p>The tablet is inscribed on <rs type="texts" key="multiple" n=""/>
+                                        <rs type="sides" key="opisthographic">both sides.</rs> It preserves multiple inscriptions on each side, but only one remains legible on side A (167A) and two on side B (168B and 169B).  The last two letters of the inscription (l. 3) were inscribed in the left margin, directly below the end of l. 2. </p>
                                     <p n="Dialect"><rs type="dialect" ref="#koine">Koine (?)</rs></p>
                                     <p n="Alphabet"><rs type="alphabet" ref="#reformed">Reformed</rs></p>
                                 </layout>
@@ -53,10 +53,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                             </origDate></p>
                             <origPlace><placeName ref="#Dodona">Dodona</placeName></origPlace>
                         </origin>
-                        <provenance type="found" when="1935"><placeName type="ancientFindspot" ref="#Dodona">Dodona</placeName>, Evangelidis' excavation
+                        <provenance type="found" when="1935"><placeName type="ancientFindspot" ref="#Dodona">Dodona</placeName>, Evangelidis’ excavation
                             1935 (?)</provenance>
                         <provenance type="observed"><orgName ref="#IoanninaMuseum">Archaeological Museum of Ioannina</orgName>
-                            <idno type="invNo">inv. M164</idno></provenance>
+                            <idno type="invNo">inv. M164</idno>.</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -93,7 +93,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                         <bibl><ptr target="IDodoneDVC"/> <citedRange>168B</citedRange>. </bibl>
                         </p>
                     <p>
-                      Cf. <bibl><ptr target="#AnagnostopoulouGalaniMenti2022"/> <citedRange>243 n. 16</citedRange> (on questions regarding professional activities, simple mention)</bibl>; <bibl><ptr target="#Giannakis2024a"/>, <citedRange>41</citedRange> (on dialect).</bibl></p>
+                      Cf. <bibl><ptr target="#AnagnostopoulouGalaniMenti2022"/>, <citedRange>243 n. 16</citedRange> (on questions regarding professional activities, simple mention)</bibl>; <bibl><ptr target="#Giannakis2024"/>, <citedRange>41</citedRange> (on dialect).</bibl></p>
             </div>
             <div type="edition" xml:space="preserve" xml:lang="grc">
                 <ab>
@@ -103,25 +103,28 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 </ab>
             </div>
             <div type="apparatus" xml:space="preserve">
-                <app loc="ll. 2-3">
-                    <rdg resp="#IDodoneDVC">ε<supplied reason="omitted">ὐ</supplied>καρπιῶν <note>Méndez Dosuna apud</note></rdg>
+                <app loc="ll. 2-3"><note>ε<supplied reason="omitted">ὐ</supplied>καρπιῶν Méndez Dosuna <foreign xml:lang="la">apud</foreign> </note> <rdg resp="#IDodoneDVC"></rdg>
                 </app>
             </div>
             <div type="translation" xml:space="preserve" xml:lang="en">
                 <p>About land and its produce.</p>
             </div>
-            <div type="translation" xml:space="preserve" xml:lang="es">
+                <div type="translation" xml:space="preserve" xml:lang="es">
                     <p>Sobre la tierra y los frutos.</p>
-         </div>
-            <div type="commentary" xml:space="preserve" xml:lang="en">
-                <p>The feminine noun <foreign xml:lang="grc">ἐκκαρπία</foreign> is now attested in the dossier of documents concerning the sale of land from Larissa, dated to 219 BC (<bibl><ptr target="#SEG"/>, <citedRange>63.406, l.17</citedRange></bibl>). According to the first editors (<bibl><ptr target="#HellyTziafalias 2013"/>, <citedRange>151-152 n. 13</citedRange></bibl>), it is a hapax meaning <foreign xml:lang="fr">“les productions (littéralement les fruits qui viennent de)”.</foreign> </p>
+                </div>
                 
-            <p n="Ithaca Results">Ithaca predicts Phrygia (64.95%) and Bithynia (19.99%) as the most probable geographical origins of the inscription, whereas Epirus ranks only ninth, with a mere 0.53% probability. As for its chronological attribution, the highest probability falls at the beginning of the third century AD, specifically AD 210–220. 
-            See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline168B_2026_06_25.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline168B.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline168B_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
+            <div type="commentary" xml:space="preserve" xml:lang="en">
+                <p>The feminine noun <foreign xml:lang="grc">ἐκκαρπία</foreign> is now attested in the dossier of documents concerning the sale of land from Larissa, dated to 219 BC (<bibl><ptr target="#SEG"/>, <citedRange>63.406, l.17</citedRange></bibl>). According to the first editors (<bibl><ptr target="#HellyTziafalias2013"/>, <citedRange>151-152 n. 13</citedRange></bibl>), it is a hapax meaning <foreign xml:lang="fr">“les productions (littéralement les fruits qui viennent de)”.</foreign> </p>
+                
+            <p n="Ithaca Results">Ithaca predicts Phrygia (64.95%) and Bithynia (19.99%) as the most probable geographical origins of the inscription, whereas Epirus ranks only ninth, with a mere 0.53% probability. As for its chronological attribution, the highest probability falls at the beginning of the third century AD, specifically AD 210–220. See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline168B_2026_06_25.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline168B.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline168B_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
             </div>
         </body>
     </text>
-    <facsimile><graphic url="x"><desc></desc></graphic></facsimile>
+    <facsimile>
+        <graphic url="x" corresp="$$$" decls="#photograph">
+            <desc resp="-" source="Ephorate of Antiquities, Ioannina" n="-"><ref target="$$$">$$$</ref></desc>
+        </graphic>
+    </facsimile>
 </TEI>
             
 

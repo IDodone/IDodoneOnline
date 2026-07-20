@@ -11,7 +11,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 <editor xml:id="SK">Stavroula Konstantopoulou</editor>
             </titleStmt>
             <publicationStmt>
-                <authority>“Dodona Travels to Ithaca. Artificial Intelligence Applied to the Edition of Greek Inscriptions”, NextGenerationEU, Consolidación Investigadora 2023 (CNS2023-144714)</authority>
+                <authority>“Dodona Travels to Ithaca. Artificial Intelligence Applied to the Edition of Greek Inscriptions”, NextGenerationEU, Consolidación Investigadora 2023 (CNS2023-144714).</authority>
                 <idno type="filename">I.Dodone Online 35A+37B</idno>
                 <availability>
                     <p>Creative Commons Attribution-NonCommercial-ShareAlike International License <ref target="http://creativecommons.org/" type="external">4.0</ref>.</p>	
@@ -31,7 +31,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                                             <height unit="cm">1.9</height>
                                             <width unit="cm">13.7</width>
                                             <depth unit="cm">0.012</depth>
-                                    </dimensions></p>     
+                                    </dimensions>
+                                     <measure type="weight" unit="g">19.70</measure>
+                                    </p>     
                             </support>
                             </supportDesc>
                             <layoutDesc><layout>
@@ -51,9 +53,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                             <p><origDate notBefore="-0400" notAfter="-0300">4th century BC</origDate></p>
                             <origPlace><placeName ref="#Dodona">Dodona</placeName></origPlace>
                         </origin>
-                        <provenance type="found" notBefore="1929" notAfter="1935"><placeName type="ancientFindspot" ref="#Dodona">Dodona</placeName> Evangelidis' excavations 1929-1935.</provenance>   
+                        <provenance type="found" notBefore="1929" notAfter="1935"><placeName type="ancientFindspot" ref="#Dodona">Dodona</placeName>, Evangelidis’ excavations 1929-1935.</provenance>   
                         <provenance type="observed"><orgName ref="#IoanninaMuseum">Archaeological Museum of Ioannina</orgName> 
-                            <idno type="invNo">inv. M68; AMI 11985</idno></provenance>
+                            <idno type="invNo">inv. M68; AMI 11985.</idno></provenance>
                         <provenance type="observed" subtype="autopsied" resp="#EMG" when="2025"/>
                         </history>
                 </msDesc>
@@ -79,7 +81,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                     <term type="theme" ref="#job">Job</term>
                 </keywords>
             </textClass>
-            <creation>Facsimile, photograph. Autopsy conducted by Elena Martín González (2025)</creation>
+            <creation>Facsimile, photograph, and autopsy conducted by Elena Martín González (2025)</creation>
         </profileDesc>
         <revisionDesc>
             <change when="2026-06-15" who="#SK">Initial encoding by Stavroula
@@ -89,10 +91,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
     <text>
         <body>
             <div type="bibliography" xml:space="preserve" xml:lang="en">
-                <p><bibl><ptr target="#Eidinow2007"/>, <citedRange>94-95, 99 nr. 17</citedRange></bibl> (preliminary edition of inscription in face A by Christidis); <bibl><ptr target="#IDodoneDVC"/><citedRange> 35A+37B</citedRange></bibl> (<bibl><ptr target="#Chaniotis2013"/>,  <citedRange>§ 201</citedRange></bibl>; <bibl><ptr target="#Parker2016"/>,  <citedRange>82</citedRange></bibl>; <bibl><ptr target="#Chaniotis2017a"/>,  <citedRange>58</citedRange></bibl>; <bibl><ptr target="#Lhôte2017"/>,  <citedRange>43-44</citedRange></bibl>; <bibl><ptr target="#MéndezDosuna2018b"/>,  <citedRange>266, 279</citedRange></bibl>;  <bibl><ptr target="#Tselikas2018"/>,  <citedRange>255</citedRange></bibl>; <bibl><ptr target="#Giannakis2024b"/>,  <citedRange>105, 124-126</citedRange></bibl>;  <bibl><ptr target="#MartínGonzález2024"/>,  <citedRange>75-79</citedRange></bibl>; <bibl><ptr target="#CIOD"/> <citedRange>4</citedRange> [last consulted 25/06/2026])</bibl>.
+                <p><bibl><ptr target="#Eidinow2007"/>, <citedRange>94-95, 99 no. 17</citedRange></bibl> (preliminary edition of inscription in face A by Christidis); <bibl><ptr target="#IDodoneDVC"/><citedRange> 35A+37B</citedRange></bibl> (<bibl><ptr target="#Chaniotis2016"/>,  <citedRange>§201</citedRange></bibl>; <bibl><ptr target="#Parker2016"/>,  <citedRange>82</citedRange></bibl>; <bibl><ptr target="#Chaniotis2017a"/>,  <citedRange>58</citedRange></bibl>; <bibl><ptr target="#Lhôte2017"/>,  <citedRange>43-44</citedRange></bibl>; <bibl><ptr target="#MéndezDosuna2018b"/>,  <citedRange>266, 279</citedRange></bibl>;  <bibl><ptr target="#Tselikas2018"/>,  <citedRange>255</citedRange></bibl>; <bibl><ptr target="#Giannakis2024b"/>,  <citedRange>105, 124-126</citedRange></bibl>;  <bibl><ptr target="#MartínGonzález2024"/>,  <citedRange>75-79</citedRange></bibl>; <bibl><ptr target="#CIOD"/> <citedRange>4</citedRange> [last consulted 25/06/2026])</bibl>.
                 </p>
                     <p>Cf. 
-                      <bibl><ptr target="#Lombardo2017"/>, <citedRange>119 n. 47</citedRange></bibl>; <bibl><ptr target="#CrespoGiannakis2019"/>, <citedRange>55</citedRange></bibl> (on dialectal mixture); <bibl><ptr target="#Moga2021"/>, <citedRange>460, n. 8</citedRange></bibl> (on Zeus Pronaios); <bibl><ptr target="#Katsikoudis2022"/>, <citedRange>164 n. 9</citedRange></bibl> (on Zeus Pronaios).
+                      <bibl><ptr target="#Lombardo2017"/>, <citedRange>119 n. 47</citedRange></bibl>; <bibl><ptr target="#Rizzo2017"/>, <citedRange>731</citedRange> (on the consultant’s origin)</bibl>; <bibl><ptr target="#CrespoGiannakis2019"/>, <citedRange>55</citedRange></bibl> (on dialectal mixture); <bibl><ptr target="#Moga2021"/>, <citedRange>460, n. 8</citedRange></bibl> (on Zeus Pronaios); <bibl><ptr target="#Katsikoudis2022"/>, <citedRange>164 n. 9</citedRange></bibl> (on Zeus Pronaios).
                     </p>
                           </div>
                 <div type="edition" xml:space="preserve" xml:lang="grc">
@@ -115,7 +117,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                     <rdg resp="#Lhôte2017">εἰρωτᾶ<supplied reason="lost">ι</supplied></rdg></app>
             </div>
             <div type="translation" xml:space="preserve" xml:lang="en">
-                <p>God. To the Good Fortune, Zeus Pronaios and Dione. Porinos, Cumaean, son of Evandros, asks the god whether it will better and more advantegous for him to serve the satrap and governor.</p>
+                <p>God. To the Good Fortune, Zeus Pronaios and Dione. Porinos, Cumaean, son of Evandros, asks the god whether it will better and more advantageous for him to serve the satrap and governor.</p>
                 <p>Porinos to the satrap.</p>
                 </div>
             <div type="translation" xml:space="preserve" xml:lang="es">
@@ -126,7 +128,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
             <div type="commentary" xml:space="preserve" xml:lang="en"> 
                 <p><persName><name nymRef="#Πορῖνος">Porinos’</name></persName> enquiry belongs to a group of oracular tablets that exhibit dialectal mixture (see <bibl><ptr target="#CrespoGiannakis2019"/></bibl>): the main text is written in the consultant’s Ionic dialect, whereas the introductory formula employs the Doric forms of the gods’ names characteristic of the sanctuary. According to <bibl><ptr target="#Tselikas2018"/></bibl>, the use of the epithet Pronaios instead of Naios for Zeus reflects the influence of the Delphian Athena <foreign xml:lang="grc">Προναΐα</foreign>. Lhôte’s restoration of the verb in l. 2 as <foreign xml:lang="grc">εἰρωτᾶ<supplied reason="lost">ι</supplied></foreign>, in the present tense, is consistent with the space available in the lacuna caused by the fold of the tablet.</p>
 
-<p><bibl><ptr target="#MéndezDosuna2018b"/></bibl> argues on dialectal grounds that the ethnic may refer either to Kyme in Euboea or to Cumae, the Euboean colony in Italy, the latter being the more widely accepted identification, although the third compensatory lengthening in <foreign xml:lang="grc">εἰρωτᾶ<supplied reason="lost">ι</supplied></foreign> would not be expected in Euboean. By contrast, <bibl><ptr target="#Lhôte2017"/></bibl> argues on historical grounds that the ethnic refers to Aeolian Cyme (see below), a view subsequently adopted by <bibl><ptr target="#Lombardo2017"/></bibl>. For the provenance of the consultants to the oracle, which is explicitly indicated in only nine tablets, see <bibl><ptr target="#Georgoulas2023"/>.</bibl></p>
+<p><bibl><ptr target="#MéndezDosuna2018b"/></bibl> argues on dialectal grounds that the ethnic may refer either to Kyme in Euboea or to Cumae, the Euboean colony in Italy, the latter being the more widely accepted identification, although the third compensatory lengthening in <foreign xml:lang="grc">εἰρωτᾶ<supplied reason="lost">ι</supplied></foreign> would not be expected in Euboean. By contrast, <bibl><ptr target="#Lhôte2017"/></bibl> argues on historical grounds that the ethnic refers to Aeolian Cyme (see below), a view subsequently adopted by <bibl><ptr target="#Lombardo2017"/></bibl> and <bibl><ptr target="#Rizzo2017"/></bibl>. For the provenance of the consultants to the oracle, which is explicitly indicated in only nine tablets, see <bibl><ptr target="#Georgoulas2023"/>.</bibl></p>
 
  <p>The inscription also contains one of the rare references in the Dodona tablets to the historical context of the consultation, namely the mention of a Persian satrap. As <bibl><ptr target="#Chaniotis2017a"/></bibl> points out, the reference to the satrap requires that the inscription be dated before Alexander the Great’s campaigns against Persia (336 BC); consequently, he dates it to the early fourth century BC. <bibl><ptr target="#Lhôte2017"/></bibl>, on the other hand, narrows down the chronology of the inscription to ca. 360-358 BC, within the context of the so-called Satraps’ Revolt, during the final years of the reign of Artaxerxes II Mnemon. On the basis of the testimony of Polyaenus (7.14), <bibl><ptr target="#Lhôte2017"/></bibl> and Carbon (<bibl><ptr target="#CIOD"/></bibl>) further identify the satrap mentioned in the inscription with Orontes, who captured Cyme with the assistance of Greek mercenaries during his conflict with Artaxerxes III in 355/54 BC.</p>
 
@@ -134,12 +136,15 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 
  <p><bibl><ptr target="#Chaniotis2017a"/></bibl> suggests interpreting the inscription on side B not as a summary or label, but as the oracle’s response to <persName><name nymRef="#Πορῖνος">Porinos’</name></persName> enquiry on side A. Both inscriptions were written by the same hand. For the vexed question of the oracle’s responses, see <bibl><ptr target="#MartínGonzález2021"/></bibl>.</p>
                 
-                <p n="Ithaca Results">Ithaca attributes the inscription to Epirus with high accuracy (91.38 %), but it dates it to the end of the 3rd century BC (210-200 BC max, 11.59%). Of the twenty text restoration hypotheses proposed by Ithaca, the first, the dative ending of the participle <foreign xml:lang="grc">θεραπεύοντ<supplied reason="lost">ι</supplied></foreign>, is highly satisfactory and coincides with the editors’ restoration. The second, the accusative form (<foreign xml:lang="grc">θεραπεύοντ<supplied reason="lost">α</supplied></foreign>), assigned a much lower probability, is morphologically (but not sintactically) acceptable, while the remaining proposals do not yield valid Greek forms and can therefore be discarded. 
-                See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline35A_37B_2026_06_25.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline35A_37B.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline35A_37B_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
+                <p n="Ithaca Results">Ithaca attributes the inscription to Epirus with high accuracy (91.38 %), but it dates it to the end of the 3rd century BC (210-200 BC max, 11.59%). Of the twenty text restoration hypotheses proposed by Ithaca, the first, the dative ending of the participle <foreign xml:lang="grc">θεραπεύοντ<supplied reason="lost">ι</supplied></foreign>, is highly satisfactory and coincides with the editors’ restoration. The second, the accusative form (<foreign xml:lang="grc">θεραπεύοντ<supplied reason="lost">α</supplied></foreign>), assigned a much lower probability, is morphologically (but not sintactically) acceptable, while the remaining proposals do not yield valid Greek forms and can therefore be discarded. See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline35A_37B_2026_06_25.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline35A_37B.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline35A_37B_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
                 </div>
         </body>
     </text>
-    <facsimile><graphic url="x"><desc></desc></graphic></facsimile>
+    <facsimile>
+        <graphic url="x" corresp="$$$" decls="#photograph">
+            <desc resp="-" source="Ephorate of Antiquities, Ioannina" n="-"><ref target="$$$">$$$</ref></desc>
+        </graphic>
+    </facsimile>
 </TEI>
 
                     

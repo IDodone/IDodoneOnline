@@ -45,15 +45,14 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>The tablet is inscribed on <rs type="texts" key="multiple" n=""/>
-                                        <rs type="sides" key="opisthographic">both sides</rs>. It also preserves another inscription on the same side (<ref target="i-dodone-online-8b">8B</ref>), added at a later date and inscribed upside down with respect to the present text, overlapping its last line and rendering the final letters illegible. On the opposite side, two inscriptions (<ref target="i-dodone-online-5a">5A</ref> and <ref target="i-dodone-online-6a">6A</ref>), together with traces of earlier texts, are preserved.</p>
+                                    <p>The tablet is inscribed on <rs type="texts" key="multiple" n=""/><rs type="sides" key="opisthographic">both sides</rs>. It also preserves another inscription on the same side (<ref target="i-dodone-online-8b">8B</ref>), added at a later date and inscribed upside down with respect to the present text, overlapping its last line and rendering the final letters illegible. On the opposite side, two inscriptions (<ref target="i-dodone-online-5a">5A</ref> and <ref target="i-dodone-online-6a">6A</ref>), together with traces of earlier texts, are preserved.</p>
                                     <p n="Dialect"><rs type="dialect" ref="#Doric">Doric</rs></p>
-                                    <p n="Alphabet"><rs type="alphabet" ref="#archaic">Archaic (Corinthian epsilon, digamma).</rs></p>
+                                    <p n="Alphabet"><rs type="alphabet" ref="#Archaic">Archaic (Corinthian epsilon, digamma).</rs></p>
                                 </layout></layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>Letter height: ca. 0.3 cm; interline space: 0.2 cm. Regular lettering.</p>
+                                <p>Letter height: ca. 0.3 cm; interlinear space: 0.2 cm. Regular lettering.</p>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -93,18 +92,16 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
             <creation> Facsimile, photograph, and autopsy conducted by Carlos Candel Lozano (2024)</creation>
         </profileDesc>
         <revisionDesc>
-            <change when="2026-06-05" who="#SK">Initial encoding by Stavroula
-                Konstantopoulou</change>
+            <change when="2026-06-05" who="#SK">Initial encoding by Stavroula Konstantopoulou</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <div type="bibliography" xml:space="preserve" xml:lang="en">
                 <p>
-                      <bibl><ptr target="#IDodoneDVC"/> <citedRange>7B</citedRange></bibl>; <bibl><ptr target="#CIOD"/> <citedRange>7B</citedRange></bibl>.</p>
+                      <bibl><ptr target="#IDodoneDVC"/> <citedRange>7B</citedRange></bibl>; <bibl><ptr target="#CIOD"/> <citedRange>7B</citedRange> </bibl>.</p>
                 <p>
-        Cf. <bibl><ptr target="#Bonnechere2018"/>, <citedRange>§25 n. 80</citedRange> (on <foreign xml:lang="grc">ἱλάσκομαι</foreign>)</bibl>;
-        <bibl><ptr target="#Crosby2022"/>, <citedRange>84 n. 64</citedRange> (on the use of the optative)</bibl>; <bibl><ptr target="#Georgoudi"/> <citedRange>forthcoming</citedRange> (on <foreign xml:lang="grc">ἱλάσκομαι</foreign>).</bibl>
+        Cf. <bibl><ptr target="#Bonnechere2018"/>, <citedRange>§25 n. 80</citedRange> (on <foreign xml:lang="grc">ἱλάσκομαι</foreign>)</bibl>; <bibl><ptr target="#Crosby2022"/>, <citedRange>84 n. 64</citedRange> (on the use of the optative)</bibl>; <bibl><ptr target="#Georgoudi"/> <citedRange>forthcoming</citedRange> (on <foreign xml:lang="grc">ἱλάσκομαι</foreign>).</bibl>
     </p>
 </div>
             <div type="edition" xml:space="preserve" xml:lang="grc">
@@ -115,13 +112,13 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
             </ab>
 </div>
 <div type="apparatus" xml:space="preserve">
-<app loc="l. 1"><lem>ἐ͂ Ϝοίκοι <supplied reason="omitted">μένων</supplied></lem><rdg resp="#IDodoneDVC"></rdg><note><foreign>dub.</foreign></note>
+<app loc="l. 1"><lem>ἐ͂ Ϝοίκοι <supplied reason="omitted">μένων</supplied></lem><rdg resp="#IDodoneDVC"></rdg><note><foreign xml:lang="la">dub.</foreign></note>
 </app>
 
-<app loc="l. 3"><lem>τυγχάνοι<supplied reason="omitted">μι</supplied></lem><rdg resp="#IDodoneDVC"></rdg><note>(<foreign>ad comm.</foreign>), to avoid the shift from the first to the third person.</note>
+<app loc="l. 3"><lem>τυγχάνοι<supplied reason="omitted">μι</supplied></lem><rdg resp="#IDodoneDVC"></rdg><note>(<foreign xml:lang="la">ad comm.</foreign>), to avoid the shift from the first to the third person.</note>
 </app>
 
-<app loc="ll. 3-4"><lem>ἱλασ|<supplied reason="lost">κ</supplied>όμεν<supplied reason="lost">ος</supplied></lem><rdg resp="#IDodoneDVC"></rdg><rdg>ἱλασ|<supplied reason="lost">κ</supplied>όμεν<supplied reason="lost">ος θεούς</supplied> <note>Carbon <foreign>apud</foreign> <ptr target="#CIOD"/>.</note></rdg>
+<app loc="ll. 3-4"><lem>ἱλασ|<supplied reason="lost">κ</supplied>όμεν<supplied reason="lost">ος</supplied></lem><rdg resp="#IDodoneDVC"></rdg><rdg>ἱλασ|<supplied reason="lost">κ</supplied>όμεν<supplied reason="lost">ος θεούς</supplied> <note>Carbon <foreign xml:lang="la">apud</foreign> <ptr target="#CIOD"/></note>.</rdg>
 </app>
 </div>
 
@@ -133,7 +130,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 </div>
             
 <div type="commentary" xml:space="preserve" xml:lang="en">
-<p>On <foreign xml:lang="grc">ἱλάσκομαι</foreign> in the oracular tablets, see <bibl><ptr target="#Bonnechere2018"/></bibl> and, especially, <bibl><ptr target="#Georgoudi"/> <citedRange>forthcoming</citedRange></bibl>. Owing to the lack of context, it is not possible to determine whether the verb means “to appease” or “to propitiate” the gods.</p>
+<p>On <foreign xml:lang="grc">ἱλάσκομαι</foreign> in the oracular tablets, see <bibl><ptr target="#Bonnechere2018"/></bibl> and, especially, <bibl><ptr target="#Georgoudi"/> <citedRange>forthcoming </citedRange></bibl>. Owing to the lack of context, it is not possible to determine whether the verb means “to appease” or “to propitiate” the gods.</p>
                 
                  <p n="Ithaca results">Ithaca attributes the inscription to Epirus with high accuracy (91.42%) and dates it to the mid-fifth century BC. Notably, the probability distribution is strongly concentrated in 450-440 BC (27.27%). As for the restoration outputs, Ithaca clearly favours the restoration <foreign xml:lang="grc">ἱλασκόμενος</foreign>, while the remaining alternatives receive substantially lower confidence scores. See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline7B_2026_06_24.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline7B.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline7B_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
                 </div>

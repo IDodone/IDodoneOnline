@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?oxygen RNGSchema="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IDodone_Online_17B" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Enquiry concerning an unspecified matter </title>
+                <editor xml:id="EMG">Elena Martín González</editor>
+                <editor xml:id="SK">Stavroula Konstantopoulou</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>“Dodona Travels to Ithaca. Artificial Intelligence Applied to the Edition of Greek Inscriptions”, NextGenerationEU, Consolidación Investigadora 2023 (CNS2023-144714).</authority>
+                <idno type="filename">I.Dodone Online 17B</idno>
+                <availability>
+                    <p>Creative Commons Attribution-NonCommercial-ShareAlike International License <ref target="http://creativecommons.org/" type="external">4.0</ref>.</p>	
+                    <p>All citation, reuse or distribution of this work must contain a link to the URL <ref target="https://dodonaonline.com/">https://dodonaonline.com/</ref> and the filename, as well as the date of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>n/a</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc><support>
+                                    <p><objectType ref="#lead_tablet"><material ref="#lead">Lead</material> tablet</objectType> with a single fold.</p>
+                                    <p><dimensions> 
+                                            <height unit="cm">2.1</height>
+                                            <width unit="cm">12.6</width>
+                                            <depth unit="cm">0.12</depth>
+                                    </dimensions>
+                                    </p>     
+                            </support>
+                            </supportDesc>
+                            <layoutDesc><layout>
+                                    <p>Lead tablet with a single fold. It preserves one inscription on side A (<ref target="i-dodone-online-15a">15A</ref>) and three on side B (<ref target="i-dodone-online-16b">16B</ref>, 17B, and 18B). Inscriptions <ref target="i-dodone-online-15a">15A</ref> and <ref target="i-dodone-online-16b">16B</ref> were written by the same hand: <ref target="i-dodone-online-15a">15A</ref> records Thelytos’ question, whereas <ref target="i-dodone-online-16b">16B</ref> gives only his name. Evangelidis edited 17B together with <ref target="i-dodone-online-16b">16B</ref>, and <bibl><ptr target="#CIOD"/></bibl> likewise includes both texts under the same lemma. As the editors of <bibl><ptr target="#IDodoneDVC"/></bibl> point out, however, 17B and 18B are independent inscriptions, with 17B incised over 18B, which is therefore earlier. Inscription 18B was not identified by Evangelidis.</p>
+                                    <p n="Dialect"><rs type="dialect" ref="#Thessalian">Thessalian (Histiaeotis)</rs>.</p>
+                                    <p n="Alphabet"><rs type="alphabet" ref="#Archaic">Archaic, red (Ψ for X)</rs>.</p>
+                            </layout></layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origDate notBefore="-0500" notAfter="-0400">5th century BC</origDate></p>
+                            <origPlace><placeName ref="#Dodona">Dodona</placeName></origPlace>
+                        </origin>
+                        <provenance type="found" when="1952"><placeName type="ancientFindspot" ref="#Dodona">Dodona</placeName>, Evangelidis’ excavation 1952.</provenance>   
+                        <provenance type="observed"><orgName ref="#IoanninaMuseum">Archaeological Museum of Ioannina</orgName> 
+                            <idno type="invNo">inv. M41.</idno></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded according to the EpiDoc Guidelines, version 9.</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="es">Spanish</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term type="textType" ref="#question">Question</term>
+                    <term type="textType" ref="#unspecified">Unspecified</term>
+                </keywords>
+            </textClass>
+            <creation>Facsimile and photograph. On display at the exhibition</creation>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2026-06-15" who="#SK">Initial encoding by Stavroula Konstantopoulou.</change>     
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="bibliography" xml:space="preserve" xml:lang="en">
+                <p><bibl><ptr target="#Evangelidis1952"/>, <citedRange>302</citedRange></bibl> (<bibl><ptr target="#BE"/> <citedRange>1956, 143.8</citedRange></bibl>; <bibl><ptr target="#SEG"/> <citedRange>15.388</citedRange></bibl>); <bibl><ptr target="#IDodoneLhôte"/> <citedRange>36</citedRange></bibl> (<bibl><ptr target="#MéndezDosuna2008"/>, <citedRange>72</citedRange></bibl>; <bibl><ptr target="#NietoIzquierdo2017"/>, <citedRange>113</citedRange></bibl>); <bibl><ptr target="#IDodoneDVC"/> <citedRange>17B</citedRange></bibl> (<bibl><ptr target="#MéndezDosuna2018b"/>, <citedRange>287</citedRange></bibl>; <bibl><ptr target="#Johnston2021"/>, <citedRange>111, 112</citedRange></bibl>; <bibl><ptr target="#CIOD"/> <citedRange>15A+16B+17B</citedRange></bibl> [last consulted 10/07/2026]).</p>
+                </div>
+<div type="edition" xml:space="preserve" xml:lang="grc">
+    <ab>
+        <lb n="1"/>αἰ κα μὰ ἔχ; 
+    </ab>
+</div>
+            <div type="translation" xml:space="preserve" xml:lang="en">
+     <p>If I do not have?</p>
+            </div>
+            <div type="translation" xml:space="preserve" xml:lang="es">
+        <p>¿Si no tengo?</p>
+        </div>
+            <div type="commentary" xml:space="preserve" xml:lang="en">
+<p>According to Lhôte (<bibl><ptr target="#IDodoneLhôte"/></bibl>), this is a summary of Thelytos’ enquiry written by the personnel of the sanctuary in the local alphabet of Dodona. This hypothesis was rightly questioned by  <bibl><ptr target="#Johnston2021"/></bibl>, who, in turn, identified the text as the oracle’s response, although without further explanation (for the vexed question of the responses on the oracular tablets, see <bibl><ptr target="#MartínGonzález2021"/></bibl>). The different dialect, alphabet, letter forms, and phraseology used in this text, however, indicate that it is an independent enquiry, as argued by the editors of <bibl><ptr target="#IDodoneDVC"/></bibl>. If their reading is correct, the text consists of a concise question whose object remains unexpressed. The consultation takes the form of a conditional sentence introduced by αἰ (for this formulation in the oracular tablets, see <bibl><ptr target="#NietoIzquierdo2017"/></bibl>). On the negative <foreign xml:lang="grc">μά</foreign> for <foreign xml:lang="grc">μή</foreign>, see <bibl><ptr target="#MéndezDosuna2018b"/>, <citedRange>287</citedRange>.</bibl></p>
+                 
+                <p n="Ithaca results">Delphi ranks first with a probability of 29.54%, followed by Epirus in second place (14.86%). Chronologically, the highest probability (4.87%) is assigned to the 450-440 BC interval, although the model distributes comparable probabilities across a broad range of dates. See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline17B_2026_06_24.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline17B.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline17B_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
+                </div>
+        </body>
+    </text>
+    <facsimile>
+        <graphic url="x" corresp="$$$" decls="#photograph">
+            <desc resp="-" source="Ephorate of Antiquities, Ioannina" n="-"><ref target="$$$"
+                    >$$$</ref></desc>
+        </graphic>
+    </facsimile>
+</TEI>
+                                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+

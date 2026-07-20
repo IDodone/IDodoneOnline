@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?oxygen RNGSchema="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IDodone_Online_6A" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Private enquiry regarding property acquisition</title>
+                <editor xml:id="EMG">Elena Martín González</editor>
+                <editor xml:id="SK">Stavroula Konstantopoulou</editor>
+                <editor xml:id="CCL" role="autopsy">Carlos Candel Lozano</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>“Dodona Travels to Ithaca. Artificial Intelligence Applied to the Edition of Greek Inscriptions”, NextGenerationEU, Consolidación Investigadora 2023 (CNS2023-144714).</authority>
+                <idno type="filename">I.Dodone Online 6A</idno>
+                <availability>
+                    <p>Creative Commons Attribution-NonCommercial-ShareAlike International License <ref target="http://creativecommons.org/" type="external">4.0</ref>.</p>
+                    <p>All citation, reuse or distribution of this work must contain a link to the URL <ref target="https://dodonaonline.com/">https://dodonaonline.com/</ref> and the filename, as well as the date of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>n/a</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType ref="#lead_tablet"><material ref="#lead">Lead</material> tablet</objectType> with a hole at one end.</p>
+                                    <p>
+                                        <dimensions>
+                                            <height unit="cm">2.5</height>
+                                            <width unit="cm">6.8</width>
+                                            <depth unit="cm">0.16</depth>
+                                        </dimensions>
+                                    </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>The tablet is inscribed on <rs type="texts" key="multiple" n=""/><rs type="sides" key="opisthographic">both sides</rs>. The same side also preserves another inscription (<ref target="i-dodone-online-5a">5A</ref>), inscribed upside down in relation to the present text, as well as traces of earlier inscriptions that remain discernible but are no longer legible. Two further inscriptions (<ref target="i-dodone-online-7b">7B</ref> and <ref target="i-dodone-online-8b">8B</ref>) are preserved on the reverse of the tablet.</p>
+                                    <p n="Dialect"><rs type="dialect" ref="#Doric">Doric</rs></p>
+                                    <p n="Alphabet"><rs type="alphabet" ref="#Corinthian">Corinthian</rs></p>
+                                </layout></layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Letter height: ca. 0.3 cm; interlinear space: 0.2 cm. Irregular lettering.</p>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origDate notBefore="-0500" notAfter="-0400">5th century BC</origDate></p>
+                            <origPlace><placeName ref="#Dodona">Dodona</placeName></origPlace>
+                        </origin>
+                        <provenance type="found" when="1935"><placeName type="ancientFindspot" ref="#Dodona">Dodona</placeName>, Evangelidis’ excavation 1935.</provenance>   
+                        <provenance type="observed"><orgName ref="#IoanninaMuseum">Archaeological Museum of Ioannina</orgName> 
+                            <idno type="invNo">inv. M20; AMI 12209.</idno></provenance>
+                        <provenance type="observed" subtype="autopsied" resp="#CCL" when="2024"/>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded according to the EpiDoc Guidelines, version 9.</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="es">Spanish</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term type="textType" ref="#question">Question</term>
+                    <term type="theme" ref="#property">Property</term>
+                </keywords>
+            </textClass>
+            <creation>Facsimile, photograph, and autopsy conducted by Carlos Candel Lozano (2024)</creation>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2026-06-05" who="#SK">Initial encoding by Stavroula Konstantopoulou</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="bibliography" xml:space="preserve" xml:lang="en">
+                    <p>
+                      <bibl><ptr target="#IDodoneDVC"/> <citedRange>6A</citedRange></bibl>; <bibl><ptr target="#CIOD"/> <citedRange>6A</citedRange> </bibl> [last consulted 03/07/2026]).</p>
+                <p>
+                      Cf. <bibl><ptr target="#MéndezDosuna2007d"/>, <citedRange>303 nn. 65, 68</citedRange> (on <foreign xml:lang="grc">πεπαμένος</foreign>)</bibl>; <bibl><ptr target="#CrespoGiannakis2019"/>, <citedRange>41</citedRange> (on dialect mixture)</bibl>; <bibl><ptr target="#Crosby2022"/>, <citedRange>84 n. 64</citedRange> (on the use of the optative)</bibl>; <bibl><ptr target="#MéndezDosuna2024"/>, <citedRange>§7</citedRange> (on <foreign xml:lang="grc">πεπαμένος</foreign>)</bibl>.
+                    </p>
+            </div>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                       <ab>
+   <lb n="1"/>ἐ͂ πέπατα<supplied reason="omitted">ι</supplied> καὶ πεπαμέ<lb n="2" break="no"/>νος λϊόν κα πράσοι; 
+</ab>
+</div>
+            <div type="apparatus" xml:space="preserve">
+                <app loc="l. 1"><rdg>ΠΕΠΑΤΑ</rdg> <note>on the lamella</note></app>
+                <app loc="l. 2"><note>i.e.</note> <rdg>πράσ<supplied reason="omitted">σ</supplied>οι</rdg></app>
+            </div>
+            <div type="translation" xml:space="preserve" xml:lang="en">
+                <p>Has he acquired it, and would he fare better for having acquired it?</p>
+                </div>
+            <div type="translation" xml:space="preserve" xml:lang="es">
+                <p>¿Lo ha adquirido y le iría mejor habiéndolo adquirido?</p>
+            </div>
+            <div type="commentary" xml:space="preserve" xml:lang="en">
+                <p>On the productive lexical family of <foreign xml:lang="grc">πάομαι</foreign> (Att.-Ion. <foreign xml:lang="grc">κτάομαι</foreign>) in the oracular tablets, see <bibl><ptr target="#MéndezDosuna2007"/>, <citedRange>302-304</citedRange></bibl> and <bibl><ptr target="#MéndezDosuna2024"/>, <citedRange>§4.1</citedRange></bibl>. For misspellings in the oracular lamellae, see <bibl><ptr target="#MéndezDosuna2018b"/>, <citedRange>267-272</citedRange></bibl>.</p>
+                
+                 <p n="Ithaca results">Ithaca attributes the inscription to Epirus with a confidence of 94.23% and dates it most probably to the beginning of the fourth century BC, with a peak probability for 400-390 BC. See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline6A_2026_06_24.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline6A.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline6A_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
+                </div>
+        </body>
+    </text>
+    <facsimile>
+        <graphic url="x" corresp="$$$" decls="#photograph">
+            <desc resp="-" source="Ephorate of Antiquities, Ioannina" n="-"><ref target="$$$"
+                    >$$$</ref></desc>
+        </graphic>
+    </facsimile>
+</TEI>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+

@@ -8,7 +8,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
             <titleStmt>
                 <title>Private enquiry regarding marriage</title>
                 <editor xml:id="EMG">Elena Martín González</editor>
-                <editor xml:id="SK">Stavroula Konstantopoulou.</editor>
+                <editor xml:id="SK">Stavroula Konstantopoulou</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>“Dodona Travels to Ithaca. Artificial Intelligence Applied to the Edition of Greek Inscriptions”, NextGenerationEU, Consolidación Investigadora 2023 (CNS2023-144714).</authority>
@@ -34,16 +34,15 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                                             <width unit="cm">7.6</width>
                                             <depth unit="cm">0.08</depth>
                                         </dimensions>
-                                        <note>Evangelidis’ excavation diary (9 September 1935, unpublished) records a width of 7.5 cm.</note>
+                                        <note>Evangelidis’ excavation diary records a width of 7.5 cm.</note>
                                     </p>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>The tablet is inscribed on <rs type="texts" key="multiple" n=""/>
-                                        <rs type="sides" key="opisthographic">both sides</rs>. According to the editors of <bibl><ptr target="#IDodoneDVC"/></bibl>, the tablet contains no other inscriptions.</p>
+                                    <p>According to the editors of <bibl><ptr target="#IDodoneDVC"/></bibl>, the tablet contains no other inscriptions.</p>
                                     <p n="Dialect"><rs type="dialect" ref="#Doric">Doric</rs></p>
-                                    <p n="Alphabet"> <rs type="alphabet" ref="#reformed">Reformed</rs></p> 
+                                    <p n="Alphabet"> <rs type="alphabet" ref="#Reformed">Reformed</rs></p> 
                                 </layout></layoutDesc>
                         </objectDesc>
                     </physDesc>
@@ -54,7 +53,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                         </origin>
                         <provenance type="found" when="1953"><placeName type="ancientFindspot" ref="#Dodona">Dodona</placeName>, Evangelidis’ excavation 1935. The tablet was recorded in Evangelidis’ excavation diary on 9 September 1935.</provenance>   
                         <provenance type="observed"><orgName ref="#IoanninaMuseum">Archaeological Museum of Ioannina</orgName> 
-                            <idno type="invNo">inv. M2</idno>.</provenance> 
+                            <idno type="invNo">inv. M2.</idno></provenance> 
                     </history> 
                 </msDesc>
             </sourceDesc>
@@ -81,7 +80,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
             <creation>Facsimile</creation>
         </profileDesc>
         <revisionDesc>
-            <change when="2026-06-15" who="#SK">Initial encoding by Stavroula Konstantopoulou.</change>     
+            <change when="2026-06-15" who="#SK">Initial encoding by Stavroula Konstantopoulou</change>     
         </revisionDesc>
     </teiHeader>
     <text>
@@ -105,13 +104,18 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
         <p>¿Debo buscar otra? </p>
         </div>
         <div type="commentary" xml:space="preserve" xml:lang="en">
-            <p>There are two parallel inscriptions (although with a personal construction instead of a participial one) in the Dodona oracular corpus: <bibl><ptr target="#IDodoneLhôte"/> <citedRange>29</citedRange></bibl> (<foreign xml:lang="grc"> ἄλλαν μαστείι;</foreign>) and <bibl><ptr target="#IDodoneDVC"/> <citedRange>2322A</citedRange></bibl> (<foreign xml:lang="grc">ἐ͂ ἄλλαν | μαστεύ;</foreign>), which belong to the well-attested category of consultations concerning the choice of a wife (see <bibl><ptr target="#Parker2016"/>, <citedRange>78-79</citedRange></bibl>. For this kind of “hyper-laconic” questions, see <bibl><ptr target="#Parker2015"/></bibl>, who argues that such elliptical formulations are best understood as abbreviations of fuller alternative questions.</p>
+            <p>There are two parallel inscriptions (although with a personal construction instead of a participial one) in the Dodona oracular corpus: <bibl><ptr target="#IDodoneLhôte"/> <citedRange>29</citedRange></bibl> (<foreign xml:lang="grc"> ἄλλαν μαστείι;</foreign>) and <bibl><ptr target="#IDodoneDVC"/> <citedRange>2322A</citedRange></bibl> (<foreign xml:lang="grc">ἐ͂ ἄλλαν | μαστεύ;</foreign>), which belong to the well-attested category of consultations concerning the choice of a wife (see <bibl><ptr target="#Parker2016"/>, <citedRange>78-79</citedRange>)</bibl>. For this kind of “hyper-laconic” questions, see <bibl><ptr target="#Parker2015"/></bibl>, who argues that such elliptical formulations are best understood as abbreviations of fuller alternative questions.</p>
             
             <p n="Ithaca results">Ithaca ranks Epirus as the most likely provenance (40.22% probability), followed by Ionia (8.12%) and Caria (7.05%). Chronologically, the highest probability falls around 340-330 BC, although the model assigns broadly comparable probabilities across much of the fourth century BC. See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline1_2026_06_29.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline1.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline1_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
                 </div>
         </body>
     </text>
-    <facsimile><graphic url="$$$"><desc></desc></graphic></facsimile>
+    <facsimile>
+        <graphic url="x" corresp="$$$" decls="#photograph">
+            <desc resp="-" source="Ephorate of Antiquities, Ioannina" n="-"><ref target="$$$"
+                    >$$$</ref></desc>
+        </graphic>
+    </facsimile>
 </TEI>
 
                     

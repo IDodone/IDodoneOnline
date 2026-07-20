@@ -9,9 +9,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 <title>Enquiry about professional activity</title>
                 <editor xml:id="EMG">Elena Martín González</editor>
                 <editor xml:id="SK">Stavroula Konstantopoulou</editor>
+                <editor xml:id="CCL" role="autopsy">Carlos Candel Lozano</editor>
             </titleStmt>
             <publicationStmt>
-                <authority>“Dodona Travels to Ithaca. Artificial Intelligence Applied to the Edition of Greek Inscriptions”, NextGenerationEU, Consolidación Investigadora 2023 (CNS2023-144714)</authority>
+                <authority>“Dodona Travels to Ithaca. Artificial Intelligence Applied to the Edition of Greek Inscriptions”, NextGenerationEU, Consolidación Investigadora 2023 (CNS2023-144714).</authority>
                 <idno type="filename">I.Dodone Online 8B</idno>
                 <availability>
                     <p>Creative Commons Attribution-NonCommercial-ShareAlike International License <ref target="http://creativecommons.org/" type="external">4.0</ref>.</p>
@@ -39,9 +40,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>Inscribed on <rs type="sides" key="opisthographic">both sides</rs>. It preserves another inscription on the same side (7B), while two inscriptions (<ref target="i-dodone-online-5a">5A</ref> and 6A) and traces of earlier texts are preserved on the opposite side.</p>
+                                    <p>The tablet is nscribed on <rs type="sides" key="opisthographic">both sides</rs>. It preserves another inscription on the same side (<ref target="i-dodone-online-7b">7B</ref>), with respect to which the present text is inscribed upside down. The present text overlaps the last line of <ref target="i-dodone-online-7b">7B</ref>, rendering its final letters illegible. On the opposite side, two inscriptions (<ref target="i-dodone-online-5a">5A</ref> and <ref target="i-dodone-online-6a">6A</ref>), together with traces of earlier texts, are preserved.</p>
                                         <p n="Alphabet"><rs type="alphabet" ref="#archaic">Archaic</rs>, 
-                                        <rs type="alphabet" ref="#red">red</rs> (R for P)</p>
+                                        <rs type="alphabet" ref="#red">red</rs> (R for P).</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -57,10 +58,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                             <p><origDate notBefore="-0475" notAfter="-0425">middle of the 5th century BC</origDate></p>
                             <origPlace><placeName ref="#Dodona">Dodona</placeName></origPlace>
                         </origin>
-                        <provenance type="found" when="1935"><placeName type="ancientFindspot" ref="#Dodona">Dodona</placeName>, Evangelidis' excavation 1935</provenance>
+                        <provenance type="found" when="1935"><placeName type="ancientFindspot" ref="#Dodona">Dodona</placeName>, Evangelidis’ excavation 1935.</provenance>
                         <provenance type="observed"><orgName ref="#IoanninaMuseum">Archaeological Museum of Ioannina</orgName>
-                            <idno type="invNo">inv. M20; ΑΜΙ 12209</idno></provenance>
-                        <provenance type="observed" subtype="autopsied" resp="#CCL" when="2024"/>
+                            <idno type="invNo">inv. M20; AMI 12209.</idno></provenance>
+                        <provenance type="observed" subtype="autopsied" resp="CCL" when="2024"/>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -87,7 +88,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
             <creation> Facsimile, photograph, and autopsy conducted by Carlos Candel Lozano (2024)</creation>
         </profileDesc>
         <revisionDesc>
-            <change when="2026-06-29" who="#SK">Initial encoding by Stavroula Konstantopoulou.</change>
+            <change when="2026-06-29" who="#SK">Initial encoding by Stavroula Konstantopoulou</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -97,7 +98,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 <bibl><ptr target="#IDodoneDVC"/> <citedRange>8B</citedRange>.</bibl>
                     </p>
                       <p>Cf. 
-                      <bibl><ptr target="#AnagnostopoulouGalaniMenti2022"/>, <citedRange>243 n. 15</citedRange></bibl> (on oracular questions about professional activity).
+                      <bibl><ptr target="#AnagnostopoulouGalaniMenti2022"/>, <citedRange>243 n. 15</citedRange> (on oracular questions about professional activity)</bibl>.
                     </p>
                           </div>
             <div type="edition" xml:space="preserve" xml:lang="grc">
@@ -109,17 +110,17 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 <p>Shall I work as a shepherd or not?</p>
             </div>
                 <div type="translation" xml:space="preserve" xml:lang="es">
-              <p>¿Me dedico al pastoreo o no? </p>
+              <p>¿Me dedico al pastoreo o no?</p>
                     </div>
                 <div type="commentary" xml:space="preserve" xml:lang="en"> 
                     <p>For questions concerning animal husbandry (a frequent topic of enquiry in the Dodona oracular corpus), see the commentaries of the first editors and <bibl><ptr target="#AnagnostopoulouGalaniMenti2022"/>, <citedRange>243</citedRange>. </bibl></p>
                     
-   <p n="Ithaca Results">Ithaca identifies Epirus as the most probable geographical origin of the inscription (40.77%), followed by the Saronic Gulf, Corinthia, and the Argolid (33.12%). Chronologically, the highest probability is assigned to the interval 550–540 BC (9.49%), although the interval 450–440 BC receives a nearly identical probability (8.80%).
+   <p n="Ithaca Results">Ithaca identifies Epirus as the most probable geographical origin of the inscription (40.77%), followed by the Saronic Gulf, Corinthia, and the Argolid (33.12%). Chronologically, the highest probability is assigned to the interval 550-540 BC (9.49%), although the interval 450-440 BC receives a nearly identical probability (8.80%).
    See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline8B_2026_06_29.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline8B.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline8B_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
             </div>
         </body>
     </text>
-    <facsimile><graphic url="x"><desc></desc></graphic></facsimile>
+    <facsimile><graphic url="x" corresp="$$$" decls="#photograph"><desc resp="-" source="Ephorate of Antiquities, Ioannina" n="-"><ref target="$$$">$$$</ref></desc></graphic></facsimile>
 </TEI> 
 
  
