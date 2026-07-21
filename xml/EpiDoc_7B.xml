@@ -47,7 +47,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                                 <layout>
                                     <p>The tablet is inscribed on <rs type="texts" key="multiple" n=""/><rs type="sides" key="opisthographic">both sides</rs>. It also preserves another inscription on the same side (<ref target="i-dodone-online-8b">8B</ref>), added at a later date and inscribed upside down with respect to the present text, overlapping its last line and rendering the final letters illegible. On the opposite side, two inscriptions (<ref target="i-dodone-online-5a">5A</ref> and <ref target="i-dodone-online-6a">6A</ref>), together with traces of earlier texts, are preserved.</p>
                                     <p n="Dialect"><rs type="dialect" ref="#Doric">Doric</rs></p>
-                                    <p n="Alphabet"><rs type="alphabet" ref="#Archaic">Archaic (Corinthian epsilon, digamma).</rs></p>
+                                    <p n="Alphabet"><rs type="alphabet" ref="#archaic">Archaic (Corinthian epsilon, digamma).</rs></p>
                                 </layout></layoutDesc>
                         </objectDesc>
                         <handDesc>

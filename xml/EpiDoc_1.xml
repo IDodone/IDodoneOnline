@@ -42,7 +42,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                                 <layout>
                                     <p>According to the editors of <bibl><ptr target="#IDodoneDVC"/></bibl>, the tablet contains no other inscriptions.</p>
                                     <p n="Dialect"><rs type="dialect" ref="#Doric">Doric</rs></p>
-                                    <p n="Alphabet"> <rs type="alphabet" ref="#Reformed">Reformed</rs></p> 
+                                    <p n="Alphabet"> <rs type="alphabet" ref="#reformed">Reformed</rs></p> 
                                 </layout></layoutDesc>
                         </objectDesc>
                     </physDesc>
@@ -53,7 +53,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                         </origin>
                         <provenance type="found" when="1953"><placeName type="ancientFindspot" ref="#Dodona">Dodona</placeName>, Evangelidis’ excavation 1935. The tablet was recorded in Evangelidis’ excavation diary on 9 September 1935.</provenance>   
                         <provenance type="observed"><orgName ref="#IoanninaMuseum">Archaeological Museum of Ioannina</orgName> 
-                            <idno type="invNo">inv. M2.</idno></provenance> 
+                            <idno type="invNo">inv. M2</idno>.</provenance> 
                     </history> 
                 </msDesc>
             </sourceDesc>
@@ -110,12 +110,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 </div>
         </body>
     </text>
-    <facsimile>
-        <graphic url="x" corresp="$$$" decls="#photograph">
-            <desc resp="-" source="Ephorate of Antiquities, Ioannina" n="-"><ref target="$$$"
-                    >$$$</ref></desc>
-        </graphic>
-    </facsimile>
+    <facsimile><graphic url="$$$"><desc></desc></graphic></facsimile>
 </TEI>
 
                     

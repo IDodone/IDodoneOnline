@@ -10,7 +10,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 <editor xml:id="EMG">Elena Martín González</editor>
                 <editor xml:id="SK">Stavroula Konstantopoulou</editor>
                 <editor xml:id="CCL" role="autopsy">Carlos Candel Lozano</editor>
-            </titleStmt>
+                </titleStmt>
             <publicationStmt>
                 <authority>“Dodona Travels to Ithaca. Artificial Intelligence Applied to the Edition of Greek Inscriptions”, NextGenerationEU, Consolidación Investigadora 2023 (CNS2023-144714).</authority>
                 <idno type="filename">I.Dodone Online 8B</idno>
@@ -61,7 +61,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                         <provenance type="found" when="1935"><placeName type="ancientFindspot" ref="#Dodona">Dodona</placeName>, Evangelidis’ excavation 1935.</provenance>
                         <provenance type="observed"><orgName ref="#IoanninaMuseum">Archaeological Museum of Ioannina</orgName>
                             <idno type="invNo">inv. M20; AMI 12209.</idno></provenance>
-                        <provenance type="observed" subtype="autopsied" resp="CCL" when="2024"/>
+                        <provenance type="observed" subtype="autopsied" resp="#CCL" when="2024"/>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -98,7 +98,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 <bibl><ptr target="#IDodoneDVC"/> <citedRange>8B</citedRange>.</bibl>
                     </p>
                       <p>Cf. 
-                      <bibl><ptr target="#AnagnostopoulouGalaniMenti2022"/>, <citedRange>243 n. 15</citedRange> (on oracular questions about professional activity)</bibl>.
+                      <bibl><ptr target="#AnagnostopoulouGalaniMenti2022"/>, <citedRange>243 n. 15</citedRange></bibl> (on oracular questions about professional activity).
                     </p>
                           </div>
             <div type="edition" xml:space="preserve" xml:lang="grc">
@@ -120,7 +120,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
             </div>
         </body>
     </text>
-    <facsimile><graphic url="x" corresp="$$$" decls="#photograph"><desc resp="-" source="Ephorate of Antiquities, Ioannina" n="-"><ref target="$$$">$$$</ref></desc></graphic></facsimile>
+    <facsimile><graphic url="$$$"><desc></desc></graphic></facsimile>
 </TEI> 
 
  

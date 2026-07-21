@@ -140,11 +140,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 </div>
         </body>
     </text>
-    <facsimile>
-        <graphic url="x" corresp="$$$" decls="#photograph">
-            <desc resp="-" source="Ephorate of Antiquities, Ioannina" n="-"><ref target="$$$">$$$</ref></desc>
-        </graphic>
-    </facsimile>
+    <facsimile><graphic url="$$$"><desc></desc></graphic></facsimile>
 </TEI>
 
                     

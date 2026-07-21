@@ -41,7 +41,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                                 <layout>
                                     <p>According to the editors, the tablet is inscribed on <rs type="sides" key="opisthographic">both sides</rs>, but they publish only the text inscribed on the inner face, enclosed within the folds. Interpuncts occur in the first two lines.</p>
                                     <p n="Dialect"><rs type="dialect" ref="#Doric">Doric</rs></p>
-                                    <p n="Alphabet"> <rs type="alphabet" ref="#Archaic">Archaic</rs>; archaic and reformed letter forms coexist.</p> 
+                                    <p n="Alphabet"> <rs type="alphabet" ref="#archaic">Archaic</rs>; archaic and reformed letter forms coexist.</p> 
                                 </layout></layoutDesc>
                         </objectDesc>
                     </physDesc>
@@ -111,7 +111,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
             <div type="apparatus" xml:space="preserve">
 <app loc="l. 1">
      <rdg resp="#IDodoneDVC">γνέφας</rdg>
-    <rdg>Γνέφας <note>Curbera <foreign xml:lang="la">apud</foreign><bibl> <ptr target="#IDodoneDVC"/></bibl></note></rdg>
+    <rdg resp="#IDodoneDVC">Γνέφας <note>Curbera <foreign xml:lang="la">apud</foreign></note></rdg>
      <rdg resp="#CIOD">Γνεφᾶς</rdg></app>
                 <app loc="l. 2">
                     <rdg resp="#CIOD">σίβυλλα</rdg></app>
@@ -129,15 +129,15 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
             <div type="commentary" xml:space="preserve" xml:lang="en">
                 <p>This private enquiry belongs to the well attested category of consultations of the oracle concerning <rs type="theme" key="#justice">judicial matters</rs>, although neither the specific issue (apparently involving a garment) nor the opposing party is mentioned. Both the number of persons involved in the dispute and the syntactical interpretation of the text present difficulties. </p>
                     
-<p>The number of enquirers varies according to the different interpretations of <foreign xml:lang="grc">ΓΝΕΦΑΣ</foreign> and <foreign xml:lang="grc">ΣΙΒΥΛΛΑ</foreign> as common or personal names. Following Curbera’s interpretation, there are three enquirers: a man, <persName><name nymRef="#Γνέφας">Gnefas</name></persName>, and two women, <persName><name nymRef="#Ἀνάγυλλα">Anagylla</name></persName> and <persName><name nymRef="#Σίβυλλα">Sibylla</name></persName>. According to the editors of <bibl> <ptr target="#IDodoneDVC"/> </bibl>, however, there are only two women, <persName><name nymRef="#Ἀνάγυλλα">Anagylla</name></persName> and <persName><name nymRef="#Σίβυλλα">Sibylla</name></persName>, with <foreign xml:lang="grc">γνέφας </foreign> understood as a wool product used in handicrafts (cf. <bibl><ptr target="#GartziouTatti2020"/></bibl>).  For the editors of <bibl><ptr target="#CIOD"/></bibl>, by contrast, there are two enquirers (a man, <persName><name nymRef="#Γνέφας">Gnefas</name></persName>, and a woman, <persName><name nymRef="#Ἀνάγυλλα">Anagylla</name></persName>), while <foreign xml:lang="grc">σίβυλλα</foreign> is interpreted as <persName><name nymRef="#Ἀνάγυλλα">Anagylla's</name></persName> religious title. Carbon (personal communication) adduces the lack of interpunctuation between <foreign xml:lang="grc">ΑΝΑΓΥΛΛΑ</foreign> and <foreign xml:lang="grc">ΣΙΒΥΛΛΑ</foreign> as further evidence in support of this hypothesis (for the use of punctuation marks in the Dodona oracular tablets, see Méndez Dosuna forthcoming). </p>
+<p>The number of enquirers varies according to the different interpretations of <foreign xml:lang="grc">ΓΝΕΦΑΣ</foreign> and <foreign xml:lang="grc">ΣΙΒΥΛΛΑ</foreign> as common or personal names. Following Curbera’s interpretation, there are three enquirers: a man, <persName><name nymRef="#Γνέφας">Gnefas</name></persName>, and two women, <persName><name nymRef="#Ἀνάγυλλα">Anagylla</name></persName> and <persName><name nymRef="#Σίβυλλα">Sibylla</name></persName>. According to the editors of <bibl> <ptr target="#IDodoneDVC"/> </bibl>, however, there are only two women, <persName><name nymRef="#Ἀνάγυλλα">Anagylla</name></persName> and <persName><name nymRef="#Σίβυλλα">Sibylla</name></persName>, with <foreign xml:lang="grc">γνέφας </foreign> understood as a wool product used in handicrafts (cf. <bibl><ptr target="#GartziouTatti2020"/></bibl>).  For the editors of <bibl><ptr target="#CIOD"/></bibl>, by contrast, there are two enquirers (a man, <persName><name nymRef="#Γνέφας">Gnefas</name></persName>, and a woman, <persName><name nymRef="#Ἀνάγυλλα">Anagylla</name></persName>), while <foreign xml:lang="grc">σίβυλλα</foreign> is interpreted as <persName><name nymRef="#Ἀνάγυλλα">Anagylla's</name></persName> religious title. Carbon (personal communication) adduces the lack of interpunctuation between <foreign xml:lang="grc">ΑΝΑΓΥΛΛΑ</foreign> and <foreign xml:lang="grc">ΣΙΒΥΛΛΑ</foreign> as further evidence in support of this hypothesis (for the use of punctuation marks in the Dodona oracular tablets, see <bibl><ptr target="#MéndezDosunaforthcoming"/></bibl>). </p>
     
  <p>According to <bibl><ptr target="#Chaniotis2017"/></bibl>, the pronoun ταῦταν (ll. 3-4) refers to the <foreign xml:lang="grc">δέλτος</foreign>, providing clear evidence for the use of a token to be drawn (for cleromancy at Dodona, see <ptr target="#Parker2015"/>). By contrast, <bibl><ptr target="#NietoIzquierdo2019"/></bibl> emends <foreign xml:lang="grc">ταῦταν</foreign> to <foreign xml:lang="grc">ταῦτα</foreign> (referring to <foreign xml:lang="grc">τὰ δίκαια</foreign>), treating the final nu as spurious. In any case, the infinitive construction remains asyndetic, and the resulting phrasing is closer to a request addressed to the god than to a question submitted to the oracle.</p>                 
                 
-<p n="Ithaca results">Ithaca attributes the inscription to Epirus with high accuracy (88.70%) and it dates it to the beginning of the 4th century BC (380-370 BC max). See <ref target="https://dodonaonline.com/wp-content/uploads/2026/06/IDodone_Online_4_Ithaca.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodone_Online_4.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/06/IDodone_Online_4_Screenshot-2026-06-29.jpg">geographical attribution</ref>.</p>
+<p n="Ithaca Results">Ithaca attributes the inscription to Epirus with high accuracy (88.70%) and it dates it to the beginning of the 4th century BC (380-370 BC max). See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline4_2026_06_23.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline4.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline4_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
             </div>
         </body>
     </text>
-    <facsimile><graphic url="x"><desc></desc></graphic></facsimile>
+    <facsimile><graphic url="$$$"><desc></desc></graphic></facsimile>
 </TEI> 
 
                     

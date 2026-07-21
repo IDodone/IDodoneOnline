@@ -93,7 +93,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                         <bibl><ptr target="IDodoneDVC"/> <citedRange>168B</citedRange>. </bibl>
                         </p>
                     <p>
-                      Cf. <bibl><ptr target="#AnagnostopoulouGalaniMenti2022"/>, <citedRange>243 n. 16</citedRange> (on questions regarding professional activities, simple mention)</bibl>; <bibl><ptr target="#Giannakis2024"/>, <citedRange>41</citedRange> (on dialect).</bibl></p>
+                      Cf. <bibl><ptr target="#AnagnostopoulouGalaniMenti2022"/>, <citedRange>243 n. 16</citedRange> (on questions regarding professional activities, simple mention)</bibl>; <bibl><ptr target="#Giannakis2024a"/>, <citedRange>41</citedRange> (on dialect).</bibl></p>
             </div>
             <div type="edition" xml:space="preserve" xml:lang="grc">
                 <ab>
@@ -103,7 +103,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 </ab>
             </div>
             <div type="apparatus" xml:space="preserve">
-                <app loc="ll. 2-3"><note>ε<supplied reason="omitted">ὐ</supplied>καρπιῶν Méndez Dosuna <foreign xml:lang="la">apud</foreign> </note> <rdg resp="#IDodoneDVC"></rdg>
+                <app loc="ll. 2-3">
+                    <rdg resp="#IDodoneDVC">ε<supplied reason="omitted">ὐ</supplied>καρπιῶν <note>Méndez Dosuna <foreign xml:lang="la">apud</foreign></note></rdg>
                 </app>
             </div>
             <div type="translation" xml:space="preserve" xml:lang="en">
@@ -120,11 +121,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
             </div>
         </body>
     </text>
-    <facsimile>
-        <graphic url="x" corresp="$$$" decls="#photograph">
-            <desc resp="-" source="Ephorate of Antiquities, Ioannina" n="-"><ref target="$$$">$$$</ref></desc>
-        </graphic>
-    </facsimile>
+    <facsimile><graphic url="$$$"><desc></desc></graphic></facsimile>
 </TEI>
             
 

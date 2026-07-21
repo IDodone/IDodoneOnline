@@ -2,7 +2,7 @@
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?oxygen RNGSchema="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IDodone_Online_5" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IDodone_Online_5A" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,7 +15,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 <authority>“Dodona Travels to Ithaca. Artificial Intelligence Applied to the Edition
                     of Greek Inscriptions”, NextGenerationEU, Consolidación Investigadora 2023
                     (CNS2023-144714).</authority>
-                <idno type="filename">I.Dodone Online 5</idno>
+                <idno type="filename">I.Dodone Online 5A</idno>
                 <availability>
                     <p>Creative Commons Attribution-NonCommercial-ShareAlike International License
                             <ref target="http://creativecommons.org/" type="external">4.0</ref>.</p>
@@ -71,7 +71,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                         <provenance type="found" when="1935"><placeName type="ancientFindspot" ref="#Dodona">Dodona</placeName>, Evangelidis’ excavation 1935.</provenance>
                         <provenance type="observed"><orgName ref="#IoanninaMuseum">Archaeological Museum of Ioannina</orgName>
                             <idno type="invNo">inv. M20; ΑΜΙ 12209.</idno></provenance>
-                        <provenance type="observed" subtype="Autopsied" resp="#CCL" when="2024"/>
+                        <provenance type="observed" subtype="autopsied" resp="#CCL" when="2024"/>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -143,7 +143,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 
             <p>Contrary to the parallel form <foreign xml:lang="grc">πατροῦχος</foreign>, which denotes the sole heiress in Herodotus (Hdt. 6.57) and the Gortyn Code (cf. <bibl><ptr target="#Lajeunesse2018"/></bibl>, with earlier bibliography), the adjective <foreign xml:lang="grc">πατρωϊῶχος</foreign> (l. 2) does not point to female offspring but rather to offspring capable of inheriting the paternal estate. In the present context, <persName><name nymRef="#Κλεάνορι">Cleanor</name></persName> appears to be enquiring whether he will beget by his current wife an heir, presumably a male one, to succeed to his patrimony (cf. <bibl><ptr target="#MéndezDosuna2018a"/>, <citedRange>47</citedRange></bibl>). For enquiries concerning offspring on the Dodona tablets, and especially male offspring, see <bibl><ptr target="#Piccinini2015"/>, <citedRange>147</citedRange></bibl> and <bibl><ptr target="#Laes2020"/>, <citedRange>7-8</citedRange></bibl>.</p>
             
-            <p>For the otherwise unattested feminine participial form <foreign xml:lang="grc">ἐόνθας</foreign> (Attic <foreign xml:lang="grc">οὔσης</foreign>), which <bibl><ptr target="#Evangelidis1935"/></bibl> and Lhôte (<bibl><ptr target="#IDodoneLhôte"/></bibl>, <bibl><ptr target="#CIOD"/></bibl>) interpreted as the name of the wife, see <bibl><ptr target="#MéndezDosuna2018a"/>, <citedRange>47</citedRange></bibl>. For the use of punctuation marks in the Dodona oracular tablets, see <bibl><ptr target="#MéndezDosuna"/> <citedRange>forthcoming</citedRange></bibl>.</p>
+            <p>For the otherwise unattested feminine participial form <foreign xml:lang="grc">ἐόνθας</foreign> (Attic <foreign xml:lang="grc">οὔσης</foreign>), which <bibl><ptr target="#Evangelidis1935"/></bibl> and Lhôte (<bibl><ptr target="#IDodoneLhôte"/></bibl>, <bibl><ptr target="#CIOD"/></bibl>) interpreted as the name of the wife, see <bibl><ptr target="#MéndezDosuna2018a"/>, <citedRange>47</citedRange></bibl>. For the use of punctuation marks in the Dodona oracular tablets, see <bibl><ptr target="#MéndezDosunaforthcoming"/></bibl>.</p>
                 
             <p n="Ithaca Results">Ithaca attributes the inscription to Epirus with high accuracy (93.86%) and it dates it to the end of the 5th century BC (410-410 BC max).
             See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline5A_2026_06_23.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline5A.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline5A_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
@@ -151,9 +151,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
         </body>
     </text>
     <facsimile>
-        <graphic url="x" corresp="$$$" decls="#photograph">
-            <desc resp="-" source="Ephorate of Antiquities, Ioannina" n="-"><ref target="$$$"
-                    >$$$</ref></desc>
+        <graphic url="https://dodonaonline.com/wp-content/uploads/2026/07/DVC_5A_facsimile_2026.jpg">
+            <desc>Facsimile by Carlos Candel Lozano, 2026.</desc>
         </graphic>
     </facsimile>
 </TEI>
