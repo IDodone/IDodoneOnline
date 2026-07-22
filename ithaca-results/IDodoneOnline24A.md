@@ -5,11 +5,11 @@ Date of Test: 2026-06-24
 Analysis Tool:
 Ithaca (Predicting the Past)
 
-Input:
+Input: θεος τυχα αγαθα περι πανπασιας και περι οικεσιος ις κροτονα ε βελτιον και αμεινον
 
 
 Analysis Type:
-Contextualize, Restore and Attribute
+Contextualize and Attribute
 
 Researcher:
 Stavroula Konstantopoulou
