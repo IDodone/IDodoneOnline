@@ -6,7 +6,7 @@ Analysis Tool:
 Ithaca (Predicting the Past)
 
 Input:
-ερωται τον δια τον ναον και τ# αριστοκρατης ποτερα ενπ# φορον εστι μοι και ονηλα# και αυτωι
+η αλλαν μαστευων --------
 
 Analysis Type:
 Contextualize, Restore and Attribute
