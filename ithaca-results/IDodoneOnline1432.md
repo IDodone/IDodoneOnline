@@ -9,7 +9,7 @@ Input:
 αγελοχωι εξ εργετιω ορμημενωι αμεινον εστι γαοργην
 
 Analysis Type:
-Contextualize, Restore and Attribute
+Contextualize and Attribute
 
 Researcher:
 Stavroula Konstantopoulou
