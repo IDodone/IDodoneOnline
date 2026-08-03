@@ -9,7 +9,7 @@ Input:
 τον ναιον και ταν διωναν ωσπερ αμες τοι αλαοι
 
 Analysis Type:
-Contextualize, Restore and Attribute
+Contextualize and Attribute
 
 Researcher:
 Stavroula Konstantopoulou
