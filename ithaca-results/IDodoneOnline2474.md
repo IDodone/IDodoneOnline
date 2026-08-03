@@ -9,7 +9,7 @@ Input:
 λυσανια αυτα μοι συμφερει και εστι αιτεοντι
 
 Analysis Type:
-Contextualize, Restore and Attribute
+Contextualize and Attribute
 
 Researcher:
 Stavroula Konstantopoulou
