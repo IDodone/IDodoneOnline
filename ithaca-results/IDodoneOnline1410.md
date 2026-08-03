@@ -9,7 +9,7 @@ Input:
 ει δε μηδεμιαν ταυταν ανελε
 
 Analysis Type:
-Contextualize, Restore and Attribute
+Contextualize and Attribute
 
 Researcher:
 Stavroula Konstantopoulou
