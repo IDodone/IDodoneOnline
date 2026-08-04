@@ -9,7 +9,7 @@ Input:
 ε ελ λιμενι χαλκοπολεμεν τυχαια
 
 Analysis Type:
-Contextualize, Restore and Attribute
+Contextualize and Attribute
 
 Researcher:
 Stavroula Konstantopoulou
