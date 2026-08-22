@@ -1,4 +1,4 @@
-# IDodone_Online_1370Α_Test_1
+# IDodone_Online_1370A_Test_1
 
 Date of Test: 2026-06-25
 
