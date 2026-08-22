@@ -1,4 +1,4 @@
-# IDodone_Online_35Α_37Β
+# IDodone_Online_35A_37B
 
 Date of Test: 2026-06-25
 
