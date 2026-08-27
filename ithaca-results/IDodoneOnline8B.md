@@ -8,7 +8,7 @@ Ithaca (Predicting the Past)
 Input: προβατευο ε με ----------
 
 Analysis Type:
-Contextualize, Restore and Attribute
+Contextualize and Attribute
 
 Researcher:
 Stavroula Konstantopoulou
