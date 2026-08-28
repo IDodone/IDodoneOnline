@@ -9,7 +9,7 @@ Input:
 γαν οικει ποτερα εν οποεντι ε και εν ορχομενοι ε και οπαι κα νος φερει
 
 Analysis Type:
-Contextualize, Restore and Attribute
+Contextualize and Attribute
 
 Researcher:
 Stavroula Konstantopoulou
