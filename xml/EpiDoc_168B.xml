@@ -56,7 +56,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                         <provenance type="found" when="1935"><placeName type="ancientFindspot" ref="#Dodona">Dodona</placeName>, Evangelidis’ excavation
                             1935 (?)</provenance>
                         <provenance type="observed"><orgName ref="#IoanninaMuseum">Archaeological Museum of Ioannina</orgName>
-                            <idno type="invNo">inv. M164</idno>.</provenance>
+                            <idno type="invNo">inv. M164</idno></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -115,7 +115,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 </div>
                 
             <div type="commentary" xml:space="preserve" xml:lang="en">
-                <p>The feminine noun <foreign xml:lang="grc">ἐκκαρπία</foreign> is now attested in the dossier of documents concerning the sale of land from Larissa, dated to 219 BC (<bibl><ptr target="#SEG"/>, <citedRange>63.406, l.17</citedRange></bibl>). According to the first editors (<bibl><ptr target="#HellyTziafalias2013"/>, <citedRange>151-152 n. 13</citedRange></bibl>), it is a hapax meaning <foreign xml:lang="fr">“les productions (littéralement les fruits qui viennent de)”.</foreign> </p>
+                <p>The feminine noun <foreign xml:lang="grc">ἐκκαρπία</foreign> is now attested in the dossier of documents concerning the sale of land from Larissa, dated to 219 BC (<bibl><ptr target="#SEG"/>, <citedRange>63.406, l.17</citedRange></bibl>). According to the first editors (<bibl><ptr target="#HellyTziafalias2013"/>, <citedRange>151-152 n. 13</citedRange></bibl>), it is a hapax meaning “<foreign xml:lang="fr">les productions (littéralement les fruits qui viennent de)</foreign>”.</p>
                 
             <p n="Ithaca Results">Ithaca predicts Phrygia (64.95%) and Bithynia (19.99%) as the most probable geographical origins of the inscription, whereas Epirus ranks only ninth, with a mere 0.53% probability. As for its chronological attribution, the highest probability falls at the beginning of the third century AD, specifically AD 210–220. See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline168B_2026_06_25.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline168B.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline168B_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
             </div>

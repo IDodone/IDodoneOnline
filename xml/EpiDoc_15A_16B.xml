@@ -36,9 +36,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                             </support>
                             </supportDesc>
                             <layoutDesc><layout>
-                                    <p>The tablet is inscribed on <rs type="sides" key="opisthographic">both sides</rs>. It preserves only one inscription on side A (15A) and three on side B (16B, <ref target="i-dodone-online-17b">17B</ref>, and 18B). Inscriptions 15A and 16B were written by the same hand: 15A records Thelytos’ question, while 16B gives his name. Evangelidis edited <ref target="i-dodone-online-17b">17B</ref> together with 16B, and <ref target="i-dodone-online-17b">17B</ref> is likewise included under the same lemma in <bibl><ptr target="#CIOD"/></bibl>. However, as the editors of <bibl><ptr target="#IDodoneDVC"/></bibl> point out, both <ref target="i-dodone-online-17b">17B</ref> and 18B are independent inscriptions. Inscription 18B was not identified by Evangelidis. </p>
+                                    <p>The tablet is inscribed on <rs type="sides" key="opisthographic">both sides</rs>. It preserves only one inscription on side A (15A) and three on side B (16B, <ref target="i-dodone-online-17b">17B</ref>, and 18B). Inscriptions 15A and 16B were written by the same hand: 15A records Thelytos’ question, while 16B bears his name. Evangelidis edited <ref target="i-dodone-online-17b">17B</ref> together with 16B, and <ref target="i-dodone-online-17b">17B</ref> is likewise included under the same lemma in <bibl><ptr target="#CIOD"/></bibl>. However, as the editors of <bibl><ptr target="#IDodoneDVC"/></bibl> point out, both <ref target="i-dodone-online-17b">17B</ref> and 18B are independent inscriptions. Inscription 18B was not identified by Evangelidis. </p>
                                     <p n="Dialect"><rs type="dialect" ref="#Doric">Doric</rs></p>
-                                    <p n="Alphabet"><rs type="alphabet" ref="#Archaic">Archaic (Corinthian)</rs>.</p>
+                                    <p n="Alphabet"><rs type="alphabet" ref="#Archaic">Archaic (Corinthian)</rs></p>
                             </layout></layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -54,7 +54,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                         </origin>
                         <provenance type="found" when="1952"><placeName type="ancientFindspot" ref="#Dodona">Dodona</placeName>, Evangelidis’ excavation 1952. The tablet was recorded in Evangelidis’ excavation diary on 12 September 1952.</provenance>   
                         <provenance type="observed"><orgName ref="#IoanninaMuseum">Archaeological Museum of Ioannina</orgName> 
-                            <idno type="invNo">inv. M41.</idno></provenance>
+                            <idno type="invNo">inv. M41</idno></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -78,7 +78,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                     <term type="textType" ref="#marriage">Marriage</term>
                 </keywords>
             </textClass>
-            <creation>Facsimile and photograph. On display at the exhibition</creation>
+            <creation>Facsimile and photograph</creation>
         </profileDesc>
         <revisionDesc>
             <change when="2026-06-15" who="#SK">Initial encoding by Stavroula Konstantopoulou.</change>     
@@ -87,7 +87,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
     <text>
         <body>
             <div type="bibliography" xml:space="preserve" xml:lang="en">
-                <p><bibl><ptr target="#Evangelidis1952"/>, <citedRange>302, no. 8, ph. 32</citedRange></bibl> (<bibl><ptr target="#BE"/> <citedRange>1956, 143.8</citedRange></bibl>; <bibl><ptr target="#SEG"/> <citedRange>15.388</citedRange></bibl>); <bibl><ptr target="#IDodoneLhôte"/> <citedRange>36</citedRange></bibl> (<bibl><ptr target="#MéndezDosuna2008"/>, <citedRange>67</citedRange></bibl>); <bibl><ptr target="#IDodoneDVC"/> <citedRange>15A+16B</citedRange></bibl> (<bibl><ptr target="#CIOD"/> <citedRange>15A+16B+17B</citedRange></bibl> [last consulted 10/07/2026]).</p>
+                <p><bibl><ptr target="#Evangelidis1952"/>, <citedRange>302, no. 8, ph. 32</citedRange></bibl> (<bibl><ptr target="#BE"/> <citedRange>1956, no. 143.8</citedRange></bibl>; <bibl><ptr target="#SEG"/> <citedRange>15.388</citedRange></bibl>); <bibl><ptr target="#IDodoneLhôte"/> <citedRange>36</citedRange></bibl> (<bibl><ptr target="#MéndezDosuna2008"/>, <citedRange>67</citedRange></bibl>); <bibl><ptr target="#IDodoneDVC"/> <citedRange>15A+16B</citedRange></bibl> (<bibl><ptr target="#CIOD"/> <citedRange>15A+16B+17B</citedRange></bibl> [last consulted 10/07/2026]).</p>
                 <p>Cf.
                 <bibl><ptr target="#Parker2016"/>, <citedRange>79 n.37</citedRange></bibl> (on <foreign xml:lang="grc">ἐFάω</foreign>); <bibl><ptr target="#MéndezDosuna2024"/>, <citedRange>§4.1</citedRange></bibl> (on <foreign xml:lang="grc">ἐFάω</foreign>).</p>
             </div>
@@ -107,20 +107,20 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 </div>
             <div type="apparatus" xml:space="preserve">
                 <app loc="l. 2"><rdg><foreign xml:lang="grc">ἔχ ΝΚΟΔΟΙ</foreign></rdg> <note><ptr target="#IDodoneLhôte"/>, for which the author suggests the interpretation <foreign xml:lang="grc">ἔχ ’ν Κδι</foreign></note> <rdg><foreign xml:lang="grc">ΗΟΔΟΙ</foreign></rdg> <note>Tsantsanoglou <foreign xml:lang="la">apud</foreign> <ptr target="#IDodoneDVC"></ptr></note> <rdg><foreign xml:lang="grc">ΕΧΟΝΚΟΔΟΙ</foreign> <ptr target="#CIOD"></ptr></rdg></app>
-<app loc="l. 3"><rdg><foreign xml:lang="grc">ΚΑΠΕΡ</foreign></rdg> <note>Evangelidis, with an incorrect division of words in the first part of the line.</note></app>
+<app loc="l. 3"><rdg><foreign xml:lang="grc">ΚΑΠΕΡ</foreign></rdg> <note><ptr target="#Evangelidis1952"/>, with an incorrect division of words in the first part of the line.</note></app>
             </div>
             <div type="translation" xml:space="preserve" xml:lang="en">
      <p>Thelytos whether he should depart, keeping the woman, keeping her in place, just as now, or leaving her. </p> 
-                <p>Thelytos. </p>
+                <p>Thelytos</p>
             </div>
             <div type="translation" xml:space="preserve" xml:lang="es">
         <p>Télito si debe marchar conservando a la mujer, conservándola en el lugar, como ahora, o dejándola. </p> 
-                <p>Télito. </p>
+                <p>Télito</p>
         </div>
             <div type="commentary" xml:space="preserve" xml:lang="en">
                 <p>Despite the clear reading of the inscription, its interpretation poses several difficulties, especially at the end of the second line, with the repetition of the participial form <foreign xml:lang="grc">ἔχν</foreign> and the sequence <foreign xml:lang="grc">ΚΟΔΟΙ</foreign>, which Lhôte declines to interpret. Even so, the overall purport of the text is clear: the disjunctive πότερα and the participles indicate that the consultation concerns the alternative between keeping the woman and leaving her. The hypothesis proposed by Méndez Dosuna (<foreign xml:lang="grc">κδοῖ</foreign> = <foreign xml:lang="grc">καὶ ὁδοῖ</foreign>, cf. <bibl><ptr target="#IDodoneDVC"/></bibl> <foreign xml:lang="la">ad comm.</foreign>), tentatively adopted here, provides one possible explanation of the problematic sequence, although it is not without difficulties. </p>
                 
-                <p n="Ithaca results">In the geographical output, Epirus ranks first with a high probability according to Ithaca (93.87%), while the chronological distribution peaks at 450-440 BC (44.43%). See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline15A_2026_06_24.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline15A.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline15A_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
+                <p n="Ithaca results">In the geographical output, Epirus ranks first with a high probability according to Ithaca (93.87%), while the chronological distribution peaks at 450-440 BC. See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline15A_2026_06_24.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline15A_16B.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline15A_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
                 </div>
         </body>
     </text>

@@ -61,7 +61,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                         </origin>
                         <provenance type="found" when="1935"><placeName type="ancientFindspot" ref="#Dodona">Dodona</placeName>, Evangelidis’ excavations 1935.</provenance>   
                         <provenance type="observed"><orgName ref="#IoanninaMuseum">Archaeological Museum of Ioannina</orgName> 
-                            <idno type="invNo">inv. M20; AMI 12209.</idno></provenance>
+                            <idno type="invNo">inv. M20; AMI 12209</idno></provenance>
                         <provenance type="observed" subtype="autopsied" resp="#CCL" when="2024"/>
                     </history>
                 </msDesc>
@@ -84,7 +84,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 <keywords>
                     <term type="textType" ref="#question">Question</term>
                     <term type="theme" ref="#offspring">Offspring</term>
-                    <term type="theme" ref="#tobesuccessful">To be successful.</term>
+                    <term type="theme" ref="#tobesuccessful">To be successful</term>
                 </keywords>
             </textClass>
             <creation> Facsimile, photograph, and autopsy conducted by Carlos Candel Lozano (2024)</creation>
@@ -97,9 +97,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
         <body>
             <div type="bibliography" xml:space="preserve" xml:lang="en">
                 <p>
-                      <bibl><ptr target="#IDodoneDVC"/> <citedRange>7B</citedRange></bibl>; <bibl><ptr target="#CIOD"/> <citedRange>7B</citedRange> </bibl>.</p>
+                      <bibl><ptr target="#IDodoneDVC"/> <citedRange>7B</citedRange></bibl> (<bibl><ptr target="#CIOD"/> <citedRange>7B</citedRange>[last consulted 27/06/2026]).</bibl></p>
+
                 <p>
-        Cf. <bibl><ptr target="#Bonnechere2018"/>, <citedRange>§25 n. 80</citedRange> (on <foreign xml:lang="grc">ἱλάσκομαι</foreign>)</bibl>; <bibl><ptr target="#Crosby2022"/>, <citedRange>84 n. 64</citedRange> (on the use of the optative)</bibl>; <bibl><ptr target="#Georgoudi"/> <citedRange>forthcoming</citedRange> (on <foreign xml:lang="grc">ἱλάσκομαι</foreign>).</bibl>
+        Cf. <bibl><ptr target="#Bonnechere2018"/>, <citedRange>§25 n. 80</citedRange> (on <foreign xml:lang="grc">ἱλάσκομαι</foreign>)</bibl>; <bibl><ptr target="#Crosby2022"/>, <citedRange>84 n. 64</citedRange> (on the use of the optative)</bibl>; <bibl><ptr target="#Georgoudiforthcoming"/> (on <foreign xml:lang="grc">ἱλάσκομαι</foreign>).</bibl>
     </p>
 </div>
             <div type="edition" xml:space="preserve" xml:lang="grc">
@@ -110,27 +111,27 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
             </ab>
 </div>
 <div type="apparatus" xml:space="preserve">
-<app loc="l. 1"><lem>ἐ͂ Ϝοίκοι <supplied reason="omitted">μένων</supplied></lem><rdg resp="#IDodoneDVC"></rdg><note><foreign xml:lang="la">dub.</foreign></note>
+<app loc="l. 1"><lem>ἐ͂ Ϝοίκοι <supplied reason="omitted">μένων</supplied></lem><rdg resp="#IDodoneDVC"></rdg><note><foreign xml:lang="la">dub</foreign>.</note>
 </app>
 
 <app loc="l. 3"><lem>τυγχάνοι<supplied reason="omitted">μι</supplied></lem><rdg resp="#IDodoneDVC"></rdg><note>(<foreign xml:lang="la">ad comm.</foreign>), to avoid the shift from the first to the third person.</note>
 </app>
 
-<app loc="ll. 3-4"><lem>ἱλασ|<supplied reason="lost">κ</supplied>όμεν<supplied reason="lost">ος</supplied></lem><rdg resp="#IDodoneDVC"></rdg><rdg>ἱλασ|<supplied reason="lost">κ</supplied>όμεν<supplied reason="lost">ος θεούς</supplied> <note>Carbon <foreign xml:lang="la">apud</foreign> <ptr target="#CIOD"/></note>.</rdg>
+<app loc="ll. 3-4"><lem>ἱλασ|<supplied reason="lost">κ</supplied>όμεν<supplied reason="lost">ος</supplied></lem><rdg resp="#IDodoneDVC"></rdg><rdg>ἱλασ|<supplied reason="lost">κ</supplied>όμεν<supplied reason="lost">ος θεούς</supplied> <note>Carbon <foreign xml:lang="la">apud</foreign> <ptr target="#CIOD"/></note></rdg>
 </app>
 </div>
 
 <div type="translation" xml:space="preserve" xml:lang="en">
-     <p>Would I fare better at home and succeed in having children by appeasing the gods? </p>
+     <p>Would I fare better at home and succeed in having children by propitiating the gods? </p>
 </div>            
 <div type="translation" xml:space="preserve" xml:lang="es">
 <p>¿Me iría mejor en casa y conseguiría tener hijos propiciando a los dioses? </p>
 </div>
             
 <div type="commentary" xml:space="preserve" xml:lang="en">
-<p>On <foreign xml:lang="grc">ἱλάσκομαι</foreign> in the oracular tablets, see <bibl><ptr target="#Bonnechere2018"/></bibl> and, especially, <bibl><ptr target="#Georgoudi"/> <citedRange>forthcoming </citedRange></bibl>. Owing to the lack of context, it is not possible to determine whether the verb means “to appease” or “to propitiate” the gods.</p>
+<p>On <foreign xml:lang="grc">ἱλάσκομαι</foreign> in the oracular tablets, see <bibl><ptr target="#Bonnechere2018"/></bibl> and, especially, <bibl><ptr target="#Georgoudiforthcoming"/></bibl>. Given the lack of context, it is unclear whether the verb means to appease the gods for an offence requiring expiation or simply to propitiate them and secure their favour.</p>
                 
-                 <p n="Ithaca results">Ithaca attributes the inscription to Epirus with high accuracy (91.42%) and dates it to the mid-fifth century BC. Notably, the probability distribution is strongly concentrated in 450-440 BC (27.27%). As for the restoration outputs, Ithaca clearly favours the restoration <foreign xml:lang="grc">ἱλασκόμενος</foreign>, while the remaining alternatives receive substantially lower confidence scores. See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline7B_2026_06_24.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline7B.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline7B_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
+                 <p n="Ithaca results">Ithaca attributes the inscription to Epirus with high accuracy (91.42%) and dates it to the mid-fifth century BC. Notably, the probability distribution is strongly concentrated in 450-440 BC. As for the restoration outputs, Ithaca clearly favours the restoration <foreign xml:lang="grc">ἱλασκόμενος</foreign>, while the remaining alternatives receive substantially lower confidence scores. See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline7B_2026_06_24.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline7B.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline7B_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
                 </div>
         </body>
     </text>

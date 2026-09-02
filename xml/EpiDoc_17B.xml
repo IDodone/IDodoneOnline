@@ -36,9 +36,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                             </support>
                             </supportDesc>
                             <layoutDesc><layout>
-                                    <p>Lead tablet with a single fold. It preserves one inscription on side A (<ref target="i-dodone-online-15a">15A</ref>) and three on side B (<ref target="i-dodone-online-16b">16B</ref>, 17B, and 18B). Inscriptions <ref target="i-dodone-online-15a">15A</ref> and <ref target="i-dodone-online-16b">16B</ref> were written by the same hand: <ref target="i-dodone-online-15a">15A</ref> records Thelytos’ question, whereas <ref target="i-dodone-online-16b">16B</ref> gives only his name. Evangelidis edited 17B together with <ref target="i-dodone-online-16b">16B</ref>, and <bibl><ptr target="#CIOD"/></bibl> likewise includes both texts under the same lemma. As the editors of <bibl><ptr target="#IDodoneDVC"/></bibl> point out, however, 17B and 18B are independent inscriptions, with 17B incised over 18B, which is therefore earlier. Inscription 18B was not identified by Evangelidis.</p>
-                                    <p n="Dialect"><rs type="dialect" ref="#Thessalian">Thessalian (Histiaeotis)</rs>.</p>
-                                    <p n="Alphabet"><rs type="alphabet" ref="#Archaic">Archaic, red (Ψ for X)</rs>.</p>
+                                    <p>Lead tablet with a single fold. It preserves one inscription on side A (<ref target="i-dodone-online-15a16b">15A</ref>) and three on side B (<ref target="i-dodone-online-15a16b">16B</ref>, 17B, and 18B). Inscriptions <ref target="i-dodone-online-15a16b">15A</ref> and <ref target="i-dodone-online-15a16b">16B</ref> were written by the same hand: <ref target="i-dodone-online-15a16b">15A</ref> records Thelytos’ question, whereas <ref target="i-dodone-online-15a16b">16B</ref> bears only his name. Evangelidis edited 17B together with <ref target="i-dodone-online-15a16b">16B</ref>, and <bibl><ptr target="#CIOD"/></bibl> likewise includes both texts under the same lemma. As the editors of <bibl><ptr target="#IDodoneDVC"/></bibl> point out, however, 17B and 18B are independent inscriptions, with 17B incised over 18B, which is therefore earlier. Inscription 18B was not identified by Evangelidis.</p>
+                                    <p n="Dialect"><rs type="dialect" ref="#Thessalian">Thessalian (Histiaeotis)</rs></p>
+                                    <p n="Alphabet"><rs type="alphabet" ref="#Archaic">Archaic, red (Ψ for X)</rs></p>
                             </layout></layoutDesc>
                         </objectDesc>
                     </physDesc>
@@ -49,7 +49,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                         </origin>
                         <provenance type="found" when="1952"><placeName type="ancientFindspot" ref="#Dodona">Dodona</placeName>, Evangelidis’ excavation 1952.</provenance>   
                         <provenance type="observed"><orgName ref="#IoanninaMuseum">Archaeological Museum of Ioannina</orgName> 
-                            <idno type="invNo">inv. M41.</idno></provenance>
+                            <idno type="invNo">inv. M41</idno></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -73,7 +73,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                     <term type="textType" ref="#unspecified">Unspecified</term>
                 </keywords>
             </textClass>
-            <creation>Facsimile and photograph. On display at the exhibition</creation>
+            <creation>Facsimile and photograph</creation>
         </profileDesc>
         <revisionDesc>
             <change when="2026-06-15" who="#SK">Initial encoding by Stavroula Konstantopoulou.</change>     
@@ -82,23 +82,28 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
     <text>
         <body>
             <div type="bibliography" xml:space="preserve" xml:lang="en">
-                <p><bibl><ptr target="#Evangelidis1952"/>, <citedRange>302</citedRange></bibl> (<bibl><ptr target="#BE"/> <citedRange>1956, 143.8</citedRange></bibl>; <bibl><ptr target="#SEG"/> <citedRange>15.388</citedRange></bibl>); <bibl><ptr target="#IDodoneLhôte"/> <citedRange>36</citedRange></bibl> (<bibl><ptr target="#MéndezDosuna2008"/>, <citedRange>72</citedRange></bibl>; <bibl><ptr target="#NietoIzquierdo2017"/>, <citedRange>113</citedRange></bibl>); <bibl><ptr target="#IDodoneDVC"/> <citedRange>17B</citedRange></bibl> (<bibl><ptr target="#MéndezDosuna2018b"/>, <citedRange>287</citedRange></bibl>; <bibl><ptr target="#Johnston2021"/>, <citedRange>111, 112</citedRange></bibl>; <bibl><ptr target="#CIOD"/> <citedRange>15A+16B+17B</citedRange></bibl> [last consulted 10/07/2026]).</p>
+                <p><bibl><ptr target="#Evangelidis1952"/>, <citedRange>302</citedRange></bibl> (<bibl><ptr target="#BE"/> <citedRange>1956, no. 143.8</citedRange></bibl>; <bibl><ptr target="#SEG"/> <citedRange>15.388</citedRange></bibl>); <bibl><ptr target="#IDodoneLhôte"/> <citedRange>36</citedRange></bibl> (<bibl><ptr target="#MéndezDosuna2008"/>, <citedRange>72</citedRange></bibl>; <bibl><ptr target="#NietoIzquierdo2019"/>, <citedRange>113</citedRange></bibl>); <bibl><ptr target="#IDodoneDVC"/> <citedRange>17B</citedRange></bibl> (<bibl><ptr target="#MéndezDosuna2018b"/>, <citedRange>287</citedRange></bibl>; <bibl><ptr target="#Johnston2021"/>, <citedRange>111, 112</citedRange></bibl>; <bibl><ptr target="#CIOD"/> <citedRange>15A+16B+17B</citedRange></bibl> [last consulted 10/07/2026]).</p>
                 </div>
 <div type="edition" xml:space="preserve" xml:lang="grc">
     <ab>
         <lb n="1"/>αἰ κα μὰ ἔχ; 
     </ab>
 </div>
-            <div type="translation" xml:space="preserve" xml:lang="en">
+            <div type="apparatus" xml:space="preserve">
+    <app loc="l. 1">
+        <note>According to <bibl><ptr target="#IDodoneDVC"/></bibl>, <foreign xml:lang="grc">ΜΑ</foreign> was first inscribed <foreign xml:lang="grc">ΜΕ</foreign>; <foreign xml:lang="grc">ΑΙΚΑΝ.ΑΕΧΟΝ</foreign>: <bibl><ptr target="#Evangelidis1952"/></bibl>; <foreign xml:lang="grc">αἰ κ’ ἄλ̣λ̣α̣ν̣ ἔχ</foreign>: <bibl><ptr target="#IDodoneLhôte"/></bibl>; <foreign xml:lang="grc">αἰ κα μὰ ἔχ</foreign>: <bibl><ptr target="#IDodoneDVC"/></bibl>; <foreign xml:lang="grc">ΑΙΚΑΜΑ̣Λ̣ ἔχ</foreign>: <bibl><ptr target="#CIOD"/></bibl>, for which Carbon conjectures <foreign xml:lang="grc">αἰ καμάν</foreign>.</note>
+    </app>
+</div>
+  <div type="translation" xml:space="preserve" xml:lang="en">
      <p>If I do not have?</p>
             </div>
             <div type="translation" xml:space="preserve" xml:lang="es">
         <p>¿Si no tengo?</p>
         </div>
             <div type="commentary" xml:space="preserve" xml:lang="en">
-<p>According to Lhôte (<bibl><ptr target="#IDodoneLhôte"/></bibl>), this is a summary of Thelytos’ enquiry written by the personnel of the sanctuary in the local alphabet of Dodona. This hypothesis was rightly questioned by  <bibl><ptr target="#Johnston2021"/></bibl>, who, in turn, identified the text as the oracle’s response, although without further explanation (for the vexed question of the responses on the oracular tablets, see <bibl><ptr target="#MartínGonzález2021"/></bibl>). The different dialect, alphabet, letter forms, and phraseology used in this text, however, indicate that it is an independent enquiry, as argued by the editors of <bibl><ptr target="#IDodoneDVC"/></bibl>. If their reading is correct, the text consists of a concise question whose object remains unexpressed. The consultation takes the form of a conditional sentence introduced by αἰ (for this formulation in the oracular tablets, see <bibl><ptr target="#NietoIzquierdo2017"/></bibl>). On the negative <foreign xml:lang="grc">μά</foreign> for <foreign xml:lang="grc">μή</foreign>, see <bibl><ptr target="#MéndezDosuna2018b"/>, <citedRange>287</citedRange>.</bibl></p>
+<p>According to Lhôte (<bibl><ptr target="#IDodoneLhôte"/></bibl>), this is a summary of Thelytos’ enquiry written by the personnel of the sanctuary in the local alphabet of Dodona. This hypothesis was rightly questioned by  <bibl><ptr target="#Johnston2021"/></bibl>, who, in turn, identified the text as the oracle’s response, although without further explanation (for the vexed question of the responses on the oracular tablets, see <bibl><ptr target="#MartínGonzález2021"/></bibl>). The different dialect, alphabet, letter forms, and phraseology used in this text, however, indicate that it is an independent enquiry, as argued by the editors of <bibl><ptr target="#IDodoneDVC"/></bibl>. If their reading is correct, the text consists of a concise question whose object remains unexpressed. The consultation takes the form of a conditional sentence introduced by αἰ (for this formulation in the oracular tablets, see <bibl><ptr target="#NietoIzquierdo2019"/></bibl>). On the negative <foreign xml:lang="grc">μά</foreign> for <foreign xml:lang="grc">μή</foreign>, see <bibl><ptr target="#MéndezDosuna2018b"/>, <citedRange>287</citedRange>.</bibl></p>
                  
-                <p n="Ithaca results">Delphi ranks first with a probability of 29.54%, followed by Epirus in second place (14.86%). Chronologically, the highest probability (4.87%) is assigned to the 450-440 BC interval, although the model distributes comparable probabilities across a broad range of dates. See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline17B_2026_06_24.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline17B.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline17B_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
+                <p n="Ithaca results">In the first test, in which no space was included before the dashes used to pad the short text, Delphi ranks first with a probability of 29.54%, followed by Epirus (14.86%). Chronologically, the highest probability (4.87%) is assigned to the 450-440 BC interval, although the model distributes comparable probabilities across a broad range of dates. In the second test, in which a space was inserted before the dashes, Epirus ranks first (57.06%), while the probability assigned to the 450-440 BC interval increases substantially, from 4.87% to 14.34%. See Ithaca results and metadata for both tests, as well as snapshots of the geographical attribution. Test 1: <ref target="https://dodonaonline.com/wp-content/uploads/2026/09/IDodoneOnline17B_Test_1_2026_06_24.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline17B_Test_1.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/09/IDodoneOnline17B_Test_1_geographical-attribution_2026_06.jpg">geographical attribution</ref>; Test 2: <ref target="https://dodonaonline.com/wp-content/uploads/2026/09/IDodoneOnline17B_Test_2_2026_06_24.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline17B_Test_2.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/09/IDodoneOnline17B_Test_2_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
                 </div>
         </body>
     </text>

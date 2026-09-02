@@ -35,14 +35,15 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                                             <width unit="cm">6.8</width>
                                             <depth unit="cm">0.16</depth>
                                         </dimensions>
+                                        <measure type="weight" unit="g"></measure>
                                     </p>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <p>The tablet is nscribed on <rs type="sides" key="opisthographic">both sides</rs>. It preserves another inscription on the same side (<ref target="i-dodone-online-7b">7B</ref>), with respect to which the present text is inscribed upside down. The present text overlaps the last line of <ref target="i-dodone-online-7b">7B</ref>, rendering its final letters illegible. On the opposite side, two inscriptions (<ref target="i-dodone-online-5a">5A</ref> and <ref target="i-dodone-online-6a">6A</ref>), together with traces of earlier texts, are preserved.</p>
+                                    <p>The tablet is inscribed on <rs type="sides" key="opisthographic">both sides</rs>. It preserves another inscription on the same side (<ref target="i-dodone-online-7b">7B</ref>), with respect to which the present text is inscribed upside down. The present text overlaps the last line of <ref target="i-dodone-online-7b">7B</ref>, rendering its final letters illegible. On the opposite side, two inscriptions (<ref target="i-dodone-online-5a">5A</ref> and <ref target="i-dodone-online-6a">6A</ref>), together with traces of earlier texts, are preserved.</p>
                                         <p n="Alphabet"><rs type="alphabet" ref="#archaic">Archaic</rs>, 
-                                        <rs type="alphabet" ref="#red">red</rs> (R for P).</p>
+                                        <rs type="alphabet" ref="#red">red</rs> (R for P)</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -60,7 +61,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                         </origin>
                         <provenance type="found" when="1935"><placeName type="ancientFindspot" ref="#Dodona">Dodona</placeName>, Evangelidis’ excavation 1935.</provenance>
                         <provenance type="observed"><orgName ref="#IoanninaMuseum">Archaeological Museum of Ioannina</orgName>
-                            <idno type="invNo">inv. M20; AMI 12209.</idno></provenance>
+                            <idno type="invNo">inv. M20; AMI 12209</idno></provenance>
                         <provenance type="observed" subtype="autopsied" resp="#CCL" when="2024"/>
                     </history>
                 </msDesc>
@@ -95,7 +96,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
         <body>
             <div type="bibliography" xml:space="preserve" xml:lang="en">
                 <p>
-                <bibl><ptr target="#IDodoneDVC"/> <citedRange>8B</citedRange>.</bibl>
+                <bibl><ptr target="#IDodoneDVC"/> <citedRange>8B</citedRange></bibl>
                     </p>
                       <p>Cf. 
                       <bibl><ptr target="#AnagnostopoulouGalaniMenti2022"/>, <citedRange>243 n. 15</citedRange></bibl> (on oracular questions about professional activity).
@@ -115,7 +116,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 <div type="commentary" xml:space="preserve" xml:lang="en"> 
                     <p>For questions concerning animal husbandry (a frequent topic of enquiry in the Dodona oracular corpus), see the commentaries of the first editors and <bibl><ptr target="#AnagnostopoulouGalaniMenti2022"/>, <citedRange>243</citedRange>. </bibl></p>
                     
-   <p n="Ithaca Results">Ithaca identifies Epirus as the most probable geographical origin of the inscription (40.77%), followed by the Saronic Gulf, Corinthia, and the Argolid (33.12%). Chronologically, the highest probability is assigned to the interval 550-540 BC (9.49%), although the interval 450-440 BC receives a nearly identical probability (8.80%).
+   <p n="Ithaca Results">Ithaca identifies Epirus as the most probable geographical origin of the inscription (40.77%), followed by the Saronic Gulf, Corinthia, and the Argolid (33.12%). Chronologically, the highest probability is assigned to the interval 550-540 BC, although the interval 450-440 BC receives a nearly identical probability.
    See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline8B_2026_06_29.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline8B.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline8B_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
             </div>
         </body>

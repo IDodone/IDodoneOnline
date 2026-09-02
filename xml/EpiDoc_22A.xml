@@ -57,7 +57,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                         </origin>
                         <provenance type="found" when="1953"><placeName type="ancientFindspot" ref="#Dodona">Dodona</placeName>, Evangelidis’ excavation 1953.</provenance>   
                         <provenance type="observed"><orgName ref="#IoanninaMuseum">Archaeological Museum of Ioannina</orgName> 
-                            <idno type="invNo">inv. M45; AMI 12190.</idno></provenance>
+                            <idno type="invNo">inv. M45; AMI 12190</idno></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -92,7 +92,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
     <text>
         <body>
             <div type="bibliography" xml:space="preserve" xml:lang="en">
-                <p><bibl><ptr target="#IDodoneDVC"/> <citedRange>22A</citedRange></bibl> (<bibl><ptr target="#Vecchio2019"/>, <citedRange>111</citedRange></bibl>; <bibl><ptr target="#Laes"/>, <citedRange>186 n. 22, 193 n. 58</citedRange></bibl>; <bibl><ptr target="#CIOD"/> <citedRange>22A</citedRange></bibl>;) <bibl><ptr target="#Τομαντείοτωνήχων"/> <citedRange>88 no 78 (I. Katsadima)</citedRange></bibl>; <bibl><ptr target="#Dodonaios"/>, <citedRange>279 no 28 (I. Katsadima)</citedRange></bibl>.</p>
+                <p><bibl><ptr target="#IDodoneDVC"/> <citedRange>22A</citedRange></bibl> (<bibl><ptr target="#Vecchio2019"/>, <citedRange>111</citedRange></bibl>; <bibl><ptr target="#Laes2020"/>, <citedRange>186 n. 22, 193 n. 58</citedRange></bibl>; <bibl><ptr target="#CIOD"/> <citedRange>22A</citedRange>[last consulted 29/06/2026]</bibl>); <bibl><ptr target="#Τομαντείοτωνήχων"/> <citedRange>88 no 78 (I. Katsadima)</citedRange></bibl>; <bibl><ptr target="#Dodonaios"/>, <citedRange>279 no 28 (I. Katsadima)</citedRange></bibl>.</p>
                     <p>Cf. <bibl><ptr target="#Meyer2017"/>, <citedRange>152</citedRange> (on slaves in the oracular tablets)</bibl>; <bibl><ptr target="#Katsadima2023"/>, <citedRange> 52</citedRange> (photograph)</bibl>.</p>
                 </div>
 <div type="edition" xml:space="preserve" xml:lang="grc">
@@ -104,20 +104,21 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 </div>
             <div type="apparatus" xml:space="preserve">
     <app loc="l. 1"><rdg resp="#IDodoneDVC">
-            Κορυ<supplied reason="omitted">δ</supplied><unclear>ά</unclear>λλας</rdg> <note> and Katsadima, in <ptr target="#Τομαντείοτωνήχων"/></note> <rdg>Κορυδ<unclear>ά</unclear>λλας</rdg> <note>Katsadima, in <ptr target="#Dodonaios"/>.</note> <note>In the photograph, both the delta in the fold and the horizontal bar of the alpha are visible.</note>
+            Κορυ<supplied reason="omitted">δ</supplied><unclear>ά</unclear>λλας</rdg> <note> and Katsadima, in <ptr target="#Τομαντείοτωνήχων"/></note> <rdg>Κορυδ<unclear>ά</unclear>λλας</rdg> <note>Katsadima, in <ptr target="#Dodonaios"/>.</note> <note>In the photograph, both the delta in the fold and the horizontal bar of the alpha are visible.</note></app>
+          <app loc="l. 3"><rdg resp="#IDodoneDVC"><supplied reason="lost">κ</supplied>α<unclear>θ</unclear>άπερ</rdg><note>, but in the photograph all letters can be confirmed.</note>
     </app>
 </div>
             
   <div type="translation" xml:space="preserve" xml:lang="en">
-     <p>About Korydallas and the children of Korydalla, would I be successful purchasing them just as a father?</p>
+     <p>About Korydallas and the children of Korydalla, would I be successful possessing them as a father?</p>
             </div>
             <div type="translation" xml:space="preserve" xml:lang="es">
-        <p>Sobre Coridala y los hijos de Coridala, ¿tendría éxito si los comprara, como un padre?</p>
+        <p>Sobre Coridala y los hijos de Coridala, ¿tendría éxito si fuera su propietario, como un padre?</p>
         </div>
                 <div type="commentary" xml:space="preserve" xml:lang="en"> 
-                <p>On the productive lexical family of <foreign xml:lang="grc">πάομαι</foreign> (Att.-Ion. <foreign xml:lang="grc">κτάομαι</foreign>) in the oracular tablets, see <bibl><ptr target="#MéndezDosuna2007"/>, <citedRange>302-304</citedRange></bibl> and <bibl><ptr target="#MéndezDosuna2024"/>, <citedRange>§ 4.1</citedRange></bibl>. Lhôte (<bibl><ptr target="#CIOD"/></bibl>) suggests that this is the same consultant as in <foreign xml:lang="la">I. Dodone Online</foreign> <ref target="i-dodone-online-19a">19A</ref>, but the identification remains speculative.</p>
+                <p>Korydalla appears to be a female slave, but her relationship with the consultant is uncertain and depends on the interpretation of the phrase καθάπερ πατήρ, generally understood as referring to the consultant as the father of Korydalla’s children; see, for instance, <bibl><ptr target="#Laes2020"/></bibl>, who interprets the text in the context of a man having children with a female slave belonging to another owner. On the productive lexical family of <foreign xml:lang="grc">πάομαι</foreign> (Att.-Ion. <foreign xml:lang="grc">κτάομαι</foreign>) in the oracular tablets, see <bibl><ptr target="#MéndezDosuna2007d"/>, <citedRange>302-304</citedRange></bibl> and <bibl><ptr target="#MéndezDosuna2024"/>, <citedRange>§4.1</citedRange></bibl>. On slavery in the oracular tablets, see <bibl><ptr target="#Meyer2017"/></bibl>; on female slaves as inquirers at Dodona, see <bibl><ptr target="#Katsadima2017a"/>, <citedRange>135-136</citedRange></bibl> and <bibl><ptr target="#Frank2024"/>, <citedRange>98-102</citedRange></bibl>. Lhôte (<bibl><ptr target="#CIOD"/></bibl>) suggests that this is the same consultant as in <foreign xml:lang="la">I. Dodone Online</foreign> <ref target="i-dodone-online-19a">19A</ref>, but the identification remains speculative.</p>
      
-<p n="Ithaca results">The model identifies Epirus as the most likely provenance of the inscription, assigning it a probability of 87.90%. The chronological distribution reaches its maximum in 350-340 BC, with a probability of 16.40%. As for the restoration, καθάπερ (l. 3) is ranked first with overwhelming confidence. The remaining nineteen hypotheses must be rejected, as they are not linguistically valid Greek restorations. See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline22A_2026_06_24.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline22A.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline22A_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
+<p n="Ithaca results">The model identifies Epirus as the most likely provenance of the inscription, assigning it a probability of 87.90%. The chronological distribution reaches its maximum in 350-340 BC. As for the restoration in l. 3, <foreign xml:lang="grc">καθάπερ</foreign> is ranked first with overwhelming confidence. The remaining nineteen hypotheses must be rejected, as they are not linguistically valid Greek restorations. See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline22A_2026_06_24.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline22A.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline22A_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
                 </div>
         </body>
     </text>

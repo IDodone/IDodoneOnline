@@ -6,7 +6,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Private enquiry regarding property acquisition</title>
+                <title>Private enquiry regarding the acquisition of property</title>
                 <editor xml:id="EMG">Elena Martín González</editor>
                 <editor xml:id="SK">Stavroula Konstantopoulou</editor>
                 <editor xml:id="CCL" role="autopsy">Carlos Candel Lozano</editor>
@@ -58,7 +58,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                         </origin>
                         <provenance type="found" when="1935"><placeName type="ancientFindspot" ref="#Dodona">Dodona</placeName>, Evangelidis’ excavation 1935.</provenance>   
                         <provenance type="observed"><orgName ref="#IoanninaMuseum">Archaeological Museum of Ioannina</orgName> 
-                            <idno type="invNo">inv. M20; AMI 12209.</idno></provenance>
+                            <idno type="invNo">inv. M20; AMI 12209</idno></provenance>
                         <provenance type="observed" subtype="autopsied" resp="#CCL" when="2024"/>
                     </history>
                 </msDesc>
@@ -93,7 +93,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
         <body>
             <div type="bibliography" xml:space="preserve" xml:lang="en">
                     <p>
-                      <bibl><ptr target="#IDodoneDVC"/> <citedRange>6A</citedRange></bibl>; <bibl><ptr target="#CIOD"/> <citedRange>6A</citedRange> </bibl> [last consulted 03/07/2026]).</p>
+                      <bibl><ptr target="#IDodoneDVC"/> <citedRange>6A</citedRange></bibl> (<bibl><ptr target="#CIOD"/> <citedRange>6A</citedRange> </bibl> [last consulted 03/07/2026]).</p>
                 <p>
                       Cf. <bibl><ptr target="#MéndezDosuna2007d"/>, <citedRange>303 nn. 65, 68</citedRange> (on <foreign xml:lang="grc">πεπαμένος</foreign>)</bibl>; <bibl><ptr target="#CrespoGiannakis2019"/>, <citedRange>41</citedRange> (on dialect mixture)</bibl>; <bibl><ptr target="#Crosby2022"/>, <citedRange>84 n. 64</citedRange> (on the use of the optative)</bibl>; <bibl><ptr target="#MéndezDosuna2024"/>, <citedRange>§7</citedRange> (on <foreign xml:lang="grc">πεπαμένος</foreign>)</bibl>.
                     </p>
@@ -108,13 +108,14 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 <app loc="l. 2"><note>i.e.</note> <rdg>πράσ<supplied reason="omitted">σ</supplied>οι</rdg></app>
             </div>
             <div type="translation" xml:space="preserve" xml:lang="en">
-                <p>Has he acquired it, and would he fare better for having acquired it?</p>
+                <p>Does he possess it, and would he fare better possessing it?
+</p>
                 </div>
             <div type="translation" xml:space="preserve" xml:lang="es">
-                <p>¿Lo ha adquirido y le iría mejor habiéndolo adquirido?</p>
+                <p>¿Lo posee y le iría mejor poseyéndolo?</p>
             </div>
             <div type="commentary" xml:space="preserve" xml:lang="en">
-                <p>On the productive lexical family of <foreign xml:lang="grc">πάομαι</foreign> (Att.-Ion. <foreign xml:lang="grc">κτάομαι</foreign>) in the oracular tablets, see <bibl><ptr target="#MéndezDosuna2007"/>, <citedRange>302-304</citedRange></bibl> and <bibl><ptr target="#MéndezDosuna2024"/>, <citedRange>§4.1</citedRange></bibl>. For misspellings in the oracular lamellae, see <bibl><ptr target="#MéndezDosuna2018b"/>, <citedRange>267-272</citedRange></bibl>.</p>
+                <p>On the productive lexical family of <foreign xml:lang="grc">πάομαι</foreign> (Att.-Ion. <foreign xml:lang="grc">κτάομαι</foreign>) in the oracular tablets, see <bibl><ptr target="#MéndezDosuna2007d"/>, <citedRange>302-304</citedRange></bibl> and <bibl><ptr target="#MéndezDosuna2024"/>, <citedRange>§4.1</citedRange></bibl>. For misspellings in the oracular lamellae, see <bibl><ptr target="#MéndezDosuna2018b"/>, <citedRange>267-272</citedRange></bibl>.</p>
                 
                  <p n="Ithaca results">Ithaca attributes the inscription to Epirus with a confidence of 94.23% and dates it most probably to the beginning of the fourth century BC, with a peak probability for 400-390 BC. See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline6A_2026_06_24.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline6A.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline6A_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
                 </div>

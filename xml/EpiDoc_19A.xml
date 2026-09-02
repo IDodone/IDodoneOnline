@@ -58,7 +58,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                         </origin>
                         <provenance type="found" when="1952"><placeName type="ancientFindspot" ref="#Dodona">Dodona</placeName>, Evangelidis’ excavation 1952. The tablet was recorded in Evangelidis’ excavation diary on 12 September 1952.</provenance>   
                         <provenance type="observed"><orgName ref="#IoanninaMuseum">Archaeological Museum of Ioannina</orgName> 
-                            <idno type="invNo">inv. M43; AMI 12204.</idno></provenance>
+                            <idno type="invNo">inv. M43; AMI 12204</idno></provenance>
                         <provenance type="observed" subtype="autopsied" resp="#SK" when="2025"/>
                     </history>
                 </msDesc>
@@ -94,8 +94,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
     <text>
         <body>
             <div type="bibliography" xml:space="preserve" xml:lang="en">
-                <p><bibl><ptr target="#Evangelidis1952"/>, <citedRange>306 no 24</citedRange></bibl>; <bibl><ptr target="#SEG"/> <citedRange>15.396</citedRange></bibl>; <bibl><ptr target="#Eidinow2007"/>, <citedRange>84 no 5</citedRange></bibl>; <bibl><ptr target="#IDodoneLhôte"/>  <citedRange>40</citedRange></bibl>); <bibl><ptr target="#IDodoneDVC"/> <citedRange>19A</citedRange></bibl> (<bibl><ptr target="#CIOD"/> <citedRange>19A</citedRange></bibl>[last consulted 10/07/2026]).</p>
-                <p>Cf. <bibl><ptr target="#MéndezDosuna2007d"/>, <citedRange>303 n. 66</citedRange></bibl></p>
+                <p><bibl><ptr target="#Evangelidis1952"/>, <citedRange>306 no 24</citedRange></bibl> (<bibl><ptr target="#SEG"/> <citedRange>15.396</citedRange></bibl>; <bibl><ptr target="#Eidinow2007"/>, <citedRange>84 no 5</citedRange></bibl>; <bibl><ptr target="#IDodoneLhôte"/>  <citedRange>40</citedRange></bibl>); <bibl><ptr target="#IDodoneDVC"/> <citedRange>19A</citedRange></bibl> (<bibl><ptr target="#CIOD"/> <citedRange>19A</citedRange></bibl>[last consulted 10/07/2026]).</p>
+                <p>Cf. <bibl><ptr target="#MéndezDosuna2007d"/>, <citedRange>303 n. 66</citedRange></bibl>; <bibl><ptr target="#Crosby2022"/>, <citedRange>84 n. 64</citedRange></bibl> (on the use of the optative).</p>
                  </div>
 <div type="edition" xml:space="preserve" xml:lang="grc">
     <ab>
@@ -108,15 +108,15 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
             </div>
             
             <div type="translation" xml:space="preserve" xml:lang="en">
-     <p>Better for him to purchase a woman?</p>
+     <p>Better for him to acquire a woman?</p>
             </div>
             <div type="translation" xml:space="preserve" xml:lang="es">
-        <p>¿Mejor para él comprar una mujer?</p>
+        <p>¿Mejor para él adquirir una mujer?</p>
         </div>
             <div type="commentary" xml:space="preserve" xml:lang="en">
-<p>On the productive lexical family of <foreign xml:lang="grc">πάομαι</foreign> (Att.-Ion. <foreign xml:lang="grc">κτάομαι</foreign>) in the oracular tablets, see <bibl><ptr target="#MéndezDosuna2007"/>, <citedRange>302-304</citedRange></bibl> and <bibl><ptr target="#MéndezDosuna2024"/>, <citedRange>§ 4.1</citedRange></bibl>. Pace <bibl><ptr target="#CIOD"/></bibl>, the reference to a female slave does not necessarily imply a prospective marriage. Likewise, the proposal that this is the same consultant as in <foreign xml:lang="la">I. Dodone Online</foreign> <ref target="i-dodone-online-5a">22A</ref> remains speculative.</p>
+<p>Despite the uncertainty expressed by the editors of <bibl><ptr target="#IDodoneDVC"/></bibl>, the use of <foreign xml:lang="grc">πιπάσκομαι</foreign>, belonging to the lexical family of <foreign xml:lang="grc">πάομαι</foreign> (Att.-Ion. <foreign xml:lang="grc">κτάομαι</foreign>), suggests that the inquiry concerns the acquisition of a female slave rather than marriage. The same verb is otherwise attested in the Dodona corpus only in 1591A and 3207B, both of which seem to deal with the purchase of slaves. On the productive lexical family of <foreign xml:lang="grc">πάομαι</foreign> (Att.-Ion. <foreign xml:lang="grc">κτάομαι</foreign>) in the oracular tablets, see <bibl><ptr target="#MéndezDosuna2007d"/>, <citedRange>302-304</citedRange></bibl> and <bibl><ptr target="#MéndezDosuna2024"/>, <citedRange>§4.1</citedRange></bibl>. On slavery in the oracular tablets, see <bibl><ptr target="#Meyer2017"/></bibl>; on female slaves as inquirers at Dodona, see <bibl><ptr target="#Katsadima2017a"/>, <citedRange>135–136</citedRange></bibl>, and <bibl><ptr target="#Frank2024"/>, <citedRange>98-102</citedRange></bibl>. Pace <bibl><ptr target="#CIOD"/></bibl>, the reference to a female slave does not necessarily imply a prospective marriage. Likewise, the proposal that this is the same consultant as in <foreign xml:lang="la">I. Dodone Online</foreign> <ref target="i-dodone-online-22a">22A</ref> remains speculative.</p>
                 
-                <p n="Ithaca results">In the geographical output, Ithaca assigns the highest probability to Epirus (95.34%), while the chronological distribution peaks at 400-390 BC (17.46%). See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline19A_2026_06_28.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline19A.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline19A_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
+                <p n="Ithaca results">In the geographical output, Ithaca assigns the highest probability to Epirus (95.34%), while the chronological distribution peaks at 400-390 BC. See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline19A_2026_06_28.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline19A.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline19A_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
                 </div>
         </body>
     </text>
