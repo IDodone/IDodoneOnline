@@ -14,7 +14,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 <authority>“Dodona Travels to Ithaca. Artificial Intelligence Applied to the Edition of Greek Inscriptions”. Grant CNS2023-144714, funded by MICIU/AEI (10.13039/501100011033) and by the European Union NextGenerationEU/PRTR.</authority>
                 <idno type="filename">I.Dodone Online 1</idno>
                 <availability>
-                    <p>Except where otherwise indicated, the original editorial content of this lemma is licensed under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/?utm_source=chatgpt.com" type="external">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</ref>. Third-party material incorporated into or linked from this lemma is not covered by this license and remains subject to applicable copyright and to any terms of use specified by the respective rights holders or sources. When citing this lemma, please include its identifier, URL, and date of consultation.</p>
+                    <p>Except where otherwise indicated, the original editorial content of this lemma is licensed under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/" type="external">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</ref>. Third-party material incorporated into or linked from this lemma is not covered by this license and remains subject to applicable copyright and to any terms of use specified by the respective rights holders or sources. When citing this lemma, please include its identifier, URL, and date of consultation.</p>
                 </availability>
             </publicationStmt>
             <sourceDesc>
