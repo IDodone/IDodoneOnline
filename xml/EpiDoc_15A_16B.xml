@@ -14,8 +14,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 <authority>“Dodona Travels to Ithaca. Artificial Intelligence Applied to the Edition of Greek Inscriptions”. Grant CNS2023-144714, funded by MICIU/AEI (10.13039/501100011033) and by the European Union NextGenerationEU/PRTR.</authority>
                 <idno type="filename">I.Dodone Online 15A+16B</idno>
                 <availability>
-                    <p>Creative Commons Attribution-NonCommercial-ShareAlike International License <ref target="http://creativecommons.org/" type="external">4.0</ref>.</p>	
-                    <p>All citation, reuse or distribution of this work must contain a link to the URL <ref target="https://dodonaonline.com/">https://dodonaonline.com/</ref> and the filename, as well as the date of consultation.</p>
+                    <p>Except where otherwise indicated, the original editorial content of this lemma is licensed under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/?utm_source=chatgpt.com" type="external">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</ref>. Third-party material incorporated into or linked from this lemma is not covered by this license and remains subject to applicable copyright and to any terms of use specified by the respective rights holders or sources. When citing this lemma, please include its identifier, URL, and date of consultation.</p>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -106,7 +105,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 </div>
                 </div>
             <div type="apparatus" xml:space="preserve">
-                <app loc="l. 2"><rdg><foreign xml:lang="grc">ἔχ ΝΚΟΔΟΙ</foreign></rdg> <note><ptr target="#IDodoneLhôte"/>, for which the author suggests the interpretation <foreign xml:lang="grc">ἔχ ’ν Κδι</foreign></note> <rdg><foreign xml:lang="grc">ΗΟΔΟΙ</foreign></rdg> <note>Tsantsanoglou <foreign xml:lang="la">apud</foreign> <ptr target="#IDodoneDVC"></ptr></note> <rdg><foreign xml:lang="grc">ΕΧΟΝΚΟΔΟΙ</foreign> <ptr target="#CIOD"></ptr></rdg></app>
+                <app loc="l. 2"><rdg><foreign xml:lang="grc">ἔχ ΝΚΟΔΟΙ</foreign></rdg> <note><ptr target="#IDodoneLhôte"/>, for which the author suggests the interpretation <foreign xml:lang="grc">ἔχ ’ν Κδι</foreign></note> <rdg><foreign xml:lang="grc">ΗΟΔΟΙ</foreign></rdg> <note>Tsantsanoglou <foreign xml:lang="la">apud</foreign> <ptr target="#IDodoneDVC"></ptr></note> <rdg><foreign xml:lang="grc">ΕΧΟΝΚΟΔΟΙ</foreign> <ptr target="#CIOD"></ptr>.</rdg></app>
 <app loc="l. 3"><rdg><foreign xml:lang="grc">ΚΑΠΕΡ</foreign></rdg> <note><ptr target="#Evangelidis1952"/>, with an incorrect division of words in the first part of the line.</note></app>
             </div>
             <div type="translation" xml:space="preserve" xml:lang="en">
@@ -120,7 +119,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
             <div type="commentary" xml:space="preserve" xml:lang="en">
                 <p>Despite the clear reading of the inscription, its interpretation poses several difficulties, especially at the end of the second line, with the repetition of the participial form <foreign xml:lang="grc">ἔχν</foreign> and the sequence <foreign xml:lang="grc">ΚΟΔΟΙ</foreign>, which Lhôte declines to interpret. Even so, the overall purport of the text is clear: the disjunctive πότερα and the participles indicate that the consultation concerns the alternative between keeping the woman and leaving her. The hypothesis proposed by Méndez Dosuna (<foreign xml:lang="grc">κδοῖ</foreign> = <foreign xml:lang="grc">καὶ ὁδοῖ</foreign>, cf. <bibl><ptr target="#IDodoneDVC"/></bibl> <foreign xml:lang="la">ad comm.</foreign>), tentatively adopted here, provides one possible explanation of the problematic sequence, although it is not without difficulties. </p>
                 
-                <p n="Ithaca results">In the geographical output, Epirus ranks first with a high probability according to Ithaca (93.87%), while the chronological distribution peaks at 450-440 BC. See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline15A_2026_06_24.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline15A_16B.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline15A_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
+                <p n="Ithaca results">In the geographical output, Epirus ranks first with a high probability according to Ithaca (93.87%), while the chronological distribution peaks at 450-440 BC. See the <ref target="https://github.com/IDodone/IDodoneOnline/tree/main/ithaca-results/IDodoneOnline15A_16B">Ithaca results and associated files</ref>.</p>
                 </div>
         </body>
     </text>

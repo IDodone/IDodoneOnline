@@ -14,8 +14,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 <authority>“Dodona Travels to Ithaca. Artificial Intelligence Applied to the Edition of Greek Inscriptions”. Grant CNS2023-144714, funded by MICIU/AEI (10.13039/501100011033) and by the European Union NextGenerationEU/PRTR.</authority>
                 <idno type="filename">I.Dodone Online 168B</idno>
                 <availability>
-                    <p>Creative Commons Attribution-NonCommercial-ShareAlike International License <ref target="http://creativecommons.org/" type="external">4.0</ref>.</p>
-                    <p>All citation, reuse or distribution of this work must contain a link to the URL <ref target="https://dodonaonline.com/">https://dodonaonline.com/</ref> and the filename, as well as the date of consultation.</p>
+                    <p>Except where otherwise indicated, the original editorial content of this lemma is licensed under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/?utm_source=chatgpt.com" type="external">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</ref>. Third-party material incorporated into or linked from this lemma is not covered by this license and remains subject to applicable copyright and to any terms of use specified by the respective rights holders or sources. When citing this lemma, please include its identifier, URL, and date of consultation.</p>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -117,7 +116,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
             <div type="commentary" xml:space="preserve" xml:lang="en">
                 <p>The feminine noun <foreign xml:lang="grc">ἐκκαρπία</foreign> is now attested in the dossier of documents concerning the sale of land from Larissa, dated to 219 BC (<bibl><ptr target="#SEG"/>, <citedRange>63.406, l.17</citedRange></bibl>). According to the first editors (<bibl><ptr target="#HellyTziafalias2013"/>, <citedRange>151-152 n. 13</citedRange></bibl>), it is a hapax meaning “<foreign xml:lang="fr">les productions (littéralement les fruits qui viennent de)</foreign>”.</p>
                 
-            <p n="Ithaca Results">Ithaca predicts Phrygia (64.95%) and Bithynia (19.99%) as the most probable geographical origins of the inscription, whereas Epirus ranks only ninth, with a mere 0.53% probability. As for its chronological attribution, the highest probability falls at the beginning of the third century AD, specifically AD 210–220. See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline168B_2026_06_25.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline168B.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline168B_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
+            <p n="Ithaca Results">Ithaca predicts Phrygia (64.95%) and Bithynia (19.99%) as the most probable geographical origins of the inscription, whereas Epirus ranks only ninth, with a mere 0.53% probability. As for its chronological attribution, the highest probability falls at the beginning of the third century AD, specifically AD 210–220. See the <ref target="https://github.com/IDodone/IDodoneOnline/tree/main/ithaca-results/IDodoneOnline168B">Ithaca results and associated files</ref>.</p>
             </div>
         </body>
     </text>

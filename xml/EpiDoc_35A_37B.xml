@@ -14,8 +14,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 <authority>“Dodona Travels to Ithaca. Artificial Intelligence Applied to the Edition of Greek Inscriptions”. Grant CNS2023-144714, funded by MICIU/AEI (10.13039/501100011033) and by the European Union NextGenerationEU/PRTR.</authority>
                 <idno type="filename">I.Dodone Online 35A+37B</idno>
                 <availability>
-                    <p>Creative Commons Attribution-NonCommercial-ShareAlike International License <ref target="http://creativecommons.org/" type="external">4.0</ref>.</p>	
-                    <p>All citation, reuse or distribution of this work must contain a link to the URL <ref target="https://dodonaonline.com/">https://dodonaonline.com/</ref> and the filename, as well as the date of consultation.</p>
+                    <p>Except where otherwise indicated, the original editorial content of this lemma is licensed under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/?utm_source=chatgpt.com" type="external">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</ref>. Third-party material incorporated into or linked from this lemma is not covered by this license and remains subject to applicable copyright and to any terms of use specified by the respective rights holders or sources. When citing this lemma, please include its identifier, URL, and date of consultation.</p>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -91,18 +90,18 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
     <text>
         <body>
             <div type="bibliography" xml:space="preserve" xml:lang="en">
-                <p><bibl><ptr target="#Eidinow2007"/>, <citedRange>94-95, 99 no. 17</citedRange></bibl> (preliminary edition of inscription in face A by Christidis); <bibl><ptr target="#IDodoneDVC"/><citedRange> 35A+37B</citedRange></bibl> (<bibl><ptr target="#Chaniotis2016"/>,  <citedRange>§201</citedRange></bibl>; <bibl><ptr target="#Parker2016"/>,  <citedRange>82</citedRange></bibl>; <bibl><ptr target="#Chaniotis2017a"/>,  <citedRange>58</citedRange></bibl>; <bibl><ptr target="#Lhôte2017b"/>,  <citedRange>43-44</citedRange></bibl>; <bibl><ptr target="#MéndezDosuna2018b"/>,  <citedRange>266, 279</citedRange></bibl>;  <bibl><ptr target="#Tselikas2018"/>,  <citedRange>255</citedRange></bibl>; <bibl><ptr target="#Giannakis2024b"/>,  <citedRange>105, 124-126</citedRange></bibl>;  <bibl><ptr target="#MartínGonzález2024"/>,  <citedRange>75-79</citedRange></bibl>; <bibl><ptr target="#CIOD"/> <citedRange>35A+37B</citedRange> [last consulted 25/06/2026]).</bibl>
+                <p><bibl><ptr target="#Eidinow2007"/>, <citedRange>94-95, 99 no. 17</citedRange></bibl> (preliminary edition of inscription in face A by Christidis); <bibl><ptr target="#IDodoneDVC"/><citedRange> 35A+37B</citedRange></bibl> (<bibl><ptr target="#Chaniotis2016"/>,  <citedRange>§201</citedRange></bibl>; <bibl><ptr target="#Parker2016"/>,  <citedRange>82</citedRange></bibl>; <bibl><ptr target="#Chaniotis2017a"/>,  <citedRange>58</citedRange></bibl>; <bibl><ptr target="#Lhôte2017b"/>,  <citedRange>43-44</citedRange></bibl>; <bibl><ptr target="#Tselikas2018"/>,  <citedRange>255</citedRange></bibl>; <bibl><ptr target="#Giannakis2024b"/>,  <citedRange>105, 124-126</citedRange></bibl>;  <bibl><ptr target="#MartínGonzález2024"/>,  <citedRange>75-79</citedRange></bibl>; <bibl><ptr target="#CIOD"/> <citedRange>35A+37B</citedRange> [last consulted 25/06/2026]).</bibl>
                 </p>
                     <p>Cf. 
-                      <bibl><ptr target="#Lombardo2017"/>, <citedRange>119 n. 47</citedRange></bibl>; <bibl><ptr target="#Rizzo2017"/>, <citedRange>731</citedRange> (on the consultant’s origin)</bibl>; <bibl><ptr target="#CrespoGiannakis2019"/>, <citedRange>55</citedRange></bibl> (on dialectal mixture); <bibl><ptr target="#Moga2021"/>, <citedRange>460, n. 8</citedRange></bibl> (on Zeus Pronaios); <bibl><ptr target="#Katsikoudis2022"/>, <citedRange>164 n. 9</citedRange></bibl> (on Zeus Pronaios).
+                      <bibl><ptr target="#Lombardo2017"/>, <citedRange>119 n. 47</citedRange></bibl>; <bibl><ptr target="#Rizzo2017"/>, <citedRange>731</citedRange> (on the consultant’s origin)</bibl>; <bibl><ptr target="#MéndezDosuna2018b"/>,  <citedRange>266, 279</citedRange></bibl>; <bibl><ptr target="#CrespoGiannakis2019"/>, <citedRange>55</citedRange></bibl> (on dialectal mixture); <bibl><ptr target="#Moga2021"/>, <citedRange>460, n. 8</citedRange></bibl> (on Zeus Pronaios); <bibl><ptr target="#Katsikoudis2022"/>, <citedRange>164 n. 9</citedRange></bibl> (on Zeus Pronaios).
                     </p>
                           </div>
                 <div type="edition" xml:space="preserve" xml:lang="grc">
                     <div type="textpart" subtype="face" n="A">
                         <ab>
       <lb n="1"/>θεός· τύχαι ἀγαθᾶι καὶ Διὶ Πρ<unclear>ο</unclear>νάωι καὶ Διώναι· <persName><name nymRef="#Πορῖνος">Πορῖνος</name></persName>
-      <lb n="2"/>Κυμαῖος <persName><name nymRef="#Εὐανδρου">Εὐανδρου</name></persName> εἰρωτᾶ<supplied reason="lost">ι</supplied> τὸν θεὸν εἰ τὸν ξατράπην
-      <lb n="3"/>καὶ ὕπαρχον θεραπεύοντ<supplied reason="lost">ι</supplied> λώιον καὶ ἄμεινον ἔσται. 
+      <lb n="2"/>Κυμαῖος <persName><name nymRef="#Εὐανδρου">Εὐάνδρου</name></persName> εἰρωτᾶ<supplied reason="lost">ι</supplied> τὸν θεὸν εἰ τὸν ξατράπην
+      <lb n="3"/>καὶ ὕπαρχον θεραπεύοντ<supplied reason="lost">ι</supplied> λώϊον καὶ ἄμεινον ἔσται. 
    </ab> 
                     </div>
 <div type="textpart" subtype="face" n="B">
@@ -136,7 +135,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 
  <p><bibl><ptr target="#Chaniotis2017a"/></bibl> suggests interpreting the inscription on side B not as a summary or label, but as the oracle’s response to <persName><name nymRef="#Πορῖνος">Porinos’</name></persName> enquiry on side A. Both inscriptions were written by the same hand. For the vexed question of the oracle’s responses, see <bibl><ptr target="#MartínGonzález2021"/></bibl>.</p>
                 
-                <p n="Ithaca Results">Ithaca attributes the inscription to Epirus with high accuracy (91.38 %) and it dates it to the end of the 3rd century BC (210-200 BC max). Of the twenty text restoration hypotheses proposed by Ithaca, the first, the dative ending of the participle <foreign xml:lang="grc">θεραπεύοντ<supplied reason="lost">ι</supplied></foreign>, is highly satisfactory and coincides with the editors’ restoration. The second, the accusative form (<foreign xml:lang="grc">θεραπεύοντ<supplied reason="lost">α</supplied></foreign>), assigned a much lower probability, is morphologically (but not sintactically) acceptable, while the remaining proposals do not yield valid Greek forms and can therefore be discarded. See <ref target="https://dodonaonline.com/wp-content/uploads/2026/09/IDodoneOnline35A_37B_2026_06_25.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline35A_37B.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline35A_37B_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
+                <p n="Ithaca Results">Ithaca attributes the inscription to Epirus with high accuracy (91.38 %) and it dates it to the end of the 3rd century BC (210-200 BC max). Of the twenty text restoration hypotheses proposed by Ithaca, the first, the dative ending of the participle <foreign xml:lang="grc">θεραπεύοντ<supplied reason="lost">ι</supplied></foreign>, is highly satisfactory and coincides with the editors’ restoration. The second, the accusative form (<foreign xml:lang="grc">θεραπεύοντ<supplied reason="lost">α</supplied></foreign>), assigned a much lower probability, is morphologically (but not sintactically) acceptable, while the remaining proposals do not yield valid Greek forms and can therefore be discarded. See the <ref target="https://github.com/IDodone/IDodoneOnline/tree/main/ithaca-results/IDodoneOnline35A_37B">Ithaca results and associated files</ref>.</p>
                 </div>
         </body>
     </text>

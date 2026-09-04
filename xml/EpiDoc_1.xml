@@ -14,8 +14,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 <authority>“Dodona Travels to Ithaca. Artificial Intelligence Applied to the Edition of Greek Inscriptions”. Grant CNS2023-144714, funded by MICIU/AEI (10.13039/501100011033) and by the European Union NextGenerationEU/PRTR.</authority>
                 <idno type="filename">I.Dodone Online 1</idno>
                 <availability>
-                    <p>Creative Commons Attribution-NonCommercial-ShareAlike International License <ref target="http://creativecommons.org/" type="external">4.0</ref>.</p>
-                    <p>All citation, reuse or distribution of this work must contain a link to the URL <ref target="https://dodonaonline.com/">https://dodonaonline.com/</ref> and the filename, as well as the date of consultation.</p>
+                    <p>Except where otherwise indicated, the original editorial content of this lemma is licensed under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/?utm_source=chatgpt.com" type="external">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</ref>. Third-party material incorporated into or linked from this lemma is not covered by this license and remains subject to applicable copyright and to any terms of use specified by the respective rights holders or sources. When citing this lemma, please include its identifier, URL, and date of consultation.</p>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -106,7 +105,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
         <div type="commentary" xml:space="preserve" xml:lang="en">
             <p>There are two parallel inscriptions (although with a finite verb rather than a participle) in the Dodona oracular corpus: <bibl><ptr target="#IDodoneLhôte"/> <citedRange>29</citedRange></bibl> (<foreign xml:lang="grc"> ἄλλαν μαστείι;</foreign>) and <bibl><ptr target="#IDodoneDVC"/> <citedRange>2322A</citedRange></bibl> (<foreign xml:lang="grc">ἐ͂ ἄλλαν | μαστεύ;</foreign>). All three belong to the well-attested category of consultations concerning the choice of a wife (see <bibl><ptr target="#Parker2016"/>, <citedRange>78-79</citedRange>)</bibl>. For this kind of “hyper-laconic” questions, see <bibl><ptr target="#Parker2015"/></bibl>, who argues that such elliptical formulations are best understood as abbreviations of fuller alternative questions.</p>
             
-            <p n="Ithaca results">Ithaca ranks Epirus as the most likely provenance (40.22% probability), followed by Ionia (8.12%) and Caria (7.05%). Chronologically, the highest probability falls around 340-330 BC, although the model assigns broadly comparable probabilities across much of the fourth century BC. See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline1_2026_06_29.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline1.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline1_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
+            <p n="Ithaca results">Ithaca ranks Epirus as the most likely provenance (40.22% probability), followed by Ionia (8.12%) and Caria (7.05%). Chronologically, the highest probability falls around 340-330 BC, although the model assigns broadly comparable probabilities across much of the fourth century BC. See the <ref target="https://github.com/IDodone/IDodoneOnline/tree/main/ithaca-results/IDodoneOnline1">Ithaca results and associated files</ref>.</p>
                 </div>
         </body>
     </text>

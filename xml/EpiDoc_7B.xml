@@ -15,11 +15,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 <authority>“Dodona Travels to Ithaca. Artificial Intelligence Applied to the Edition of Greek Inscriptions”. Grant CNS2023-144714, funded by MICIU/AEI (10.13039/501100011033) and by the European Union NextGenerationEU/PRTR</authority>
                 <idno type="filename">I.Dodone Online 7B</idno>
                 <availability>
-                    <p>Creative Commons Attribution-NonCommercial-ShareAlike International License
-                        <ref target="http://creativecommons.org/" type="external">4.0</ref>.</p>
-                    <p>All citation, reuse or distribution of this work must contain a link to the
-                        URL <ref target="https://dodonaonline.com/">https://dodonaonline.com/</ref>
-                        and the filename, as well as the date of consultation.</p>
+                    <p>Except where otherwise indicated, the original editorial content of this lemma is licensed under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/?utm_source=chatgpt.com" type="external">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</ref>. Third-party material incorporated into or linked from this lemma is not covered by this license and remains subject to applicable copyright and to any terms of use specified by the respective rights holders or sources. When citing this lemma, please include its identifier, URL, and date of consultation.</p>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -97,7 +93,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
         <body>
             <div type="bibliography" xml:space="preserve" xml:lang="en">
                 <p>
-                      <bibl><ptr target="#IDodoneDVC"/> <citedRange>7B</citedRange></bibl> (<bibl><ptr target="#CIOD"/> <citedRange>7B</citedRange>[last consulted 27/06/2026]).</bibl></p>
+                      <bibl><ptr target="#IDodoneDVC"/> <citedRange>7B</citedRange></bibl> (<bibl><ptr target="#CIOD"/> <citedRange>7B</citedRange> [last consulted 27/06/2026]).</bibl></p>
 
                 <p>
         Cf. <bibl><ptr target="#Bonnechere2018"/>, <citedRange>§25 n. 80</citedRange> (on <foreign xml:lang="grc">ἱλάσκομαι</foreign>)</bibl>; <bibl><ptr target="#Crosby2022"/>, <citedRange>84 n. 64</citedRange> (on the use of the optative)</bibl>; <bibl><ptr target="#Georgoudiforthcoming"/> (on <foreign xml:lang="grc">ἱλάσκομαι</foreign>).</bibl>
@@ -131,7 +127,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 <div type="commentary" xml:space="preserve" xml:lang="en">
 <p>On <foreign xml:lang="grc">ἱλάσκομαι</foreign> in the oracular tablets, see <bibl><ptr target="#Bonnechere2018"/></bibl> and, especially, <bibl><ptr target="#Georgoudiforthcoming"/></bibl>. Given the lack of context, it is unclear whether the verb means to appease the gods for an offence requiring expiation or simply to propitiate them and secure their favour.</p>
                 
-                 <p n="Ithaca results">Ithaca attributes the inscription to Epirus with high accuracy (91.42%) and dates it to the mid-fifth century BC. Notably, the probability distribution is strongly concentrated in 450-440 BC. As for the restoration outputs, Ithaca clearly favours the restoration <foreign xml:lang="grc">ἱλασκόμενος</foreign>, while the remaining alternatives receive substantially lower confidence scores. See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline7B_2026_06_24.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline7B.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline7B_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
+                 <p n="Ithaca results">Ithaca attributes the inscription to Epirus with high accuracy (91.42%) and dates it to the mid-fifth century BC. Notably, the probability distribution is strongly concentrated in 450-440 BC. As for the restoration outputs, Ithaca clearly favours the restoration <foreign xml:lang="grc">ἱλασκόμενος</foreign>, while the remaining alternatives receive substantially lower confidence scores. See the <ref target="https://github.com/IDodone/IDodoneOnline/tree/main/ithaca-results/IDodoneOnline7B">Ithaca results and associated files</ref>.</p>
                 </div>
         </body>
     </text>

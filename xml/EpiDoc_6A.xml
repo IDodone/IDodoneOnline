@@ -6,7 +6,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Private enquiry regarding the acquisition of property</title>
+                <title>Private enquiry regarding property</title>
                 <editor xml:id="EMG">Elena Martín González</editor>
                 <editor xml:id="SK">Stavroula Konstantopoulou</editor>
                 <editor xml:id="CCL" role="autopsy">Carlos Candel Lozano</editor>
@@ -15,8 +15,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 <authority>“Dodona Travels to Ithaca. Artificial Intelligence Applied to the Edition of Greek Inscriptions”. Grant CNS2023-144714, funded by MICIU/AEI (10.13039/501100011033) and by the European Union NextGenerationEU/PRTR.</authority>
                 <idno type="filename">I.Dodone Online 6A</idno>
                 <availability>
-                    <p>Creative Commons Attribution-NonCommercial-ShareAlike International License <ref target="http://creativecommons.org/" type="external">4.0</ref>.</p>
-                    <p>All citation, reuse or distribution of this work must contain a link to the URL <ref target="https://dodonaonline.com/">https://dodonaonline.com/</ref> and the filename, as well as the date of consultation.</p>
+                    <p>Except where otherwise indicated, the original editorial content of this lemma is licensed under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/?utm_source=chatgpt.com" type="external">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</ref>. Third-party material incorporated into or linked from this lemma is not covered by this license and remains subject to applicable copyright and to any terms of use specified by the respective rights holders or sources. When citing this lemma, please include its identifier, URL, and date of consultation.</p>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -115,9 +114,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 <p>¿Lo posee y le iría mejor poseyéndolo?</p>
             </div>
             <div type="commentary" xml:space="preserve" xml:lang="en">
-                <p>On the productive lexical family of <foreign xml:lang="grc">πάομαι</foreign> (Att.-Ion. <foreign xml:lang="grc">κτάομαι</foreign>) in the oracular tablets, see <bibl><ptr target="#MéndezDosuna2007d"/>, <citedRange>302-304</citedRange></bibl> and <bibl><ptr target="#MéndezDosuna2024"/>, <citedRange>§4.1</citedRange></bibl>. For misspellings in the oracular lamellae, see <bibl><ptr target="#MéndezDosuna2018b"/>, <citedRange>267-272</citedRange></bibl>.</p>
+                <p>The perfect forms <foreign xml:lang="grc">πέπατα<supplied reason="omitted">ι</supplied></foreign> and <foreign xml:lang="grc">πεπαμένος</foreign> denote possession rather than acquisition, although the nature of the property at issue is not specified. On the productive lexical family of <foreign xml:lang="grc">πάομαι</foreign> (Att.-Ion. <foreign xml:lang="grc">κτάομαι</foreign>) in the oracular tablets, see <bibl><ptr target="#MéndezDosuna2007d"/>, <citedRange>302-304</citedRange></bibl> and <bibl><ptr target="#MéndezDosuna2024"/>, <citedRange>§4.1</citedRange></bibl>. For misspellings in the oracular lamellae, see <bibl><ptr target="#MéndezDosuna2018b"/>, <citedRange>267-272</citedRange></bibl>.</p>
                 
-                 <p n="Ithaca results">Ithaca attributes the inscription to Epirus with a confidence of 94.23% and dates it most probably to the beginning of the fourth century BC, with a peak probability for 400-390 BC. See <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline6A_2026_06_24.html">Ithaca results</ref> and <ref target="https://raw.githubusercontent.com/IDodone/IDodoneOnline/refs/heads/main/ithaca-results/IDodoneOnline6A.md">metadata</ref>, and a snapshot of the <ref target="https://dodonaonline.com/wp-content/uploads/2026/07/IDodoneOnline6A_geographical-attribution_2026_06.jpg">geographical attribution</ref>.</p>
+                 <p n="Ithaca results">Ithaca attributes the inscription to Epirus with a confidence of 94.23% and dates it most probably to the beginning of the fourth century BC, with a peak probability for 400-390 BC. See the <ref target="https://github.com/IDodone/IDodoneOnline/tree/main/ithaca-results/IDodoneOnline6A">Ithaca results and associated files</ref>.</p>
                 </div>
         </body>
     </text>
