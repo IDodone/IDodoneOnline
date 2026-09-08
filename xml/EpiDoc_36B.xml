@@ -26,8 +26,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><objectType ref="#lead_tablet"><material ref="#lead">Lead</material> tablet</objectType>, with two
-                                        folds, now preserved in four adjoining fragments.</p>
+                                    <p><objectType ref="#lead_tablet"><material ref="#lead">Lead</material> tablet</objectType>, with two folds, now preserved in four adjoining fragments.</p>
                                     <p>
                                         <dimensions>
                                             <height unit="cm">1.9</height>
