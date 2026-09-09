@@ -27,8 +27,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><objectType ref="#lead_tablet"><material ref="#lead">Lead</material> tablet</objectType>, with a hole at
-                                        one end.</p>
+                                    <p><objectType ref="#lead_tablet"><material ref="#lead">Lead</material> tablet</objectType>, with a hole at one end.</p>
                                     <p><dimensions>
                                             <height unit="cm">2.5</height>
                                             <width unit="cm">6.8</width>
