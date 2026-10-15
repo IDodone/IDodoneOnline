@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?oxygen RNGSchema="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IDodone_Online_24A_25A_26B" xml:lang="en" type="draft">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Enquiry regarding migration to Kroton</title>
+                <editor xml:id="EMG">Elena Martín González</editor>
+                <editor xml:id="SK">Stavroula Konstantopoulou</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>“Dodona Travels to Ithaca. Artificial Intelligence Applied to the Edition of Greek Inscriptions”. Grant CNS2023-144714, funded by MICIU/AEI (10.13039/501100011033) and by the European Union NextGenerationEU/PRTR</authority>
+                <idno type="filename">I.Dodone Online 24A+25A+26B</idno>
+                <availability>
+                    <p>Except where otherwise indicated, the original editorial content of this lemma is licensed under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/" type="external">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</ref>. Third-party material incorporated into or linked from this lemma is not covered by this license and remains subject to applicable copyright and to any terms of use specified by the respective rights holders or sources. When citing this lemma, please include its identifier, URL, and date of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>n/a</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc><support>
+                                    <p><objectType ref="#lead_tablet"><material ref="#lead">Lead</material> tablet</objectType>, with three folds.</p>
+                                    <p>
+                                        <dimensions> 
+                                            <height unit="cm">1.8</height>
+                                            <width unit="cm">14</width>
+                                            <depth unit="cm">0.21</depth>
+                                    </dimensions>
+                                    </p>     
+                            </support>
+                            </supportDesc>
+                            <layoutDesc><layout>
+                                    <p>The tablet is inscribed on <rs type="sides" key="opisthographic">both sides</rs>. The surface of face A shows extensive traces of erasure. The tablet bears an inscription on each side by the same hand: a question on face A (<bibl><ptr target="#IDodoneDVC"/> <citedRange>24A+25A</citedRange></bibl>) and a summary of the same question on face B. The last three lines of the inscription on face A were written in smaller letters and positioned towards the right edge of the tablet to fit the available space. They are separated from the preceding text by a finely incised line. Use of interpunct.</p>
+                                    <p n="Dialect"><rs type="dialect" ref="#Doric">Doric</rs></p>
+                                    <p n="Alphabet"><rs type="alphabet" ref="#Achaian">Achaian</rs></p>
+                            </layout></layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p><origDate notBefore="-0425" notAfter="-0400">end of the 5th century BC</origDate></p>
+                            <origPlace><placeName ref="#Dodona">Dodona</placeName></origPlace>
+                        </origin>
+                        <provenance type="found" when="1935"><placeName type="ancientFindspot" ref="#Dodona">Dodona</placeName>, Evangelidis’ excavation 1935.</provenance>   
+                        <provenance type="observed"><orgName ref="#IoanninaMuseum">Archaeological Museum of Ioannina</orgName> 
+                            <idno type="invNo">inv. M47; AMI 11507</idno></provenance>                         
+                    </history>
+            </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded according to the EpiDoc Guidelines, version 9.</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="es">Spanish</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term type="textType" ref="#question">Question</term>
+                    <term type="textType" ref="#summary">Summary</term>
+                    <term type="theme" ref="#migration">Migration</term>
+                </keywords>
+            </textClass>
+            <creation>Facsimile and photograph</creation>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2026-06-15" who="#SK">Initial encoding by Stavroula
+                Konstantopoulou.</change>     
+        </revisionDesc>
+    </teiHeader>
+    <text>
+    <body>
+        <div type="bibliography" xml:space="preserve" xml:lang="en">
+            <p>
+            <bibl><ptr target="#Vokotopoulou1992"/>, <citedRange>81 no 8, fig. 3b</citedRange></bibl> (<bibl><ptr target="SEG"/> <citedRange>43.325</citedRange></bibl>; <bibl><ptr target="#IDodoneLhôte"/> <citedRange>114</citedRange></bibl>; <bibl><ptr target="#Eidinow2007"/>, <citedRange>74, 76 no 5, 107</citedRange></bibl>); <bibl><ptr target="#IDodoneDVC"/> <citedRange>24A+25A+26B</citedRange></bibl> (<bibl><ptr target="#CIOD"/> <citedRange>24-25</citedRange></bibl> [last consulted 15/07/2026]); <bibl><ptr target="#Dodonaios2019"/>, <citedRange>307 no 73</citedRange></bibl> (G. Giannakis, E.K. Skalisti); <bibl><ptr target="#Johnston2021"/>, <citedRange>114</citedRange></bibl>; <bibl><ptr target="#Giannakis2024"/>, <citedRange>124</citedRange></bibl>; <bibl><ptr target="#Giannakis2024b"/>, <citedRange>110, 129</citedRange></bibl>.
+            </p>
+            <p>Cf.    
+            <bibl><ptr target="#SEG"/> <citedRange>$$$</citedRange></bibl>;
+            <bibl><ptr target="#MartínGonzález2021"/>: <citedRange>$$$</citedRange></bibl>.
+            </p>
+        </div>
+        <div type="edition" xml:space="preserve" xml:lang="grc">
+            <div type="textpart" subtype="face" n="A">
+                <ab>
+                    <lb n="1" rend="left-to-right"/><rs type="deity" ref="#$$$"><w lemma="$$$">$$$</w></rs>
+                    <lb n="2" rend="left-to-right"/><rs type="theme" ref="#marriage"><w lemma="$$$">$$$</w></rs>
+                </ab>
+            </div>
+        </div>
+        <div type="apparatus" xml:space="preserve">
+            <app loc="1">
+                <lem>$$$</lem>
+                <rdg resp="#IDodoneDVC">$$$</rdg>
+            </app>
+            <app loc="2">
+                <lem>$$$</lem>
+                <rdg resp="#MartínGonzález2021">$$$</rdg>           
+             </app>
+        </div>    
+        <div type="translation" xml:space="preserve" xml:lang="en">
+            <p>$$$.</p>
+        </div>
+        <div type="translation" xml:space="preserve" xml:lang="es">
+            <p>$$$.</p>
+        </div>
+        <div type="commentary" xml:space="preserve" xml:lang="en">  
+            <p>Dialect.<rs type="dialect" ref="#$$$">series of dialects to be defined.</rs></p> 
+            <p>$$$
+            <rs type="theme" ref="#$$$">e.g. themes to be defined, commerce, religion, and more precise.</rs></p>
+            <p n="Ithaca Results">$$$. 
+            See the <ref target="https://github.com/IDodone/IDodoneOnline/tree/main/ithaca-results/IDodoneOnline$$$">Ithaca results and associated files</ref>.</p>
+        </div>
+    </body>
+    </text>
+    <facsimile>
+        <graphic url="https://dodonaonline.com/wp-content/uploads/2026/07/DVC_5A_facsimile_2026.jpg" corresp="$$$" decls="#photograph"><desc resp="-" source="Ephorate of Antiquities, Ioannina" n="-"><ref target="$$$">Image description</ref></desc></graphic>
+    </facsimile>
+</TEI>   
