@@ -2,101 +2,123 @@
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?oxygen RNGSchema="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IDodone_Online_24A_25A_26B" xml:lang="en" type="draft">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Enquiry regarding migration to Kroton</title>
-                <editor xml:id="EMG">Elena Martín González</editor>
-                <editor xml:id="SK">Stavroula Konstantopoulou</editor>
-            </titleStmt>
-            <publicationStmt>
-                <authority>“Dodona Travels to Ithaca. Artificial Intelligence Applied to the Edition of Greek Inscriptions”. Grant CNS2023-144714, funded by MICIU/AEI (10.13039/501100011033) and by the European Union NextGenerationEU/PRTR</authority>
-                <idno type="filename">I.Dodone Online 24A+25A+26B</idno>
-                <availability>
-                    <p>Except where otherwise indicated, the original editorial content of this lemma is licensed under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/" type="external">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</ref>. Third-party material incorporated into or linked from this lemma is not covered by this license and remains subject to applicable copyright and to any terms of use specified by the respective rights holders or sources. When citing this lemma, please include its identifier, URL, and date of consultation.</p>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository>n/a</repository>
-                    </msIdentifier>
-                    <physDesc>
-                        <objectDesc>
-                            <supportDesc><support>
-                                    <p><objectType ref="#lead_tablet"><material ref="#lead">Lead</material> tablet</objectType>, with three folds.</p>
-                                    <p>
-                                        <dimensions> 
-                                            <height unit="cm">1.8</height>
-                                            <width unit="cm">14</width>
-                                            <depth unit="cm">0.21</depth>
-                                    </dimensions>
-                                    </p>     
-                            </support>
-                            </supportDesc>
-                            <layoutDesc><layout>
-                                    <p>The tablet is inscribed on <rs type="sides" key="opisthographic">both sides</rs>. The surface of face A shows extensive traces of erasure. The tablet bears an inscription on each side by the same hand: a question on face A (<bibl><ptr target="#IDodoneDVC"/> <citedRange>24A+25A</citedRange></bibl>) and a summary of the same question on face B. The last three lines of the inscription on face A were written in smaller letters and positioned towards the right edge of the tablet to fit the available space. They are separated from the preceding text by a finely incised line. Ιnterpunct occurs once, in line 5.</p>
-                                    <p n="Dialect"><rs type="dialect" ref="#Doric">Doric</rs></p>
-                                    <p n="Alphabet"><rs type="alphabet" ref="#Achaian">Achaian</rs></p>
-                            </layout></layoutDesc>
-                        </objectDesc>
-                    </physDesc>
-                    <history>
-                        <origin>
-                            <p><origDate notBefore="-0425" notAfter="-0400">end of the 5th century BC</origDate></p>
-                            <origPlace><placeName ref="#Dodona">Dodona</placeName></origPlace>
-                        </origin>
-                        <provenance type="found" when="1935"><placeName type="ancientFindspot" ref="#Dodona">Dodona</placeName>, Evangelidis’ excavation 1935.</provenance>   
-                        <provenance type="observed"><orgName ref="#IoanninaMuseum">Archaeological Museum of Ioannina</orgName> 
-                            <idno type="invNo">inv. M47; AMI 11507</idno></provenance>                         
-                    </history>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="IDodone_Online_24A_25A_26B"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Enquiry regarding migration to Kroton</title>
+            <editor xml:id="EMG">Elena Martín González</editor>
+            <editor xml:id="SK">Stavroula Konstantopoulou</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>“Dodona Travels to Ithaca. Artificial Intelligence Applied to the Edition of Greek Inscriptions”. Grant CNS2023-144714, funded by MICIU/AEI (10.13039/501100011033) and by the European Union NextGenerationEU/PRTR</authority>
+            <idno type="filename">I.Dodone Online 24A+25A+26B</idno>
+            <availability>
+               <p>Except where otherwise indicated, the original editorial content of this lemma is licensed under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                       type="external">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</ref>. Third-party material incorporated into or linked from this lemma is not covered by this license and remains subject to applicable copyright and to any terms of use specified by the respective rights holders or sources. When citing this lemma, please include its identifier, URL, and date of consultation.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>n/a</repository>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <objectType ref="#lead_tablet">
+                                 <material ref="#lead">Lead</material> tablet</objectType>, with three folds.</p>
+                           <p>
+                              <dimensions>
+                                 <height unit="cm">1.8</height>
+                                 <width unit="cm">14</width>
+                                 <depth unit="cm">0.21</depth>
+                              </dimensions>
+                           </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <p>The tablet is inscribed on <rs type="sides" key="opisthographic">both sides</rs>. The surface of face A shows extensive traces of erasure. The tablet bears an inscription on each side by the same hand: a question on face A (<bibl>
+                                 <ptr target="#IDodoneDVC"/>
+                                 <citedRange>24A+25A</citedRange>
+                              </bibl>) and a summary of the same question on face B. The last three lines of the inscription on face A were written in smaller letters and positioned towards the right edge of the tablet to fit the available space. They are separated from the preceding text by a finely incised line. Ιnterpunct occurs once, in line 5.</p>
+                           <p n="Dialect">
+                              <rs type="dialect" ref="#Doric">Doric</rs>
+                           </p>
+                           <p n="Alphabet">
+                              <rs type="alphabet" ref="#Achaian">Achaian</rs>
+                           </p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <p>
+                        <origDate notBefore="-0425" notAfter="-0400" instant="false">end of the 5th century BC</origDate>
+                     </p>
+                     <origPlace instant="false">
+                        <placeName ref="#Dodona" instant="false" full="yes">Dodona</placeName>
+                     </origPlace>
+                  </origin>
+                  <provenance type="found" when="1935">
+                     <placeName type="ancientFindspot" ref="#Dodona" instant="false" full="yes">Dodona</placeName>, Evangelidis’ excavation 1935.</provenance>
+                  <provenance type="observed">
+                     <orgName ref="#IoanninaMuseum" instant="false" full="yes">Archaeological Museum of Ioannina</orgName>
+                     <idno type="invNo">inv. M47; AMI 11507</idno>
+                  </provenance>
+               </history>
             </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <p>Encoded according to the EpiDoc Guidelines, version 9.</p>
-        </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-                <language ident="grc">Ancient Greek</language>
-                <language ident="la">Latin</language>
-                <language ident="fr">French</language>
-                <language ident="de">German</language>
-                <language ident="el">Modern Greek</language>
-                <language ident="es">Spanish</language>
-            </langUsage>
-            <textClass>
-                <keywords>
-                    <term type="textType" ref="#question">Question</term>
-                    <term type="textType" ref="#summary">Summary</term>
-                    <term type="theme" ref="#migration">Migration</term>
-                </keywords>
-            </textClass>
-            <creation>Facsimile and photograph</creation>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2026-06-15" who="#SK">Initial encoding by Stavroula
-                Konstantopoulou.</change>     
-        </revisionDesc>
-    </teiHeader>
-    <text>
-    <body>
-        <div type="bibliography" xml:space="preserve" xml:lang="en">
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded according to the EpiDoc Guidelines, version 9.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="la">Latin</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="es">Spanish</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="textType" ref="#question">Question</term>
+               <term type="textType" ref="#summary">Summary</term>
+               <term type="theme" ref="#migration">Migration</term>
+            </keywords>
+         </textClass>
+         <creation>Facsimile and photograph</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2026-06-15" who="#SK">Initial encoding by Stavroula
+                Konstantopoulou.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" xml:space="preserve" xml:lang="en">
             <p>
             <bibl><ptr target="#Vokotopoulou1992"/>, <citedRange>81 no 8, fig. 3b</citedRange></bibl> (<bibl><ptr target="SEG"/> <citedRange>43.325</citedRange></bibl>; <bibl><ptr target="#IDodoneLhôte"/> <citedRange>114</citedRange></bibl>; <bibl><ptr target="#Eidinow2007"/>, <citedRange>74, 76 no 5, 107</citedRange></bibl>; <bibl><ptr target="#Nocita2018"/>, <citedRange>512-513</citedRange></bibl>); <bibl><ptr target="#IDodoneDVC"/> <citedRange>24A+25A+26B</citedRange></bibl> (<bibl><ptr target="#CIOD"/> <citedRange>24-25</citedRange></bibl> [last consulted 15/07/2026]); <bibl><ptr target="#Dodonaios"/>, <citedRange>307 no 73</citedRange></bibl> (G. Giannakis, E.K. Skalisti); <bibl><ptr target="#Johnston2021"/>, <citedRange>114</citedRange></bibl>; <bibl><ptr target="#Giannakis2024a"/>, <citedRange>124</citedRange></bibl>; <bibl><ptr target="#Giannakis2024b"/>, <citedRange>110, 129</citedRange></bibl>.
             </p>
             <p>Cf.    
-            <bibl><ptr target="#MéndezDosuna2008"/>, <citedRange>59</citedRange> (on <foreign xml:lang="grc">οἴκησις</foreign>), <citedRange>64</citedRange> (on elision of final nu)</bibl>; <bibl><ptr target="#deJong2015"/>, <citedRange>124</citedRange> (English translation)</bibl>; <bibl><ptr target="Chaniotis2016"/>, <citedRange>§201</citedRange> (classifying inscription on face B as an answer)</bibl>; <bibl><ptr target="#Parker2016"/>, <citedRange>88-89 n. 84</citedRange></bibl>; <bibl><ptr target="#Chaniotis2017a"/>, <citedRange>58</citedRange></bibl>; <bibl><ptr target="#Rizzo2017"/>, <citedRange>730</citedRange> (on consulations from Magna Graecia)</bibl>; <bibl><ptr target="#Vecchio2017"/>, <citedRange>110</citedRange> (Italian translation)</bibl>; <bibl><ptr target="#CrespoGiannakis2019"/>, <citedRange>50</citedRange></bibl>; <bibl><ptr target="#MalkinBlok2024"/>, <citedRange>160 n. 28</citedRange></bibl>; <bibl><ptr target="#DomínguezMonedero2026"/>, <citedRange>94</citedRange> (on <foreign xml:lang="grc">παμπασία</foreign>)</bibl>; <bibl><ptr target="#Lipka2026"/>, <citedRange>18 n.34</citedRange></bibl>.
+            <bibl><ptr target="#MéndezDosuna2008"/>, <citedRange>59</citedRange> (on <foreign xml:lang="grc">οἴκησις</foreign>), <citedRange>64</citedRange> (on elision of final nu)</bibl>; <bibl><ptr target="#deJong2015"/>, <citedRange>124</citedRange> (English translation)</bibl>; <bibl><ptr target="Chaniotis2016"/>, <citedRange>§201</citedRange> (classifying inscription on face B as an answer)</bibl>; <bibl><ptr target="#Parker2016"/>, <citedRange>88-89 n. 84</citedRange></bibl>; <bibl><ptr target="#Chaniotis2017a"/>, <citedRange>58</citedRange></bibl>; <bibl><ptr target="#Rizzo2017"/>, <citedRange>730</citedRange> (on consulations from Magna Graecia)</bibl>; <bibl><ptr target="#Vecchio2019"/>, <citedRange>110</citedRange> (Italian translation)</bibl>; <bibl><ptr target="#CrespoGiannakis2019"/>, <citedRange>50</citedRange> (on dialectal mixture)</bibl>; <bibl><ptr target="#MalkinBlok2024"/>, <citedRange>160 n. 28</citedRange></bibl>; <bibl><ptr target="#DomínguezMonedero2026"/>, <citedRange>94</citedRange> (on <foreign xml:lang="grc">παμπασία</foreign>)</bibl>; <bibl><ptr target="#Lipka2026"/>, <citedRange>18 n. 34</citedRange></bibl>.
             </p>
         </div>
-        <div type="edition" xml:space="preserve" xml:lang="grc">
+         <div type="edition" xml:space="preserve" xml:lang="grc">
             <div type="textpart" subtype="face" n="A">
                 <ab>
                     <lb n="1"/>θεός⸱ τύχα ἀγαθά⸱
                     <lb n="2"/>περὶ πανπασίας καὶ περὶ Ϝοικσιος 
-                    <lb n="3"/>ἰς Κρ<supplied reason="omitted">ό</supplied>τνα  βέλτιων καὶ ἄμεινο<supplied reason="omitted">ν</supplied>
+                    <lb n="3"/>ἰς Κρ<supplied reason="omitted" instant="false">ό</supplied>τνα  βέλτιων καὶ ἄμεινο<supplied reason="omitted" instant="false">ν</supplied>
                     <lb n="4"/>αὐτι καὶ γενε
 <lb n="5" break="no"/>ᾶι <pc type="wordDivider">:</pc> καὶ γυναι
 <lb n="6" break="no"/>κί;
@@ -108,44 +130,44 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
         </ab>
         </div>
         </div>
-        <div type="apparatus" xml:space="preserve">
+         <div type="apparatus" xml:space="preserve">
             <app loc="l. 3">
-                <rdg resp="#Vokotopoulou1992"> <supplied reason="omitted">ε</supplied>ἰς</rdg>
-                <rdg resp="#IDodoneLhôte"> ἰς</rdg> <note> and the subsequent editors.</note>
+                <rdg resp="#Vokotopoulou1992"> <supplied reason="omitted" instant="false">ε</supplied>ἰς</rdg>
+                <rdg resp="#IDodoneLhôte"> ἰς</rdg> <note anchored="true"> and the subsequent editors.</note>
             </app>
                 <app loc="l. 3">
-                    <rdg><foreign xml:lang="grc">ΚΡΤΟΝΑ</foreign></rdg> <note>tablet, correcting the previously engraved <foreign xml:lang="grc">ΚΤΤΟΝΑ</foreign>, according to the editors of <ptr target="#IDodoneDVC"/>.</note>
+                    <rdg><foreign xml:lang="grc">ΚΡΤΟΝΑ</foreign></rdg> <note anchored="true">tablet, correcting the previously engraved <foreign xml:lang="grc">ΚΤΤΟΝΑ</foreign>, according to the editors of <ptr target="#IDodoneDVC"/>.</note>
                 </app>
             <app loc="l. 3">
                 <rdg resp="#SEG #Eidinow2007">βέλτιον</rdg>
             </app>
-            <app loc="l. 3"> <rdg><foreign xml:lang="grc">ΑΜΕΙΝΟ</foreign></rdg> <note>tablet</note> <rdg resp="#Vokotopoulou1992">ἄμεινον </rdg>
+            <app loc="l. 3"> <rdg><foreign xml:lang="grc">ΑΜΕΙΝΟ</foreign></rdg> <note anchored="true">tablet</note> <rdg resp="#Vokotopoulou1992">ἄμεινον </rdg>
              </app>
-        </div>    
-        <div type="translation" xml:space="preserve" xml:lang="en">
+        </div>
+         <div type="translation" xml:space="preserve" xml:lang="en">
             <p>God. Good Fortune. About property and migration to Kroton, is it better and more advantageous for him, for his descendance and for his wife?</p>
 <p>In Kroton. </p>
         </div>
-        <div type="translation" xml:space="preserve" xml:lang="es">
+         <div type="translation" xml:space="preserve" xml:lang="es">
             <p>Dios. Buena Fortuna. Sobre el conjunto de las propiedades y la migración a Crotón, ¿es mejor y más ventajoso para él, para su descendencia y para su mujer?</p>
 <p>En Crotón.</p>
         </div>
-        <div type="commentary" xml:space="preserve" xml:lang="en">  
-            <p>According to Lhôte, this is an Epirote consulting about moving to Kroton (<foreign xml:lang="fr">Crotón es colonia aquea; “des similitudes étroites avec le nº 116, et la forme <foreign xml:lang="grc">ἰς</foreign>, permettent de supposer que le consultant es un Épirote qui envisage d’émigrer à Crotone, aunque antes ha dicho que el alfabeto, y en concreto la forma de la gamma, “pourrait être achéenne, ce qui pourrait amener à penser que le consultant es originaire d’une autre colonie achéenne d’Italie du Sud”).</foreign> Contra Johnston. Alphabet (<bibl><ptr target="#Vokotopoulou1992"/>, <citedRange>83</citedRange></bibl> = <foreign xml:lang="fr">“l’alphabet peut être de la Grande Grèce, mais pas exclusivement de cette région”</foreign>). </p>
-                <p>The name of the same city is reconstructed on the fragmentary tablet <bibl><ptr target="#IDodoneDVC"/> <citedRange>319</citedRange></bibl> (<foreign xml:lang="grc"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Κ</supplied>ρότονι</foreign>), which Lhôte (<bibl><ptr target="#CIOD"/></bibl>) attributes to the same hand and interpretes as an earlier version of the present enquiry, although this connection remains conjectural. For consultations to the oracle of Dodona from Italy and Magna Graecia XXX.</p>
-            <p>Weak nasal = Méndez Dosuna</p>
-            <p>For the use of punctuation marks in the Dodona oracular tablets, see <bibl><ptr target="#MéndezDosunaforthcoming"/></bibl>.</p>
-            <p>Pampasia = Méndez Dosuna, Domínguez Monedero</p>
-            <p>For misspellings in the oracular lamellae, see <bibl><ptr target="#MéndezDosuna2018b"/>, <citedRange>267-272</citedRange></bibl> (due to haste = <bibl><ptr target="#Vokotopoulou1992"/>, <citedRange>83</citedRange></bibl>.</p>
-           <p>Preguntas – respuestas (Eidinow answer; de Jong answer; Lhôte label; Chaniotis answer, yo??). Para Lhôte, DOL: intitulé. Chaniotis XXX interprets the text as an oracular response. On the controversial issue of the presence of answers on the Dodona tablets, see <bibl><ptr target="#MartínGonzález2021"/>.</bibl> 
-</p>
-            <p n="Ithaca Results">Ithaca attributes the inscription to Epirus with a high probability (92.78%). Chronologically, the distribution peaks at 400-390 BC (ca. 69%), with a mean date of 391 BC, broadly consistent with the dating proposed by the editors of I.Dodone DVC (end of the 5th century BC). 
+         <div type="commentary" xml:space="preserve" xml:lang="en">  
+            <p>The origin of the consultant remains uncertain. <bibl><ptr target="#Vokotopoulou1992"/></bibl> notes that the alphabet could belong to Magna Graecia, but it is not exclusive to that region. <bibl><ptr target="#IDodoneLhôte"/></bibl> (and <bibl><ptr target="#CIOD"/></bibl>) considers the consultant an Epirote intending to settle in Kroton, interpreting the archaic gamma and digamma as survivals of the local alphabet of Dodona. By contrast, <bibl><ptr target="#Johnston2021"/></bibl> regards the angled lunate gamma as evidence of Achaian, probably colonial Achaian, lettering. On the dialect of Achaia and its colonies in Magna Graecia, see <bibl><ptr target="#MéndezDosuna1991"/></bibl>.</p>
+                <p>The name of Kroton is reconstructed on the fragmentary tablet  <bibl><ptr target="#IDodoneDVC"/> <citedRange>319</citedRange></bibl> (<foreign xml:lang="grc"><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">Κ</supplied>ρότονι</foreign>), which Lhôte (<bibl><ptr target="#CIOD"/></bibl>) attributes to the same hand and interprets as an earlier version of the present enquiry, although this connection remains conjectural.</p>
+            <p>The text on face B has been interpreted either as a summary of the question on face A or as an oracular response. On the controversial issue of the presence of answers on the Dodona tablets, see <bibl><ptr target="#MartínGonzález2021"/></bibl>.</p>
+            <p>On the ubiquitous term παμπασία in the oracular tablets, see <bibl><ptr target="#DomínguezMonedero2026"/>, <citedRange>92-99</citedRange></bibl>. For misspellings in the oracular lamellae, see <bibl><ptr target="#MéndezDosuna2018b"/>, <citedRange>267-272</citedRange></bibl>. For the use of punctuation marks in the Dodona oracular tablets, see <bibl><ptr target="#MéndezDosunaforthcoming"/></bibl>.</p>
+                    
+<p n="Ithaca Results">Ithaca attributes the inscription to Epirus with a high probability (92.78%). Chronologically, the distribution peaks at 400-390 BC (ca. 69%), with a mean date of 391 BC, broadly consistent with the dating proposed by the editors of I.Dodone DVC (end of the 5th century BC). 
             See the <ref target="https://github.com/IDodone/IDodoneOnline/tree/main/ithaca-results/IDodoneOnline24A_25A_26B">Ithaca results and associated files</ref>.</p>
         </div>
-    </body>
-    </text>
-    <facsimile>
-        <graphic url="https://dodonaonline.com/wp-content/uploads/2026/10/IDodoneOnline24A_25A_26B.jpg" corresp="$$$" decls="#photograph"> <desc>Photograph of side A of the lead tablet, from the Hellenic Ministry of Culture, National Archive of Monuments (Ephorate of Antiquities of Ioannina). Copyright: <ref target="https://nationalarchive.culture.gr/exhibits/338203">Hellenic Ministry of Culture</ref> (CC BY-NC 4.0).</desc>
-        </graphic>
-    </facsimile>
+      </body>
+   </text>
+   <facsimile>
+      <graphic url="https://dodonaonline.com/wp-content/uploads/2026/10/IDodoneOnline24A_25A_26B.jpg"
+               corresp="$$$"
+               decls="#photograph">
+         <desc>Photograph of side A of the lead tablet, from the Hellenic Ministry of Culture, National Archive of Monuments (Ephorate of Antiquities of Ioannina). Copyright: <ref target="https://nationalarchive.culture.gr/exhibits/338203">Hellenic Ministry of Culture</ref> (CC BY-NC 4.0).</desc>
+      </graphic>
+   </facsimile>
 </TEI>
