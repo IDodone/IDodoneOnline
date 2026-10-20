@@ -141,7 +141,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
             <app loc="l. 3">
                 <rdg resp="#SEG #Eidinow2007">βέλτιον</rdg>
             </app>
-            <app loc="l. 3"> <rdg><foreign xml:lang="grc">ΑΜΕΙΝΟ</foreign></rdg> <note anchored="true">tablet</note> <rdg resp="#Vokotopoulou1992">ἄμεινον </rdg>
+            <app loc="l. 3"><rdg><foreign xml:lang="grc">ΑΜΕΙΝΟ</foreign></rdg> <note anchored="true">tablet</note> <rdg resp="#Vokotopoulou1992">ἄμεινον </rdg>
              </app>
         </div>
          <div type="translation" xml:space="preserve" xml:lang="en">

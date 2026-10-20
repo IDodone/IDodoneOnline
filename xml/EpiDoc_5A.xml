@@ -72,7 +72,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                         <placeName ref="#Dodona" instant="false" full="yes">Dodona</placeName>
                      </origPlace>
                   </origin>
-                  <provenance type="found" when="1935">
+                  <provenance type="found" when="1929">
                      <placeName type="ancientFindspot" ref="#Dodona" instant="false" full="yes">Dodona</placeName>, Evangelidis’ excavation 1935.</provenance>
                   <provenance type="observed">
                      <orgName ref="#IoanninaMuseum" instant="false" full="yes">Archaeological Museum of Ioannina</orgName>

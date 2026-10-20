@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?oxygen RNGSchema="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="IDodone_Online_38A"
+     xml:lang="en"
+     type="draft">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Enquiry regarding female offspring</title>
+            <editor xml:id="EMG">Elena Martín González</editor>
+            <editor xml:id="SK">Stavroula Konstantopoulou</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>“Dodona Travels to Ithaca. Artificial Intelligence Applied to the Edition of Greek Inscriptions”. Grant CNS2023-144714, funded by MICIU/AEI (10.13039/501100011033) and by the European Union NextGenerationEU/PRTR</authority>
+            <idno type="filename">I.Dodone Online 38A</idno>
+            <availability>
+               <p>Except where otherwise indicated, the original editorial content of this lemma is licensed under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                       type="external">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</ref>. Third-party material incorporated into or linked from this lemma is not covered by this license and remains subject to applicable copyright and to any terms of use specified by the respective rights holders or sources. When citing this lemma, please include its identifier, URL, and date of consultation.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>n/a</repository>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <objectType ref="#lead_tablet">
+                                 <material ref="#lead">Lead</material> tablet</objectType>.</p>
+                           <p>
+                              <dimensions>
+                                 <height unit="cm">1.6</height>
+                                 <width unit="cm">3.1</width>
+                                 <depth unit="cm">0.7</depth>
+                              </dimensions>
+                           </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <p>The tablet is inscribed on <rs type="texts" key="multiple" n=""/><rs type="sides" key="opisthographic">both sides</rs>. The same side also preserves another, older inscription (39A), on top of which the present text is inscribed. One further inscription (40B) is preserved on the opposite side. </p>
+                           <p n="Dialect"><rs type="dialect" ref="#Thessalian">Thessalian</rs> or <rs type="dialect" ref="#Boeotian">Boeotian</rs>
+                           </p>
+                           <p n="Alphabet"><rs type="alphabet" ref="#Classical">Classical</rs>
+                           </p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <p>
+                        <origDate notBefore="-0400" notAfter="-0300" instant="false">4th century BC</origDate>
+                     </p>
+                     <origPlace instant="false">
+                        <placeName ref="#Dodona" instant="false" full="yes">Dodona</placeName>
+                     </origPlace>
+                  </origin>
+                  <provenance type="found" notBefore="1929" notAfter="1935">
+                     <placeName type="ancientFindspot" ref="#Dodona" instant="false" full="yes">Dodona</placeName>, Evangelidis’ excavation 1929-1935.</provenance>
+                  <provenance type="observed">
+                     <orgName ref="#IoanninaMuseum" instant="false" full="yes">Archaeological Museum of Ioannina</orgName>
+                     <idno type="invNo">inv. Μ69</idno></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encoded according to the EpiDoc Guidelines, version 9.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="la">Latin</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="es">Spanish</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="textType" ref="#question">Question</term>
+               <term type="theme" ref="#offspring">Offspring</term>
+            </keywords>
+         </textClass>
+         <creation>Facsimile</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2026-06-05" who="#SK">Initial encoding by Stavroula Konstantopoulou.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" xml:space="preserve" xml:lang="en">
+            <p>
+            <bibl><ptr target="#IDodoneDVC"/> <citedRange>38A</citedRange></bibl> (<bibl><ptr target="#Laes2020"/>, 188 n. 334</bibl>; <bibl><ptr target="#CIOD"/> <citedRange>40B+38A</citedRange></bibl> [last consulted 20/10/2026]).</p>
+<p>Cf.    
+            <bibl><ptr target="#Chaniotis2017a"/>, <citedRange>55</citedRange></bibl> (on cleromancy, with English translation);
+            <bibl><ptr target="#Helly2018"/>, <citedRange>365</citedRange></bibl> (on <foreign xml:lang="grc">γίνυμαι</foreign> for <foreign xml:lang="grc">γίγνομαι</foreign>); <bibl><ptr target="#MéndezDosuna2018b"/>, <citedRange>284</citedRange></bibl> (on <foreign xml:lang="grc">γίνυμαι</foreign> for <foreign xml:lang="grc">γίγνομαι</foreign>).
+            </p>
+        </div>
+         <div type="edition" xml:space="preserve" xml:lang="grc">
+            <ab>
+                        <lb n="1"/>αἴτε οὐδε
+<lb n="2" break="no"/>μία κόρα μοι
+<lb n="3"/>γίνυτα<supplied reason="omitted">ι</supplied>.
+                </ab>
+            </div>
+         <div type="apparatus" xml:space="preserve">
+            <app loc="l. 3"><rdg><foreign xml:lang="grc">ΓΙΝΥΤΑ</foreign></rdg> <note anchored="true">tablet</note> <rdg><foreign xml:lang="grc">γίνυτα<supplied reason="omitted">ι</supplied></foreign></rdg> <note anchored="true"><bibl><ptr target="#CIOD"/></bibl>, based on the reading <foreign xml:lang="grc">TINVTA</foreign> in the facsimile.</note>         
+             </app>
+        </div>
+         <div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Whether I am not going to have a daughter.</p>
+        </div>
+         <div type="translation" xml:space="preserve" xml:lang="es">
+            <p>Si no voy a tener ninguna hija.</p>
+        </div>
+         <div type="commentary" xml:space="preserve" xml:lang="en">  
+            <p>According to Lhôte (<bibl><ptr target="#CIOD"/></bibl>), <bibl><ptr target="#IDodoneDVC"/> <citedRange>40B and 38A</citedRange></bibl> were inscribed by the same hand and proposes reading them as a single opisthographic consultation. However, in the absence of autopsy or available photographs, this interpretation remains hypothetical.</p>
+            <p>For enquiries concerning offspring on the Dodona tablets, and especially male offspring, see <bibl><ptr target="#Piccinini2015"/>, <citedRange>147</citedRange></bibl> and <bibl><ptr target="#Laes2020"/>, <citedRange>184-189</citedRange></bibl>, although for this specific case Laes suggests that the consultation concerns the search for a wife rather than the desire to have a daughter. </p> 
+            <p n="Ithaca Results">Ithaca attributes the inscription to Egypt and Nubia with a probability of approximately 74.8%, followed by Italy, including Magna Graecia. Epirus does not appear among the ten most probable regions, while Thessaly receives a probability of less than 1%. The chronological prediction peaks at 120-110 BCE, with a mean date of 109 BCE. 
+            See the <ref target="https://github.com/IDodone/IDodoneOnline/tree/main/ithaca-results/IDodoneOnline38A">Ithaca results and associated files</ref>.</p>
+        </div>
+      </body>
+   </text>
+</TEI>
