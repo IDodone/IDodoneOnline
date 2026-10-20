@@ -116,7 +116,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 </div>
          <div type="edition" xml:space="preserve" xml:lang="grc">
     <ab>
-        <lb n="1"/>περὶ <persName instant="false" full="yes"><name nymRef="#Κορυδάλλας" instant="false" full="yes">Κορυδάλλας</name></persName> καὶ τῶν <persName instant="false" full="yes"><name nymRef="#Κορυδάλλα" instant="false" full="yes">Κορυδάλλα</name></persName>
+        <lb n="1"/>περὶ <persName instant="false" full="yes"><name nymRef="#Κορυδάλλα" instant="false" full="yes">Κορυδάλλας</name></persName> καὶ τῶν <persName instant="false" full="yes"><name nymRef="#Κορυδάλλα" instant="false" full="yes">Κορυδάλλα</name></persName>
         <lb n="2" break="no"/>ς παίδων πότερά κα τυγχάνοιμι 
         <lb n="3"/>πεπαμένος καθάπερ πατήρ; <space extent="unknown" unit="character"/>
         </ab>

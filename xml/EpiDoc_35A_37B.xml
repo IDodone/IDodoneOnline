@@ -120,7 +120,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                     <div type="textpart" subtype="face" n="A">
                         <ab>
       <lb n="1"/>θεός· τύχαι ἀγαθᾶι καὶ Διὶ Πρ<unclear instant="false">ο</unclear>νάωι καὶ Διώναι· <persName instant="false" full="yes"><name nymRef="#Πορῖνος" instant="false" full="yes">Πορῖνος</name></persName>
-      <lb n="2"/>Κυμαῖος <persName instant="false" full="yes"><name nymRef="#Εὐανδρου" instant="false" full="yes">Εὐάνδρου</name></persName> εἰρωτᾶ<supplied reason="lost" instant="false">ι</supplied> τὸν θεὸν εἰ τὸν ξατράπην
+      <lb n="2"/>Κυμαῖος <persName instant="false" full="yes"><name nymRef="#Εὔανδρος" instant="false" full="yes">Εὐάνδρου</name></persName> εἰρωτᾶ<supplied reason="lost" instant="false">ι</supplied> τὸν θεὸν εἰ τὸν ξατράπην
       <lb n="3"/>καὶ ὕπαρχον θεραπεύοντ<supplied reason="lost" instant="false">ι</supplied> λώϊον καὶ ἄμεινον ἔσται. 
    </ab> 
                     </div>
