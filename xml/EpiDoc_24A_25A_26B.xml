@@ -118,7 +118,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 <ab>
                     <lb n="1"/>θεός⸱ τύχα ἀγαθά⸱
                     <lb n="2"/>περὶ πανπασίας καὶ περὶ Ϝοικσιος 
-                    <lb n="3"/>ἰς Κρ<supplied reason="omitted" instant="false">ό</supplied>τνα  βέλτιων καὶ ἄμεινο<supplied reason="omitted" instant="false">ν</supplied>
+                    <lb n="3"/>ἰς <placeName ref="#Κρότων">Κρ<supplied reason="omitted" instant="false">ό</supplied>τνα</placeName>  βέλτιων καὶ ἄμεινο<supplied reason="omitted" instant="false">ν</supplied>
                     <lb n="4"/>αὐτι καὶ γενε
 <lb n="5" break="no"/>ᾶι <pc type="wordDivider">:</pc> καὶ γυναι
 <lb n="6" break="no"/>κί;
@@ -126,7 +126,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
             </div>
             <div type="textpart" subtype="face" n="B">
         <ab>
-      <lb n="1"/>ἐν Κρότνι
+      <lb n="1"/>ἐν <placeName ref="#Κρότων">Κρότνι</placeName>
         </ab>
         </div>
         </div>
