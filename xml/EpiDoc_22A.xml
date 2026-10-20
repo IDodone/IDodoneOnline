@@ -51,7 +51,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                               <rs type="dialect" ref="#Doric">Doric</rs>
                            </p>
                            <p n="Alphabet">
-                              <rs type="alphabet" ref="#Reformed">Reformed</rs>
+                              <rs type="alphabet" ref="#reformed">Reformed</rs>
                            </p>
                         </layout>
                      </layoutDesc>
