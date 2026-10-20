@@ -9,7 +9,7 @@ Input:
 αιτε ουδεμια κορα μοι γινυται
 
 Analysis Type:
-Contextualize, Restore and Attribute
+Contextualize and Attribute
 
 Researcher:
 Stavroula Konstantopoulou
