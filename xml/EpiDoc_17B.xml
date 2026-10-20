@@ -43,7 +43,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <p>Lead tablet with a single fold. It preserves one inscription on side A (<ref target="i-dodone-online-15a16b">15A</ref>) and three on side B (<ref target="i-dodone-online-15a16b">16B</ref>, 17B, and 18B). Inscriptions <ref target="i-dodone-online-15a16b">15A</ref> and <ref target="i-dodone-online-15a16b">16B</ref> were written by the same hand: <ref target="i-dodone-online-15a16b">15A</ref> records Thelytos’ question, whereas <ref target="i-dodone-online-15a16b">16B</ref> bears only his name. Evangelidis edited 17B together with <ref target="i-dodone-online-15a16b">16B</ref>, and <bibl>
+                           <p>The tablet preserves one inscription on side A (<ref target="i-dodone-online-15a16b">15A</ref>) and three on side B (<ref target="i-dodone-online-15a16b">16B</ref>, 17B, and 18B). Inscriptions <ref target="i-dodone-online-15a16b">15A</ref> and <ref target="i-dodone-online-15a16b">16B</ref> were written by the same hand: <ref target="i-dodone-online-15a16b">15A</ref> records Thelytos’ question, whereas <ref target="i-dodone-online-15a16b">16B</ref> bears only his name. Evangelidis edited 17B together with <ref target="i-dodone-online-15a16b">16B</ref>, and <bibl>
                                  <ptr target="#CIOD"/>
                               </bibl> likewise includes both texts under the same lemma. As the editors of <bibl>
                                  <ptr target="#IDodoneDVC"/>
