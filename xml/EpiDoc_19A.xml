@@ -99,7 +99,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
          <textClass>
             <keywords>
                <term type="textType" ref="#question">Question</term>
-               <term type="textType" ref="#slaves">Slaves</term>
+               <term type="theme" ref="#slaves">Slaves</term>
             </keywords>
          </textClass>
          <creation>Facsimile, photograph, and autopsy conducted by

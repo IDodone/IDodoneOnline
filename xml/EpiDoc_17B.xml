@@ -93,7 +93,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
          <textClass>
             <keywords>
                <term type="textType" ref="#question">Question</term>
-               <term type="textType" ref="#unspecified">Unspecified</term>
+               <term type="theme" ref="#unspecified">Unspecified</term>
             </keywords>
          </textClass>
          <creation>Facsimile and photograph</creation>
