@@ -48,7 +48,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                            <p>The tablet is inscribed on <rs type="texts" key="multiple" n=""/>
                               <rs type="sides" key="opisthographic">both sides</rs>. The same side also preserves another inscription (<ref target="i-dodone-online-6a">6A</ref>), with respect to which the present text is inscribed upside down, as well as traces of earlier inscriptions that remain discernible but are no longer legible. Two further inscriptions  (<ref target="i-dodone-online-7b">7B</ref> and <ref target="i-dodone-online-8b">8B</ref>) are preserved on the opposite side.</p>
                            <p n="Dialect">
-                              <rs type="dialect" ref="#doric">Doric</rs>
+                              <rs type="dialect" ref="#Doric">Doric</rs>
                            </p>
                            <p n="Alphabet">
                               <rs type="alphabet" ref="#archaic">Archaic</rs>,

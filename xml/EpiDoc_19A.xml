@@ -49,7 +49,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                                  <ptr target="#IDodoneDVC"/>
                               </bibl>, 19A was inscribed after the tablet had been folded, thus occupying the space created by the fold on the left. Side B preserves one inscription (21B) and remnants of other, erased inscriptions.</p>
                            <p n="Dialect">
-                              <rs type="dialect" ref="#doric">Doric (?)</rs>
+                              <rs type="dialect" ref="#Doric">Doric (?)</rs>
                            </p>
                            <p n="Alphabet">
                               <rs type="alphabet" ref="#reformed">Reformed</rs>

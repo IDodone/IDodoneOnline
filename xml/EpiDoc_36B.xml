@@ -46,7 +46,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                         <layout>
                            <p>The tablet is inscribed on <rs type="sides" key="opisthographic">both sides</rs>. The same tablet also preserves one further inscription on the same side (<ref target="i-dodone-online-35a37b">37B</ref>), which is related to the one on side A (<ref target="i-dodone-online-35a37b">35A</ref>), the latter containing the summary and the former the question. Since <ref target="i-dodone-online-35a37b">37B</ref> presupposes the existence of 36B, this must have been the tablet's first use. At present, side B is covered by insulating tape used to secure the two fragments together, which hampers legibility.</p>
                            <p n="Dialect">
-                              <rs type="dialect" ref="#doric">Doric</rs>
+                              <rs type="dialect" ref="#Doric">Doric</rs>
                            </p>
                            <p n="Alphabet">
                               <rs type="alphabet" ref="#archaic">Archaic</rs>

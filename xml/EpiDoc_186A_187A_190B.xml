@@ -46,7 +46,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                            <p>The tablet is inscribed on <rs type="texts" key="multiple" n=""/>
                               <rs type="sides" key="opisthographic">both sides</rs>. It preserves one inscription that begins on side B and continues onto side A, where it coexists with two other inscriptions (188A and 189A).</p>
                            <p n="Dialect">
-                              <rs type="dialect" ref="#doric">Boiotian (?)</rs>
+                              <rs type="dialect" ref="#Boiotian">Boiotian (?)</rs>
                            </p>
                            <p n="Alphabet">
                               <rs type="alphabet" ref="#archaic">Archaic</rs>, 
